@@ -6,4 +6,7 @@ body{
   margin:2em;
   height: 43em;
   width: 95em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
