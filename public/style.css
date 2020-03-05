@@ -1,4 +1,9 @@
 body{
   background-image: url("../shore.jpg");
-  background-size: 100% 1000%;
+  background-size: 100% 100%;
+}
+.container{
+  margin:2em;
+  height: 43em;
+  width: 95em;
 }
