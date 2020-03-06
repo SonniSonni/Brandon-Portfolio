@@ -11,5 +11,7 @@ body{
   align-items: center;
 }
 h1{
+  font-size:3em;
+  font-family: Spartan, sans-serif;
   color:white;
 }
