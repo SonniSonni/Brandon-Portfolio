@@ -1,11 +1,11 @@
 body{
+  margin:0;
   background-image: url("../shore.jpg");
   background-size: 100% 100%;
 }
 .container{
-  margin:2em;
-  height: 43em;
-  width: 95em;
+  height: 100vh;
+  width: 100vw;
   display: flex;
   justify-content: center;
   align-items: center;
