@@ -16,6 +16,13 @@ h1{
   font-size:3em;
   font-family: Spartan, sans-serif;
 }
+@keyframes bounce{
+ 
+}
+#title:hover{
+  animation-name: bounce;
+  animation-duration: 2s;
+}
 a{
   color:white;
   text-decoration: none;
