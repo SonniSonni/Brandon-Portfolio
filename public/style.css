@@ -21,3 +21,10 @@ a{
   text-decoration: none;
   padding:1.5em;
 }
+footer{
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  background-color: black;
+  height:1em;
+}
