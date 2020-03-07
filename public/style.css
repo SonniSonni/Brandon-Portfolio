@@ -17,7 +17,15 @@ h1{
   font-family: Spartan, sans-serif;
 }
 @keyframes bounce{
- 
+ 0% {
+      transform: translate3d(0px, 0px, 0px);
+    }
+  50% {
+    transform: translate3d(0px, -25px, 0px);
+  }
+  100% {
+    transform: translate3d(0px, 0px, 0px);
+  }
 }
 #title:hover{
   animation-name: bounce;
