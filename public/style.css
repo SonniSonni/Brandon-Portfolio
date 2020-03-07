@@ -19,9 +19,11 @@ h1{
 @keyframes bounce{
  0% {
       transform: translate3d(0px, 0px, 0px);
+      animation-timing-function: ease-out;
     }
   50% {
-    transform: translate3d(0px, -25px, 0px);
+    transform: translate3d(0px, -20px, 0px);
+    animation-timing-function: ease-in;
   }
   100% {
     transform: translate3d(0px, 0px, 0px);
@@ -29,7 +31,7 @@ h1{
 }
 #title:hover{
   animation-name: bounce;
-  animation-duration: 2s;
+  animation-duration: 1s;
 }
 a{
   color:white;
