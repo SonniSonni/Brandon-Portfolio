@@ -50,6 +50,10 @@ a{
   text-decoration: none;
   padding:1.5em;
 }
+.title-top{
+  animation: slide;
+  animation-duration: 1s;
+}
 footer{
   position: absolute;
   bottom: 0;
