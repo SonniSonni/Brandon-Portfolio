@@ -16,6 +16,7 @@ h1{
   font-size:3em;
   font-family: Spartan, sans-serif;
 }
+
 @keyframes bounce{
  0% {
       transform: translate3d(0px, 0px, 0px);
@@ -29,6 +30,17 @@ h1{
     transform: translate3d(0px, 0px, 0px);
   }
 }
+
+@keyframes slide{
+  from {
+       transform: translate3d(0px, 0px, 0px);
+       animation-timing-function: ease-out;
+       }
+  to {
+     transform: translate3d(0px, -200px, 0px);
+     animation-timing-function: ease-in;
+     }
+ }
 #title:hover{
   animation-name: bounce;
   animation-duration: .8s;
