@@ -34,11 +34,10 @@ h1{
 @keyframes slide{
   from {
        transform: translate3d(0px, 0px, 0px);
-       animation-timing-function: ease-out;
        }
   to {
-     transform: translate3d(0px, -200px, 0px);
-     animation-timing-function: ease-in;
+     transform: translate3d(0px, -270px, 0px);
+     animation-timing-function: ease-out;
      }
  }
 #title:hover{
@@ -52,7 +51,7 @@ a{
 }
 .title-top{
   animation: slide;
-  animation-duration: 1s;
+  animation-duration: 1.5s;
 }
 footer{
   position: absolute;
