@@ -8,7 +8,7 @@ $(document).ready(function(){
       'bottom': '-=10px'
     });
   });
-
+  //Click slide up animation
   $("#title").click(() => {
     $("#title").animate({
       'bottom': '270px'
