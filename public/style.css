@@ -17,20 +17,6 @@ h1{
   font-family: Spartan, sans-serif;
 }
 /*
-@keyframes bounce{
- 0% {
-      transform: translate3d(0px, 0px, 0px);
-      animation-timing-function: ease-out;
-    }
-  50% {
-    transform: translate3d(0px, -20px, 0px);
-    animation-timing-function: ease-in;
-  }
-  100% {
-    transform: translate3d(0px, 0px, 0px);
-  }
-}
-
 @keyframes slide{
   from {
        transform: translate3d(0px, 0px, 0px);
@@ -40,12 +26,6 @@ h1{
      animation-timing-function: ease-out;
      }
  }
- 
- 
-#title:hover{
-  animation-name: bounce;
-  animation-duration: .8s;
-}
 */
 a{
   color:white;
