@@ -10,6 +10,9 @@ $(document).ready(function(){
   });
 
   $("#title").click(() => {
-
+    $("#title").animate({
+      'bottom': '270px'
+    }); 
   });
+  
 });
