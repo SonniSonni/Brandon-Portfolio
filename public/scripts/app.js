@@ -1,10 +1,10 @@
 $(document).ready(function(){
   //Mouse Over bounce animation
-  $("#title").mouseenter(() => {
-    $("#title").animate({
+  $(".title-start").mouseenter(() => {
+    $(".title-start").animate({
       'bottom': '+=10px' 
     }, 160);
-    $("#title").animate({
+    $(".title-start").animate({
       'bottom': '-=10px'
     });
   });
@@ -14,5 +14,5 @@ $(document).ready(function(){
       'bottom': '270px'
     }); 
   });
-  
+
 });
