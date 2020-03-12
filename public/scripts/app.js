@@ -1,5 +1,7 @@
 $(document).ready(function(){
   $("#title").on("mouseover", function(){
-    console.log("Working");
+    $("#title").animate({
+      bottom: 260
+    });
   });
 });
