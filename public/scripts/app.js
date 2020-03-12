@@ -1,6 +1,6 @@
 $(document).ready(function(){
   //Mouse Over bounce animation
-  $("#title").on("mouseenter", function(){
+  $("#title").mouseenter(() => {
     $("#title").animate({
       bottom: 10 
     }, 160);
