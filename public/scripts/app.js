@@ -8,4 +8,8 @@ $(document).ready(function(){
       'bottom': '-=10px'
     });
   });
+
+  $("#title").click(() => {
+
+  });
 });
