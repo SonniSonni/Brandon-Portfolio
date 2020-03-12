@@ -10,6 +10,7 @@ $(document).ready(function(){
   });
   //Click slide up animation
   $("#title").click(() => {
+    $("#title").removeClass(["title-start"]);
     $("#title").animate({
       'bottom': '270px'
     }); 
