@@ -1,4 +1,5 @@
 $(document).ready(function(){
+  //Mouse Over bounce animation
   $("#title").on("mouseover", function(){
     $("#title").animate({
       bottom: 10 
