@@ -24,7 +24,9 @@ a{
   text-decoration: none;
   padding:1.5em;
 }
-
+#home-page{
+  color:white;
+}
 #title{
   position: relative;
 }
