@@ -16,17 +16,6 @@ h1{
   font-size:3em;
   font-family: Spartan, sans-serif;
 }
-/*
-@keyframes slide{
-  from {
-       transform: translate3d(0px, 0px, 0px);
-       }
-  to {
-     transform: translate3d(0px, -270px, 0px);
-     animation-timing-function: ease-out;
-     }
- }
-*/
 a{
   color:white;
   text-decoration: none;
