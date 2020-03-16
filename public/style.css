@@ -27,6 +27,9 @@ a{
 #home-page{
   color:white;
 }
+#home-page p{
+  font-family: Spartan, sans-serif;
+}
 #title{
   position: relative;
 }
