@@ -14,6 +14,7 @@ $(document).ready(function(){
     $("#title").animate({
       'bottom': '270px'
     }); 
+    $("#title").css("cursor", "default");
   });
 
 });
