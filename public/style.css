@@ -32,10 +32,10 @@ a{
   align-items: center;
 }
 #home-container p{
-  width:55%;
+  width:65%;
   color:white;
   font-family: Spartan, sans-serif;
-  font-size: 32px;
+  font-size: 34px;
   text-align:center;
 }
 #home-img{
@@ -45,7 +45,7 @@ a{
   min-width: 300px;
   overflow: hidden;
   border-radius: 50%;
-  margin-left: 10em;
+  margin-left: 4em;
 }
 #home-img img{
   margin:0 auto;
