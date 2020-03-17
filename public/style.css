@@ -43,7 +43,10 @@ a{
   border-radius: 50%;
 }
 #home-img img{
- 
+  margin:0 auto;
+  height:100%;
+  width: auto;
+  margin-left:-20%
 }
 #title{
   position: relative;
