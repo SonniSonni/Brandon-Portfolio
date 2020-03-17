@@ -37,7 +37,13 @@ a{
   text-align:center;
 }
 #home-img{
-  max-width: 25%;
+  height: 20em;
+  width: 47em;
+  overflow: hidden;
+  border-radius: 50%;
+}
+#home-img img{
+ 
 }
 #title{
   position: relative;
