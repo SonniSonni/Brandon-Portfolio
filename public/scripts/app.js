@@ -16,11 +16,8 @@ $(document).ready(function(){
     }); 
     $("#title").css("cursor", "default");
 
-    setTimeout(() =>{
-      $("#home-container").fadeIn(550);
-      $("#home-container").css("display", "flex");
-    }, 120);
-    
+    $("#home-container").fadeIn(550);
+    $("#home-container").css("display", "flex");
   });
 
 });
