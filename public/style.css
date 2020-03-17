@@ -32,6 +32,9 @@ a{
   color:white;
   font-family: Spartan, sans-serif;
 }
+#home-container img{
+  max-width: 25%;
+}
 #title{
   position: relative;
 }
