@@ -32,14 +32,15 @@ a{
   align-items: center;
 }
 #home-container p{
+  width:75%;
   color:white;
   font-family: Spartan, sans-serif;
-  font-size: 28px;
+  font-size: 32px;
   text-align:center;
 }
 #home-img{
   height: 22em;
-  width: 50em;
+  width: 25%;
   overflow: hidden;
   border-radius: 50%;
 
