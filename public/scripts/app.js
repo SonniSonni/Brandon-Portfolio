@@ -12,7 +12,7 @@ $(document).ready(function(){
   $("#title").click(() => {
     $("#title").removeClass(["title-start"]);
     $("#title").animate({
-      'bottom': '180px'
+      'bottom': '120px'
     }); 
     $("#title").css("cursor", "default");
 
