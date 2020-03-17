@@ -16,7 +16,7 @@ $(document).ready(function(){
     }); 
     $("#title").css("cursor", "default");
 
-    $("#home-container").fadeIn(550);
+    $("#home-container").fadeIn(850);
     $("#home-container").css("display", "flex");
   });
 
