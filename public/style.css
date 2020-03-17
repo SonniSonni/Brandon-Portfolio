@@ -39,8 +39,9 @@ a{
   text-align:center;
 }
 #home-img{
-  height: 22em;
-  width: 25%;
+  height: 350px;
+  width: 350px;
+  min-width: 350px;
   overflow: hidden;
   border-radius: 50%;
 
