@@ -14,8 +14,8 @@ $(document).ready(function(){
     $("#title").animate({
       'bottom': '270px'
     }); 
-    $("#home-page").removeClass("hide");
     $("#title").css("cursor", "default");
+    
   });
 
 });
