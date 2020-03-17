@@ -39,12 +39,12 @@ a{
   text-align:center;
 }
 #home-img{
+  border:3px solid black;
   height: 300px;
   width: 300px;
   min-width: 300px;
   overflow: hidden;
   border-radius: 50%;
-
 }
 #home-img img{
   margin:0 auto;
