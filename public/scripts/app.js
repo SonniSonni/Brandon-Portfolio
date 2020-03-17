@@ -12,11 +12,15 @@ $(document).ready(function(){
   $("#title").click(() => {
     $("#title").removeClass(["title-start"]);
     $("#title").animate({
-      'bottom': '270px'
+      'bottom': '180px'
     }); 
     $("#title").css("cursor", "default");
 
-    $("#home-container").css("display", "flex");
+    setTimeout(() =>{
+      $("#home-container").fadeIn(550);
+      $("#home-container").css("display", "flex");
+    }, 120);
+    
   });
 
 });

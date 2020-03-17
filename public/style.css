@@ -28,6 +28,7 @@ a{
 }
 #home-container{
   display:none;
+  top:180px;
 }
 #home-container p{
   color:white;
