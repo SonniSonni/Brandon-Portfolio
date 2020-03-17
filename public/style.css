@@ -24,10 +24,11 @@ a{
   text-decoration: none;
   padding:1.5em;
 }
-#home-page{
-  color:white;
+#home-container{
+
 }
-#home-page p{
+#home-container p{
+  color:white;
   font-family: Spartan, sans-serif;
 }
 #title{
