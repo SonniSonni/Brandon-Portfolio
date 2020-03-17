@@ -28,6 +28,8 @@ a{
 }
 #home-container{
   display:none;
+  justify-content: center;
+  align-items: center;
 }
 #home-container p{
   color:white;
