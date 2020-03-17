@@ -15,7 +15,8 @@ $(document).ready(function(){
       'bottom': '270px'
     }); 
     $("#title").css("cursor", "default");
-    
+
+    $("#home-container").css("display", "flex");
   });
 
 });
