@@ -28,7 +28,6 @@ a{
 }
 #home-container{
   display:none;
-  top:180px;
 }
 #home-container p{
   color:white;
@@ -37,10 +36,11 @@ a{
   text-align:center;
 }
 #home-img{
-  height: 20em;
-  width: 47em;
+  height: 22em;
+  width: 50em;
   overflow: hidden;
   border-radius: 50%;
+
 }
 #home-img img{
   margin:0 auto;
