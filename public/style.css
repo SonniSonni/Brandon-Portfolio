@@ -33,6 +33,8 @@ a{
 #home-container p{
   color:white;
   font-family: Spartan, sans-serif;
+  font-size: 28px;
+  text-align:center;
 }
 #home-container img{
   max-width: 25%;
