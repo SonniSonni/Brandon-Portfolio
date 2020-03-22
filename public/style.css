@@ -5,12 +5,16 @@ body{
     align-content: center;
 }
 nav{
-    display: flex;
-    justify-content: center;
-    align-content: center;
+}
+nav img{
+    height: 50px;
+    width: 500px;
 }
 nav ul{
     list-style: none;
+}
+nav ul li{
+    float: left;
 }
 nav ul li a{
     text-decoration: none;
