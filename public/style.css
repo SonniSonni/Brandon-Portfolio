@@ -4,6 +4,11 @@ body{
     justify-content: center;
     align-content: center;
 }
+nav{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
 nav ul{
     list-style: none;
 }
