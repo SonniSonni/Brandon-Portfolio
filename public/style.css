@@ -8,10 +8,11 @@ header{
     display: flex;
     flex-direction: row;
     justify-content: center;
-    align-content: center
+    align-content: center;
 }
 header img{
     margin:auto;
+    margin-right:25em;
     height: 50px;
     width: 500px;
 }
@@ -20,6 +21,7 @@ nav ul{
 }
 nav ul li{
     float: left;
+    margin-right:2em;
 }
 nav ul li a{
     text-decoration: none;
