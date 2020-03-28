@@ -36,6 +36,9 @@ nav ul li a{
     text-decoration: none;
     color:#AFAFAF;
 }
+nav ul li a:hover{
+    color: #333333;
+}
 
 main{
     flex-grow: 1;
