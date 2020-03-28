@@ -49,8 +49,9 @@ main{
 #hero-img{
     margin:auto;
     width:95%;
-    height: 10em;
+    height: 12em;
     object-fit: cover;
+    object-position: 50% 75%;
 }
 #portf-preview{
     margin: auto;
