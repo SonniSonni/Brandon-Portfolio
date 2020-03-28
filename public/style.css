@@ -5,16 +5,23 @@ body{
     align-content: center;
 }
 header{
+    width:100vw;
     display: flex;
     flex-direction: row;
-    justify-content: center;
-    align-content: center;
+    justify-content: space-between;
+    align-content: right;
 }
 header img{
+    align-self: flex-start;
     margin:auto;
-    margin-right:25em;
-    height: 50px;
-    width: 500px;
+    max-height: 50px;
+    max-width: 500px;
+}
+#header-spacer{
+    width:30%;
+}
+header nav{
+    align-self: flex-end;
 }
 nav ul{
     list-style: none;
