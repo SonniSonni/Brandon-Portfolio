@@ -41,6 +41,13 @@ nav ul li a:hover{
 }
 
 main{
+    display: flex;
+    flex-direction: column;
     flex-grow: 1;
     background-color: #333333;
+}
+main #hero-img{
+    margin:auto;
+    width:95%;
+    height: 20em;
 }
