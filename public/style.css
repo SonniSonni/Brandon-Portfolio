@@ -49,5 +49,11 @@ main{
 #hero-img{
     margin:auto;
     width:95%;
-    height: 20em;
+    height: 15em;
+}
+#portf-preview{
+    margin: auto;
+    background-color: #474747;
+    height: 15em;
+    width:95%;
 }
