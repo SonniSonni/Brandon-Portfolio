@@ -4,11 +4,11 @@
   "main": "index.js",
   "repository": "https://github.com/KamajiiSC/Brandon-Portfolio.git",
   "author": "KamajiiSC <brandonlschaen@gmail.com>",
-  "license": "MIT", 
-  "scripts": {
-
-  },
+  "license": "MIT",
+  "scripts": {},
   "dependencies": {
+    "@babel/core": "^7.10.4",
+    "@babel/preset-env": "^7.10.4",
     "babel": "^6.23.0",
     "babel-cli": "^6.26.0",
     "react": "^16.13.1",
