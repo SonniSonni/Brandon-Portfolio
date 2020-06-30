@@ -1,14 +1,17 @@
 {
-  "dependencies": {
-    "babel": "^6.23.0",
-    "babel-cli": "^6.26.0",
-    "react": "^16.13.1",
-    "react-dom": "^16.13.1"
-  },
   "name": "Brandon-Portfolio",
   "version": "1.0.0",
   "main": "index.js",
   "repository": "https://github.com/KamajiiSC/Brandon-Portfolio.git",
   "author": "KamajiiSC <brandonlschaen@gmail.com>",
-  "license": "MIT"
+  "license": "MIT", 
+  "scripts": {
+
+  },
+  "dependencies": {
+    "babel": "^6.23.0",
+    "babel-cli": "^6.26.0",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1"
+  }
 }
