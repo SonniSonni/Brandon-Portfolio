@@ -6,6 +6,7 @@
   "author": "KamajiiSC <brandonlschaen@gmail.com>",
   "license": "MIT",
   "scripts": {
+    "build": "webpack",
     "dev-server": "webpack-dev-server"
   },
   "dependencies": {
@@ -14,6 +15,7 @@
     "@babel/preset-react": "^7.10.4",
     "babel-cli": "^6.26.0",
     "babel-loader": "^8.1.0",
+    "node": "^14.5.0",
     "normalize.css": "^8.0.1",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
