@@ -19,6 +19,17 @@ module.exports = {
             limit: 8192
           }
         }]
+      },
+      
+      { 
+        test: /\.svg$/,
+        use: [{
+          loader: 'svg-url-loader',
+          options: {
+            limit: 10000,
+            name: '[path][name].[ext]'
+          }
+        }]
       }
     ]
   },

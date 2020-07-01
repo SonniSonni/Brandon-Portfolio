@@ -1,8 +1,9 @@
 import React from 'react';
+import logo from '../../resources/portfolio-logo.svg'
 
 const Header = () => (
   <header>
-    <img src="../../resources/portfolio-logo.svg" alt="" />
+    <img src={logo} alt="" />
     <div id="header-spacer"></div>
     <nav>
       <ul>
