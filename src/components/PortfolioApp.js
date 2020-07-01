@@ -7,6 +7,7 @@ export default class PortfolioApp extends React.Component{
     return(
       <div>
         <Header />
+        <Hero />
       </div>
     );
   };
