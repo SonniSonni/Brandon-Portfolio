@@ -1,3 +1,5 @@
+import React from 'react';
+
 const Header = () => (
   <header>
     <img src="../resources/portfolio-logo.svg" alt="" />
@@ -12,3 +14,5 @@ const Header = () => (
     </nav>
   </header>
 );
+
+export default Header;
