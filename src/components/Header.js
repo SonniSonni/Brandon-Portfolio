@@ -2,7 +2,7 @@ import React from 'react';
 
 const Header = () => (
   <header>
-    <img src="../resources/portfolio-logo.svg" alt="" />
+    <img src="../../resources/portfolio-logo.svg" alt="" />
     <div id="header-spacer"></div>
     <nav>
       <ul>
