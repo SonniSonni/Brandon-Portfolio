@@ -6,9 +6,9 @@ const GalleryPrev = () => (
     <h2>Gallery</h2>
     <hr />
     <ul>
-      <li> </li>
-      <li> </li>
-      <li> </li>
+      <li> <GalleryItem /> </li>
+      <li> <GalleryItem /> </li>
+      <li> <GalleryItem /> </li>
     </ul>
     <hr />
   </div>
