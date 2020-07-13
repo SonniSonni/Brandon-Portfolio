@@ -1,7 +1,9 @@
 import React from 'react';
 
-const GalleryPrev = () => {
+const GalleryPrev = () => (
   <div>
-    <h2></h2>
+    <h2>Gallery</h2>
   </div>
-};
+);
+
+export default GalleryPrev;
