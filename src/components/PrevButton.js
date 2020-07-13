@@ -5,3 +5,5 @@ const PrevButton = () => (
     <button>See more</button>
   </div>
 );
+
+export default PrevButton;
