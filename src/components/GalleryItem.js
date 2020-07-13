@@ -2,7 +2,7 @@ import React from 'react';
 
 const GalleryItem = () => (
   <div>
-
+    <img />
   </div>
 );
 
