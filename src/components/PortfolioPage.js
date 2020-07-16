@@ -9,6 +9,6 @@ export default class PortfolioPage extends React.Component{
                 <Header />
                 <Footer />
             </div>
-        )
-    }
+        );
+    };
 };
