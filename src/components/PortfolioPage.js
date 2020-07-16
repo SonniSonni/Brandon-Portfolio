@@ -1,8 +1,12 @@
 import React from 'react';
 import Header from './Header.js';
 
-const PortfolioPage = () => (
-    <div>
-        <Header />
-    </div>
-);
+export default class PortfolioPage extends React.Component{
+    render(){
+        return(
+            <div>
+                <Header />
+            </div>
+        )
+    }
+};
