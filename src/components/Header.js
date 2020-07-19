@@ -1,5 +1,6 @@
 import React from 'react';
 import logo from '../../resources/portfolio-logo.svg'
+import { NavLink } from 'react-router-dom'
 
 const Header = () => (
   <header>
@@ -7,10 +8,10 @@ const Header = () => (
     <div id="header-spacer"></div>
     <nav>
       <ul>
-        <li><a href="./HomePage"> <h2>Home</h2> </a></li>
-        <li><a href="./PortfolioPage"> <h2>Portfolio</h2> </a></li>
-        <li><a href="./AboutPage"> <h2>About</h2> </a></li>
-        <li><a href="#"> <h2>Contact</h2> </a></li>
+        <NavLink to="/">Home</NavLink>
+        <NavLink to="/PortfolioPage">Portfolio</NavLink>
+        <NavLink to="/AboutPage">About</NavLink>
+        <NavLink to="/ContactPage">Contact</NavLink>
       </ul>
     </nav>
   </header>
