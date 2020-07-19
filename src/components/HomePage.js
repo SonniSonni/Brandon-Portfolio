@@ -7,7 +7,6 @@ export default class PortfolioApp extends React.Component{
   render(){
     return(
       <div>
-        <Header />
         <Hero />
         <GalleryPrev />
       </div>
