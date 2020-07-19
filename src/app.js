@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import PortfolioApp from './components/PortfolioApp';
+import HomePage from './components/HomePage';
 import PortfolioPage from './components/PortfolioPage';
 
-ReactDOM.render(<PortfolioPage />, document.getElementById('app'));
+ReactDOM.render(<HomePage />, document.getElementById('app'));
