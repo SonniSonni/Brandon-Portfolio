@@ -11,10 +11,10 @@ const AppRouter = () => (
     <div>
       <Header />
       <Switch>
-        <Route path='/' component={HomePage}></Route>
-        <Route path='/PortfolioPage' component={PortfolioPage}></Route>
-        <Route path='/AboutPage' component={AboutPage}></Route>
-        <Route path='/ContactPage' component={ContactPage}></Route>
+        <Route path='/' component={HomePage} exact={true}></Route>
+        <Route path='/PortfolioPage' component={PortfolioPage} exact={true}></Route>
+        <Route path='/AboutPage' component={AboutPage} exact={true}></Route>
+        <Route path='/ContactPage' component={ContactPage} exact={true}></Route>
       </Switch>
     </div>
   </BrowserRouter>
