@@ -5,6 +5,11 @@ const PortfolioContainer = () => (
     <div>
         <h1>My Work</h1>
         <GalleryItem />
+        <GalleryItem />
+        <GalleryItem />
+        <GalleryItem />
+        <GalleryItem />
+        <GalleryItem />
     </div>
 );
 
