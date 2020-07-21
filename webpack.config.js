@@ -10,8 +10,8 @@ module.exports = {
     rules: [
       { loader: 'babel-loader',
       test: /\.js$/,
-      exclude: /node_modules/ },
-
+      exclude: /node_modules/ 
+      },
       { test: /\.(png|jpg|gif)$/i,
         use: [{
           loader: 'url-loader',
@@ -20,7 +20,14 @@ module.exports = {
           }
         }]
       },
-      
+      {
+        test:/\.s?css$/,
+        use: [
+          'style-loader',
+          'css-loader',
+          'sass-loader'
+        ]
+      },
       { 
         test: /\.svg$/,
         use: [{
