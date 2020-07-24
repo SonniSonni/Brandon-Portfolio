@@ -2,6 +2,11 @@ import React from 'react';
 import GalleryItem from './GalleryItem';
 
 export default class PortfolioContainer extends React.Component{
+    state= {
+        items: [
+          {id: 0, title: 'Coffee Express'}
+        ]
+    }
     render(){
         return(
         <div>
@@ -15,5 +20,3 @@ export default class PortfolioContainer extends React.Component{
         </div>
     )}
 };
-
-export default PortfolioContainer;
