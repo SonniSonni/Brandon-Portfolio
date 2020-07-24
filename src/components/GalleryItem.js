@@ -3,7 +3,7 @@ import React from 'react';
 export default class GalleryItem extends React.Component {
   state= {
     items: [
-      
+      {id: 0, title: 'Coffee Express'}
     ]
   }
   //Create state with data and then insert data into component
