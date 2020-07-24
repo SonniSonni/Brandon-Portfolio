@@ -1,6 +1,7 @@
 import React from 'react';
 
 export default class GalleryItem extends React.Component {
+  //Create state with data and then insert data into component
   render(){
     return (
       <div>
