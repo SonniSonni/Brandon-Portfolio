@@ -1,20 +1,12 @@
 import React from 'react';
 
-export default class GalleryItem extends React.Component {
-  state= {
-    items: [
-      {id: 0, title: 'Coffee Express'}
-    ]
-  }
-  //Create state with data and then insert data into component
-  render(){
-    return (
+const GalleryItem = () => (
       <div>
         <img src={'#'} alt="Preview of website"/>
         <h3> </h3>
         <img src={"#"} alt="git logo"/>
         <p>  </p>
       </div>
-    )
-  }
-};
+);
+
+export default GalleryItem;
