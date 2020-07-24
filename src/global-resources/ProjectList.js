@@ -1,3 +1,7 @@
-const ProjectList = [];
+const ProjectList = [
+  { }, 
+  { }, 
+  { }
+];
 
 export default ProjectList;
