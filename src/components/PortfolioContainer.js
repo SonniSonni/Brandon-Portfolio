@@ -1,5 +1,6 @@
 import React from 'react';
 import GalleryItem from './GalleryItem';
+import ProjectList from '../global-resources/ProjectList';
 
 const PortfolioContainer = () => (
     <div>
