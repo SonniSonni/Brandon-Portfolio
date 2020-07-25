@@ -2,6 +2,9 @@ import React from 'react';
 import GalleryItem from './GalleryItem';
 
 export default class GalleryPrev extends React.Component {
+ constructor(props) {
+   super (props);
+ }
  render() {
    return(
     <div>
