@@ -1,10 +1,11 @@
 import React from 'react';
+import Github from '../../resources/github-logo.png'
 
 const GalleryItem = (props) => (
       <div>
         <img src={props.imgSrc} alt="Preview of website"/>
         <h3> {props.title} </h3>
-        <img src={"#"} alt="git logo"/>
+        <img src={Github} alt="git logo"/>
         <p> {props.description} </p>
       </div>
 );
