@@ -6,7 +6,7 @@ export default class PortfolioContainer extends React.Component{
     constructor(props) {
         super(props);
         this.state= {
-         project1: {id: 0, title: 'Coffee Express', imgSrc: Hero, description: 'A mock up website for a coffee shop'}
+         coffeeExpress: {id: 0, title: 'Coffee Express', imgSrc: Hero, description: 'A mock up website for a coffee shop'}
          
         };
     }
@@ -14,7 +14,7 @@ export default class PortfolioContainer extends React.Component{
         return(
         <div>
             <h1>My Work</h1>
-            <GalleryItem title={this.state.project1.title} imgSrc={this.state.project1.imgSrc} description={this.state.project1.description}/>
+            <GalleryItem title={this.state.coffeeExpress.title} imgSrc={this.state.coffeeExpress.imgSrc} description={this.state.coffeeExpress.description}/>
         </div>
     )}
 };
