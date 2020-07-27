@@ -5,10 +5,10 @@
   margin:0;
   padding:0;
   list-style: none;
-  display: flex;
-  justify-content: space-around;
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr;
 }
 #portfolio-container ul li{
-  float: left;
-  width: 30%;
+  width: 70%;
 }
