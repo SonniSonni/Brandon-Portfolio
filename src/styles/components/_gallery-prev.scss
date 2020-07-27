@@ -4,7 +4,7 @@
 #gallery-prev ul{
     list-style: none;
     display: flex;
-    
+    justify-content: space-around;
 }
 #gallery-prev ul li{
   float: left;
