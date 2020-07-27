@@ -1,3 +1,14 @@
 #portfolio-container{
-  
+
+}
+#portfolio-container ul{
+  margin:0;
+  padding:0;
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+}
+#portfolio-container ul li{
+  float: left;
+  width: 30%;
 }
