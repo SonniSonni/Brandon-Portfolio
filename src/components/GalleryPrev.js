@@ -11,7 +11,7 @@ export default class GalleryPrev extends React.Component {
  }
  render() {
    return(
-    <div>
+    <div id="gallery-prev">
       <h2>Gallery</h2>
       <hr />
       <ul>
