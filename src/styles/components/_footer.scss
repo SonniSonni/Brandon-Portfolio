@@ -1,7 +1,7 @@
 footer {
   background-color: $darker-gray;
-  position: relative;
+  position: absolute;
   width:100%;
-  height: $xl-size;
-  top: auto;
+  height: $l-size;
+  bottom:0;
 }
