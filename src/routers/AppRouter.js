@@ -8,7 +8,7 @@ import ContactPage from '../components/ContactPage';
 
 const AppRouter = () => (
   <BrowserRouter>
-    <div>
+    <div id="router">
       <Header />
       <Switch>
         <Route path='/' component={HomePage} exact={true}></Route>
