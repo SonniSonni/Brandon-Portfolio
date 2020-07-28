@@ -12,7 +12,7 @@ export default class GalleryPrev extends React.Component {
  render() {
    return(
     <div id="gallery-prev">
-      <h2>Gallery</h2>
+      <h1>Gallery</h1>
       <hr />
       <ul>
         <li> <GalleryItem title={this.state.coffeeExpress.title} imgSrc={this.state.coffeeExpress.imgSrc} description={this.state.coffeeExpress.description}/> </li>
