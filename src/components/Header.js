@@ -8,10 +8,10 @@ const Header = () => (
     <div id="header-spacer"></div>
     <nav>
       <ul>
-        <NavLink to="/">Home</NavLink>
-        <NavLink to="/PortfolioPage">Portfolio</NavLink>
-        <NavLink to="/AboutPage">About</NavLink>
-        <NavLink to="/ContactPage">Contact</NavLink>
+        <NavLink to="/" className="nav-link">Home</NavLink>
+        <NavLink to="/PortfolioPage" className="nav-link">Portfolio</NavLink>
+        <NavLink to="/AboutPage" className="nav-link">About</NavLink>
+        <NavLink to="/ContactPage" className="nav-link">Contact</NavLink>
       </ul>
     </nav>
   </header>
