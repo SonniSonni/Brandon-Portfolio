@@ -20,6 +20,7 @@ export default class GalleryPrev extends React.Component {
         <li> <GalleryItem title={this.state.coffeeExpress.title} imgSrc={this.state.coffeeExpress.imgSrc} description={this.state.coffeeExpress.description}/> </li>
       </ul>
       <hr />
+      <button>See More</button>
     </div>
    )
  }
