@@ -1,6 +1,9 @@
 #gallery-item {
   width:100%;
 }
+#gallery-item p{
+  margin-left: $m-size;
+}
 #flex-container{
   display: flex;
   align-items: center;
@@ -9,5 +12,6 @@
   width: 100%;
 }
 #github-logo{
+  margin-left: $l-size;
   width: 10%;
 }
