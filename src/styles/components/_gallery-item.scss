@@ -11,6 +11,9 @@
 #proj-prev{
   width: 100%;
 }
+#proj-prev:hover{
+  opacity: 0.5;
+}
 #github-logo{
   margin-left: $m-size;
   width: $l-size;
