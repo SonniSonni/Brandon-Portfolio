@@ -2,7 +2,7 @@
   width:100%;
 }
 #gallery-item p{
-  margin-left: $m-size;
+  margin-left: $l-size;
 }
 #flex-container{
   display: flex;
@@ -12,6 +12,6 @@
   width: 100%;
 }
 #github-logo{
-  margin-left: $l-size;
-  width: 10%;
+  margin-left: $m-size;
+  width: $l-size;
 }
