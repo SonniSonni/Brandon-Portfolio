@@ -13,3 +13,7 @@ header ul{
   text-decoration: none;
   padding-right: $m-size;
 }
+
+.nav-link:hover{
+  color:$darker-gray;
+}
