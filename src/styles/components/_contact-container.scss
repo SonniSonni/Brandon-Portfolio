@@ -1,8 +1,9 @@
 #contact-container {
+  width: $box-width;
+  height: $box-height;
   color: $off-white;
   background-color: $darker-gray;
-  height: $box-height;
-  width: $box-width;
+  padding:1em;
   margin:auto;
 }
 #contact-container h1 {
