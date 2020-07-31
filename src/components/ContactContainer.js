@@ -6,8 +6,8 @@ const ContactContainer = () => (
   <div id="contact-container" class="box-container">
     <h1>Contact Me</h1>
     <div id="contact-flex-container">
-      <EmailBox />
-      <MessageBox />
+      <EmailBox class="contact-box-container"/>
+      <MessageBox class="contact-box-container"/>
     </div>
   </div>
 );
