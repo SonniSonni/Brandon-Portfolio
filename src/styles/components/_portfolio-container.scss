@@ -2,14 +2,15 @@
   color: $off-white;
   background-color: $darker-gray;
   margin:auto;
-  width:80%;
+  width:90%;
   padding:$m-size;
 }
 #portfolio-container h1{
   text-align: center;
 }
 #portfolio-container ul{
-  margin:0;
+  margin:auto;
+  margin-top:8em;
   padding:0;
   list-style: none;
   display: grid;
@@ -18,5 +19,6 @@
 }
 #portfolio-container ul li{
   margin:auto;
-  width: 80%;
+  margin-top:2em;
+  width: 75%;
 }
