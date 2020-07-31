@@ -2,7 +2,8 @@
   color: $off-white;
   background-color: $darker-gray;
   margin:auto;
-  width:90%;
+  width: $box-width;
+  height: $box-height;
   padding:$m-size;
 }
 #portfolio-container h1{
