@@ -6,7 +6,7 @@ const GalleryItem = (props) => (
         <img src={props.imgSrc} alt="Preview of website" id="proj-prev"/>
         <div id='flex-container'>
           <h3> {props.title} </h3>
-          <a href="#">
+          <a href={props.githubLink}>
             <img src={Github} alt="git logo" id="github-logo"/>    
           </a>
           <p> {props.description} </p>          
