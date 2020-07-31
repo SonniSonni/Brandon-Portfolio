@@ -4,11 +4,15 @@
   width: 75%;
   margin: auto;
   padding:1em;
-  padding-bottom:33em;
+  padding-bottom:13em;
 }
 #about-container h1{
   text-align: center;
 }
 #about-container p{
   font-size: $ml-size;
+  width:50%;
+}
+#about-container img{
+  float:right;
 }
