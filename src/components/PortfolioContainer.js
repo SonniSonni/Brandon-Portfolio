@@ -12,7 +12,7 @@ export default class PortfolioContainer extends React.Component{
     }
     render(){
         return(
-        <div id="portfolio-container">
+        <div id="portfolio-container" class="box-container">
             <h1>My Work</h1>
             <ul>
                 <li><GalleryItem title={this.state.coffeeExpress.title} imgSrc={this.state.coffeeExpress.imgSrc} description={this.state.coffeeExpress.description}/></li>

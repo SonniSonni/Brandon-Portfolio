@@ -3,7 +3,7 @@ import EmailBox from './EmailBox';
 import MessageBox from './MessageBox';
 
 const ContactContainer = () => (
-  <div id="contact-container">
+  <div id="contact-container" class="box-container">
     <h1>Contact Me</h1>
     <div id="contact-flex-container">
       <EmailBox />
