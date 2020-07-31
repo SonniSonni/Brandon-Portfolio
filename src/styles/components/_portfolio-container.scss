@@ -6,11 +6,12 @@
   padding:$m-size;
 }
 #portfolio-container h1{
+  font-size: $xl-size;
   text-align: center;
 }
 #portfolio-container ul{
   margin:auto;
-  margin-top:8em;
+  margin-top:5em;
   padding:0;
   list-style: none;
   display: grid;
