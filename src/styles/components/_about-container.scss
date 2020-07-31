@@ -14,5 +14,10 @@
   width:50%;
 }
 #about-container img{
-  float:right;
+  margin:auto;
+  width: 40%;
+}
+
+#about-flex-container{ 
+  display:flex; 
 }
