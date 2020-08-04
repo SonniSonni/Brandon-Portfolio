@@ -1,6 +1,5 @@
 import React from 'react';
 import GalleryItem from './GalleryItem';
-import CoffeeExpress from '../../resources/CoffeeExpress.png';
 import ProjectList from '../ProjectList';
 
 const coffeeExpress = ProjectList[0];
