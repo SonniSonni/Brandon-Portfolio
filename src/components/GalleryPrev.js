@@ -1,6 +1,8 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import GalleryItem from './GalleryItem';
 import ProjectList from '../ProjectList';
+
 
 const coffeeExpress = ProjectList[0];
 
@@ -16,7 +18,10 @@ export default class GalleryPrev extends React.Component {
         <li> <GalleryItem {...coffeeExpress}/> </li>
       </ul>
       <hr />
-      <button className="button-style">See More</button>
+      <Link to="/PortfolioPage">
+        <button className="button-style">See More</button>
+      </Link>
+      
     </div>
    )
  }
