@@ -16,3 +16,10 @@
   margin-top:2em;
   width: 75%;
 }
+#portfolio-container #gallery-item #flex-container{
+  flex-wrap: wrap;
+}
+#portfolio-container #gallery-item #flex-container p{
+  padding-right: 10em;
+  margin-left:0;
+}
