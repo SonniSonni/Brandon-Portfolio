@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Alegreya:wght@400;500;700;800&display=swap');
+
 *{
   box-sizing: border-box;
 }
@@ -6,7 +8,7 @@ html {
 }
 
 body {
-  font-family: Helvetica, Arial, sans-serif;
+  font-family: 'Alegreya', serif;
   background-color: $off-white;
 }
 
