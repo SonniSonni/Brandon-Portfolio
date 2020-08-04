@@ -16,7 +16,7 @@ export default class GalleryPrev extends React.Component {
         <li> <GalleryItem {...coffeeExpress}/> </li>
       </ul>
       <hr />
-      <button>See More</button>
+      <button className="button-style">See More</button>
     </div>
    )
  }
