@@ -1,6 +1,6 @@
 import CoffeeExpress from '../resources/CoffeeExpress.png';
 
-const Projects = [
+const ProjectList = [
   {
     id: 0, 
     title: 'Coffee Express', 
@@ -10,5 +10,5 @@ const Projects = [
   }
 ]
 
-export default Projects;
+export default ProjectList;
 
