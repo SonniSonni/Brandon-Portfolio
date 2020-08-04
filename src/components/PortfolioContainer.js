@@ -1,15 +1,8 @@
 import React from 'react';
 import GalleryItem from './GalleryItem';
-import CoffeeExpress from '../../resources/CoffeeExpress.png';
+import ProjectList from '../ProjectList';
 
-const coffeeExpress = 
-{
-    id: 0, 
-    title: 'Coffee Express', 
-    imgSrc: CoffeeExpress, 
-    description: 'A mock up website for a coffee shop', 
-    githubLink:'https://github.com/KamajiiSC/CoffeeExpress'
-}
+const coffeeExpress = ProjectList[0];
 
 export default class PortfolioContainer extends React.Component{
     render(){
