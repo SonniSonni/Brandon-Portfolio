@@ -4,7 +4,7 @@
 }
 #portfolio-container ul{
   margin:auto;
-  margin-top:5em;
+  margin-top:3em;
   padding:0;
   list-style: none;
   display: grid;
@@ -13,7 +13,7 @@
 }
 #portfolio-container ul li{
   margin:auto;
-  margin-top:2em;
+  margin-bottom:1em;
   width: 75%;
 }
 #portfolio-container #gallery-item #flex-container{
@@ -21,5 +21,5 @@
 }
 #portfolio-container #gallery-item #flex-container p{
   padding-right: 10em;
-  margin-left:0;
+  margin:0;
 }
