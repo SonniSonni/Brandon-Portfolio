@@ -1,4 +1,4 @@
-import React from 'react';
+import CoffeeExpress from '../resources/CoffeeExpress.png';
 
 const Projects = [
   {
