@@ -1,3 +1,14 @@
 .button-style{
-  
+  width: 8em;
+  background-color:#263238;
+  border-radius:28px;
+  border:1px solid #263238;
+  display:inline-block;
+  cursor:pointer;
+  color:#ffffff;
+  font-family:'Alegraya', serif;
+  font-size:$m-size;
+  padding:16px 31px;
+  text-decoration:none;
+  margin-left: 90%;
 }
