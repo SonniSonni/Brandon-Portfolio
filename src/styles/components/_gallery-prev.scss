@@ -2,9 +2,10 @@
   background-color: $light-gray;
   border: 3px solid $off-black;
   border-radius: $s-size;
-  margin:3em 3em 4em 3em;
+  margin:2.3em 1em 0 1em;
 }
 #gallery-prev h1{
+  margin:$s-size;
   text-align: center;
   font-size: $l-size;
   font-weight: 800;
