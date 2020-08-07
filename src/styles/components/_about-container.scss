@@ -19,12 +19,12 @@
   display:flex; 
 }
 #about-container label{
-  font-size:$l-size;
+  font-size:$ml-size;
   font-weight: bold;
   margin-left:6%;
-  margin-top:10em;
 }
 #about-container .button-style{
+  font-size: $m-size;
   margin-left:1em;
   padding:8px;
 }
