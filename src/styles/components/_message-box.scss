@@ -2,8 +2,11 @@
   font-size: $l-size;
 }
 
-
 #message-box form{
   display: flex;
   flex-direction: column;
+}
+#message-box form input[type=text]{
+  margin: auto;
+  width: 50%;
 }
