@@ -2,7 +2,7 @@ import React from 'react';
 import portrait from '../../resources/test-headshot.jpg';
 
 const AboutContainer = () => (
-  <div id='about-container'  class="box-container">
+  <div id='about-container'  className="box-container">
     <h1>About Me</h1>
     <div id="about-flex-container">
       <p>
