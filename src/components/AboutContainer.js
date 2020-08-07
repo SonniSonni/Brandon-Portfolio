@@ -10,7 +10,7 @@ const AboutContainer = () => (
       </p>
       <img src={portrait}alt="Portrait of man"/>
     </div>
-    <label>See my resume here: </label> <button>See more</button>
+    <label>See my resume here: </label> <button className="button-style">See more</button>
 
   </div>
 );
