@@ -8,7 +8,7 @@ const EmailBox = () => (
     <p id="email-text">BrandonLSchaen@gmail.com</p>
     <p id="email-blurb">Always looking for new opportunities!</p>
     <div id="img-flex-container">
-      <a><img src={GithubLogo}/></a>
+      <a target="_blank" href="https://github.com/KamajiiSC"><img src={GithubLogo}/></a>
       <a><img src={LinkedLogo}/></a>
     </div>
   </div>
