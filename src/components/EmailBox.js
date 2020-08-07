@@ -1,10 +1,14 @@
 import React from 'react';
 import GithubLogo from '../../resources/github-logo.png';
 import LinkedLogo from '../../resources/linkdin-logo.png';
+import EmailLogo from '../../resources/email-logo.svg';
 
 const EmailBox = () => (
   <div id="email-box">
-    <h2>Email Me</h2>
+    <div id="email-title">
+      <h2>Email Me</h2>
+      <img src={EmailLogo}/>
+    </div>
     <p id="email-text">BrandonLSchaen@gmail.com</p>
     <p id="email-blurb">Always looking for new opportunities!</p>
     <div id="img-flex-container">
