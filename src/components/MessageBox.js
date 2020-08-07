@@ -4,9 +4,9 @@ const MessageBox = () => (
   <div id="message-box">
     <h2>Message me right here!</h2>
     <div id="message-flex-container">
-      <input></input>
+      <input />
       <textarea></textarea>
-      <button>See more</button>
+      <input type='submit' value='Send' />
     </div>
   </div>
 );
