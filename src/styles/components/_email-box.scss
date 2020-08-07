@@ -11,3 +11,8 @@
 #email-blurb{
   font-size: $m-size;
 }
+#img-flex-container{
+  display: flex;
+  justify-content: space-around;
+  padding: 0 15em;
+}
