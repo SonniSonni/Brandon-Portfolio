@@ -7,7 +7,7 @@ const MessageBox = () => (
       <input type='text'/>
       <input type='email'/>
       <textarea></textarea>
-      <input type='submit' value='Send' />
+      <input className="button-style" type='submit' value='Send' />
     </div>
   </div>
 );
