@@ -7,6 +7,10 @@
   flex-direction: column;
 }
 #message-box form input[type=text]{
-  margin: auto;
+  margin-left: 10%;
   width: 50%;
+}
+#message-box form input[type=email]{
+  margin-left:10%;
+  width: 65%;
 }
