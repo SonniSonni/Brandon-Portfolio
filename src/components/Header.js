@@ -1,10 +1,12 @@
 import React from 'react';
 import logo from '../../resources/portfolio-logo.svg'
-import { NavLink } from 'react-router-dom'
+import { NavLink, Link } from 'react-router-dom'
 
 const Header = () => (
   <header>
-    <img src={logo} alt="" />
+    <Link to="/">
+      <img src={logo} alt="" />
+    </Link>
     <div id="header-spacer"></div>
     <nav>
       <ul>
