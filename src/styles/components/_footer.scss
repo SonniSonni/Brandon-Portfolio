@@ -7,8 +7,11 @@ footer {
   bottom:0;
   font-size:$s-size;
   display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 .footer-link{
+  
   text-decoration: none;
   color:inherit;
 }
