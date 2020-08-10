@@ -6,4 +6,9 @@ footer {
   height: $l-size;
   bottom:0;
   font-size:$s-size;
+  display: flex;
+}
+.footer-link{
+  text-decoration: none;
+  color:inherit;
 }
