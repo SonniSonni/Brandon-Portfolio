@@ -3,7 +3,7 @@ import React from 'react';
 const Footer = () => (
     
     <footer>
-        <p>Footer</p>
+        <p>© 2020 Brandon Schaen</p>
     </footer>
 
 );
