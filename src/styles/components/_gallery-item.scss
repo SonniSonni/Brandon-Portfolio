@@ -25,11 +25,17 @@
   width: $ml-size;
 }
 .overlay p{
+  position: relative;
   text-align:center;
   margin-right:3em;
   margin-top:-5em;
   font-weight: bold;
+  z-index:0;
 }
 .overlay{
   font-size:2em;
+}
+.overlay img{
+  position: relative;
+  z-index:1;
 }
