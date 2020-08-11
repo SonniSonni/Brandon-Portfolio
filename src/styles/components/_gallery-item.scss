@@ -6,6 +6,7 @@
   margin-left: $l-size;
 }
 #flex-container{
+  margin-top: 8em;
   display: flex;
   align-items: center;
 }
@@ -22,4 +23,9 @@
 #github-logo{
   margin-left: $m-size;
   width: $ml-size;
+}
+.overlay p{
+  text-align:center;
+  margin-right:5em;
+  margin-top:-8em;
 }
