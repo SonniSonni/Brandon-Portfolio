@@ -26,5 +26,7 @@ footer img{
   justify-content: space-between;
 }
 #footer-socials a{
+  display:flex;
+  align-items: center;
   margin: 0 2em 0 2em;
 }
