@@ -5,7 +5,8 @@ const Footer = () => (
     
     <footer>
         <p>© 2020 Brandon Schaen</p>
-        <Link to="/ContactPage" className="footer-link">Contact</Link>
+        <Link to="/ContactPage" className="footer-policy">Privacy Policy</Link>
+        <Link to="/ContactPage" className="footer-contact">Contact</Link>     
     </footer>
 
 );
