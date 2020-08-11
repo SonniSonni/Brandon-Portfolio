@@ -3,7 +3,7 @@ import Github from '../../resources/github-logo.png'
 
 const GalleryItem = (props) => (
       <div id="gallery-item">
-        <div className="img-preview">
+        <div className="overlay">
          <img src={props.imgSrc} alt="Preview of website" id="proj-prev"/>
         </div>
         <div id='flex-container'>
