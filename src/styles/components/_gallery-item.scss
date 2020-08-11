@@ -16,9 +16,10 @@
 #proj-prev{
   width: 90%;
   border-radius: 2em;
+  transition:.5s;
 }
 #proj-prev:hover{
-  opacity: 0.5;
+  opacity: 0.3;
 }
 #github-logo{
   margin-left: $m-size;
