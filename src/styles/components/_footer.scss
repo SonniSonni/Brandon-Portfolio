@@ -21,3 +21,10 @@ footer img{
   text-decoration: none;
   color:inherit;
 }
+#footer-socials{
+  display:flex;
+  justify-content: space-between;
+}
+#footer-socials a{
+  margin: 0 2em 0 2em;
+}
