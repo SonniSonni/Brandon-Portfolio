@@ -5,10 +5,10 @@ footer {
   width:100%;
   height: $l-size;
   bottom:0;
-  font-size:$s-size;
+  font-size:1.4em;
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: space-around;
 }
 footer img{
   width:$ml-size;
