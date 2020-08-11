@@ -6,7 +6,7 @@ import Footer from './Footer';
 export default class PortfolioApp extends React.Component{
   render(){
     return(
-      <div id='home-page'>
+      <div id='home-page' className="wrapper">
         <Hero />
         <GalleryPrev />
         <Footer />
