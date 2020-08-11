@@ -5,7 +5,7 @@ const GalleryItem = (props) => (
       <div id="gallery-item">
         <div className="overlay">
          <img src={props.imgSrc} alt="Preview of website" id="proj-prev"/>
-         <p>{props.title}</p>
+         <p id="para">{props.title}</p>
         </div>
         <div id='flex-container'>
           <h3> {props.title} </h3>
