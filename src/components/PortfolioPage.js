@@ -5,7 +5,7 @@ import PortfolioContainer from './PortfolioContainer';
 export default class PortfolioPage extends React.Component{
     render(){
         return(
-            <div className="wrapper">
+            <div>
                 <PortfolioContainer />
                 <Footer />
             </div>

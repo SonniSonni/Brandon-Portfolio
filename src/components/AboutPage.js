@@ -5,7 +5,7 @@ import AboutContainer from './AboutContainer.js';
 export default class AboutPage extends React.Component {
     render(){
         return(
-            <div className="wrapper">
+            <div>
                 <AboutContainer />
                 <Footer />
             </div>
