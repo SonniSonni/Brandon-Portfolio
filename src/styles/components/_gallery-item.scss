@@ -41,3 +41,9 @@
   position: relative;
   z-index:1;
 }
+.overlay p{
+  opacity:0;
+}
+.overlay:hover p{
+  opacity:1;
+}
