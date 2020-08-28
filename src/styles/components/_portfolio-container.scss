@@ -5,7 +5,10 @@
 }
 
 #gallery-List{
+  margin-left: 2.5em;
+  margin-right: 2.5em;
   list-style: none;
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(120px, 300px));
+  grid-template-columns: repeat(auto-fit, minmax(200px, 400px));
+  column-gap: 5em;
 }
