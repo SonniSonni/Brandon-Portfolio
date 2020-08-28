@@ -14,8 +14,11 @@
   margin:0;
   font-size: $m-size;
 }
+.img-block{
+  
+}
 #proj-prev{
-  width: 90%;
+  max-height: 10em;
   border-radius: 2em;
   transition:.5s;
 }
