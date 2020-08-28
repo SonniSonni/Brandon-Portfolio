@@ -10,14 +10,14 @@ export default class PortfolioContainer extends React.Component{
         return(
         <div id="portfolio-container" className="box-container">
             <h1>My Work</h1>
-            <ul id = 'gallery-List'>
-                <li><GalleryItem {...coffeeExpress}/></li>
-                <li><GalleryItem {...pokeTeam}/></li>
-                <li><GalleryItem {...coffeeExpress}/></li>
-                <li><GalleryItem {...coffeeExpress}/></li>
-                <li><GalleryItem {...coffeeExpress}/></li>
-                <li><GalleryItem {...coffeeExpress}/></li>
-            </ul>
+                <div id = 'gallery-List'>
+                    <GalleryItem {...coffeeExpress}/>
+                    <GalleryItem {...pokeTeam}/>
+                    <GalleryItem {...coffeeExpress}/>
+                    <GalleryItem {...coffeeExpress}/>
+                    <GalleryItem {...coffeeExpress}/>
+                    <GalleryItem {...coffeeExpress}/>
+                </div>
         </div>
     )}
 };
