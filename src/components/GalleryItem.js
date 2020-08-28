@@ -4,7 +4,7 @@ import Github from '../../resources/github-logo.png'
 const GalleryItem = (props) => (
       <div id="gallery-item">
         <div className="overlay">
-        <a target="_blank" href={props.githubLink}>
+        <a target="_blank" href={props.webLink}>
           <img src={props.imgSrc} alt="Preview of website" id="proj-prev"/>
          </a>
          <p id="para">{props.title}</p>

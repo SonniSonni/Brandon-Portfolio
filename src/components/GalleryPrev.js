@@ -3,8 +3,8 @@ import { Link } from 'react-router-dom';
 import GalleryItem from './GalleryItem';
 import ProjectList from '../ProjectList';
 
-
 const coffeeExpress = ProjectList[0];
+const pokeTeam = ProjectList[1];
 
 export default class GalleryPrev extends React.Component {
  render() {
@@ -14,7 +14,7 @@ export default class GalleryPrev extends React.Component {
       <hr />
       <ul>
         <li> <GalleryItem {...coffeeExpress}/> </li>
-        <li> <GalleryItem {...coffeeExpress}/> </li>
+        <li> <GalleryItem {...pokeTeam}/> </li>
         <li> <GalleryItem {...coffeeExpress}/> </li>
       </ul>
       <hr />
