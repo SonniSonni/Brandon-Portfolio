@@ -3,24 +3,7 @@
   text-align: center;
   margin:0;
 }
-#portfolio-container ul{
-  margin:auto;
-  margin-top:1em;
-  padding:0;
-  list-style: none;
-  display: grid;
-  grid-template-rows: 1fr 1fr;
-  grid-template-columns: 1fr 1fr 1fr;
-}
-#portfolio-container ul li{
-  margin:auto;
-  margin-top:1em;
-  margin-bottom:1em;
-  width: 80%;
-}
-#portfolio-container #gallery-item #flex-container{
-  flex-wrap: wrap;
-}
-#portfolio-container #gallery-item #flex-container p{
-  margin:0;
+
+#gallery-List{
+
 }
