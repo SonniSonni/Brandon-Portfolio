@@ -5,7 +5,7 @@ const GalleryItem = (props) => (
       <div id="gallery-item">
         <div className="overlay">
         <a target="_blank" href={props.webLink}>
-          <div class='img-block'>
+          <div className='img-block'>
             <img src={props.imgSrc} alt="Preview of website" id="proj-prev"/>
           </div>
          </a>
