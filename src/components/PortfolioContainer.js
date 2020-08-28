@@ -3,6 +3,7 @@ import GalleryItem from './GalleryItem';
 import ProjectList from '../ProjectList';
 
 const coffeeExpress = ProjectList[0];
+const pokeTeam = ProjectList[1];
 
 export default class PortfolioContainer extends React.Component{
     render(){
@@ -11,7 +12,7 @@ export default class PortfolioContainer extends React.Component{
             <h1>My Work</h1>
             <ul>
                 <li><GalleryItem {...coffeeExpress}/></li>
-                <li><GalleryItem {...coffeeExpress}/></li>
+                <li><GalleryItem {...pokeTeam}/></li>
                 <li><GalleryItem {...coffeeExpress}/></li>
                 <li><GalleryItem {...coffeeExpress}/></li>
                 <li><GalleryItem {...coffeeExpress}/></li>
