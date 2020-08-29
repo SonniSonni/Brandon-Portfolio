@@ -7,3 +7,14 @@
   padding:1em;
   border-radius: $s-size;
 }
+
+@media only screen and (max-width:1539px) {
+  .box-container {
+    height: 85rem;
+  }
+}
+@media only screen and (max-width:1011px) {
+  .box-container {
+    height: 160rem;
+  }
+}
