@@ -18,8 +18,9 @@ export default class GalleryPrev extends React.Component {
         <GalleryItem {...coffeeExpress}/>
       </div>
       <hr />
-      <Link className="button-style" to="/PortfolioPage"> See More</Link>
-      
+      <div className='btn-wrapper'>
+        <Link className="button-style" to="/PortfolioPage"> See More</Link>
+      </div>
     </div>
    )
  }
