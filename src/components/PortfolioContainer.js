@@ -14,9 +14,6 @@ export default class PortfolioContainer extends React.Component{
                     <GalleryItem {...coffeeExpress}/>
                     <GalleryItem {...pokeTeam}/>
                     <GalleryItem {...coffeeExpress}/>
-                    <GalleryItem {...coffeeExpress}/>
-                    <GalleryItem {...coffeeExpress}/>
-                    <GalleryItem {...coffeeExpress}/>
                 </div>
         </div>
     )}
