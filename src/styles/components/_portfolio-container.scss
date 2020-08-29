@@ -3,11 +3,24 @@
   text-align: center;
   margin:0;
 }
-
+#portf-wrapper{ 
+  background-color: $off-white;
+}
 #gallery-List{
   list-style: none;
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(200px, 420px));
   column-gap: 5em;
   justify-content: center;
+}
+
+@media only screen and (max-width:1539px) {
+   #portf-wrapper .box-container{
+    height: 85rem;
+  }
+}
+@media only screen and (max-width:1011px) {
+  #portf-wrapper .box-container{
+    height: 160rem;
+  }
 }
