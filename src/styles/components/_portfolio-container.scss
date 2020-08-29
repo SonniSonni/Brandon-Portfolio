@@ -8,7 +8,7 @@
 #gallery-List{
   list-style: none;
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(200px, 400px));
+  grid-template-columns: repeat(auto-fit, minmax(200px, 420px));
   column-gap: 5em;
   justify-content: center;
 }
