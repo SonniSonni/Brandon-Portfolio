@@ -12,11 +12,11 @@ export default class GalleryPrev extends React.Component {
     <div id="gallery-prev">
       <h1>Gallery</h1>
       <hr />
-      <ul>
-        <li> <GalleryItem {...coffeeExpress}/> </li>
-        <li> <GalleryItem {...pokeTeam}/> </li>
-        <li> <GalleryItem {...coffeeExpress}/> </li>
-      </ul>
+      <div className="prev-container">
+        <GalleryItem {...coffeeExpress}/>
+        <GalleryItem {...pokeTeam}/>
+        <GalleryItem {...coffeeExpress}/>
+      </div>
       <hr />
       <Link className="button-style" to="/PortfolioPage"> See More</Link>
       
