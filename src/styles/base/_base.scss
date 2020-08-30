@@ -5,9 +5,21 @@
 }
 html {
   font-size: 62.5%;
+  height: 100%;
 }
 body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100%;
   font-family: 'Alegreya', serif;
   background-color: $off-white;
 }
+#router {
+  display: flex;
+  flex-direction: column;
 
+  min-height: 100%;
+}
+#app {
+  min-height: 100%;
+}

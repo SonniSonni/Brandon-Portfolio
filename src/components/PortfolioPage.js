@@ -7,7 +7,6 @@ export default class PortfolioPage extends React.Component{
         return(
             <div>
                 <PortfolioContainer />
-                <Footer />
             </div>
         );
     };

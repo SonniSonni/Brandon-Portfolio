@@ -1,10 +1,9 @@
 footer {
+  margin-top: auto;
   color:white;
   background-color: $darker-gray;
-  position: absolute;
   width:100%;
   height: $l-size;
-  bottom:0;
   font-size:1.4em;
   display: flex;
   align-items: center;
@@ -29,4 +28,10 @@ footer img{
   display:flex;
   align-items: center;
   margin: 0 2em 0 2em;
+}
+#router {
+  display: flex;
+  flex-direction: column;
+
+  min-height: 100%;
 }
