@@ -3,7 +3,9 @@ import './PortfolioPage.css';
 
 const PortfolioPage = () => (
   <div className="PortfolioPage">
-    <p>PORTFOLIO</p>
+    <div className="portfolio-container">.
+      
+    </div>
   </div>
 );
 
