@@ -3,7 +3,12 @@
   align-items: center;
   justify-content: space-between;
 }
+
 .nav-list{
   list-style: none;
   display: flex;
+}
+
+.nav-link{
+  text-decoration: none;
 }
