@@ -1,3 +1,6 @@
+.header{
+  display:flex;
+}
 .nav-list{
   list-style: none;
   display: flex;
