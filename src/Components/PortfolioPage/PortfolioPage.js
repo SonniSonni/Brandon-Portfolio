@@ -3,7 +3,7 @@ import './PortfolioPage.css';
 
 const PortfolioPage = () => (
   <div className="PortfolioPage">
-
+    <p>PORTFOLIO</p>
   </div>
 );
 
