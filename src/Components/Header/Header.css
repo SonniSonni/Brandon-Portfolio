@@ -10,5 +10,7 @@
 }
 
 .nav-link{
+  font-size:2em;
+  margin-right:2em;
   text-decoration: none;
 }
