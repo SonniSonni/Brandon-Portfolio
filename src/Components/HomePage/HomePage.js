@@ -5,7 +5,7 @@ import GalleryPrev from '../GalleryPrev/GalleryPrev';
 
 const HomePage = () => (
   <div className="HomePage">
-    <img src={Hero} alt="Man infront of city skyline" className="hero"/>
+      <img src={Hero} alt="Man infront of city skyline" className="hero"/>
     <GalleryPrev />
   </div>
 );
