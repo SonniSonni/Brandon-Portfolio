@@ -3,6 +3,8 @@ import './AboutPage.css';
 
 const AboutPage = () => (
   <div className="AboutPage">
-    
+
   </div>
 );
+
+export default AboutPage;
