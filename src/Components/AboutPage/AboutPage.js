@@ -3,7 +3,9 @@ import './AboutPage.css';
 
 const AboutPage = () => (
   <div className="AboutPage">
-
+    <div className="about-container">
+      
+    </div>
   </div>
 );
 
