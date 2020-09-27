@@ -3,7 +3,7 @@ import './GalleryPrev.css';
 
 const GalleryPrev = () => (
   <div className="GalleryPrev">
-
+  
   </div>
 );
 
