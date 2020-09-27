@@ -3,6 +3,8 @@ import './ContactPage.css';
 
 const ContactPage = () => (
   <div className="ContactPage">
-    
+
   </div>
 );
+
+export default ContactPage;
