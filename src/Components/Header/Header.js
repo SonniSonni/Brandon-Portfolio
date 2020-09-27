@@ -7,3 +7,5 @@ const Header = () => (
     <img src={headerImg} alt="Brandon Schaen" className="header-img"/>
   </div>
 );
+
+export default Header;
