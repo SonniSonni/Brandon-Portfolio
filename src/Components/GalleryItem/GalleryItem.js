@@ -2,7 +2,7 @@ import React from 'react';
 import './GalleryItem.css';
 
 const GalleryItem = () => (
-  <div className="GalleryItem">
+  <div className="gallery-item">
 
   </div>
 );

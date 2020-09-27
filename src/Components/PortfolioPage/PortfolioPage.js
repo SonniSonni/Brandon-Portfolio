@@ -3,7 +3,7 @@ import './PortfolioPage.css';
 import GalleryItem from '../GalleryItem/GalleryItem';
 
 const PortfolioPage = () => (
-  <div className="PortfolioPage">
+  <div className="portfolio-page">
     <div className="portfolio-container">.
       <GalleryItem />
     </div>
