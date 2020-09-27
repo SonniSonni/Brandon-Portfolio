@@ -16,9 +16,15 @@ function App() {
         <Route exact path="/">
           <HomePage />
         </Route>
-        <PortfolioPage />
-        <AboutPage />
-        <ContactPage />
+        <Route exact path="portfolio">
+          <PortfolioPage />
+        </Route>
+        <Route exact path="about">
+          <AboutPage />
+        </Route>
+        <Route exact path="contact">
+          <ContactPage />
+        </Route>
       </BrowserRouter>
     </div>
   );
