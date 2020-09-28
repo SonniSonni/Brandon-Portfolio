@@ -11,7 +11,9 @@ const GalleryPrev = () => (
         <GalleryItem />
       </div>
     <hr />
-    <Link className="see-more">See more</Link>
+    <div className="btn-container">
+      <Link className="see-more">See more</Link>
+    </div>
   </div>
 );
 
