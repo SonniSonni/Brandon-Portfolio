@@ -1,5 +1,6 @@
 import React from 'react';
 import './GalleryPrev.css';
+import { Link } from 'react-router-dom';
 import GalleryItem from '../GalleryItem/GalleryItem';
 
 const GalleryPrev = () => (
@@ -10,6 +11,7 @@ const GalleryPrev = () => (
         <GalleryItem />
       </div>
     <hr />
+    <Link>See more</Link>
   </div>
 );
 
