@@ -12,7 +12,7 @@ const GalleryPrev = () => (
       </div>
     <hr />
     <div className="btn-container">
-      <Link className="see-more">See more</Link>
+      <Link to="/portfolio" className="see-more">See more</Link>
     </div>
   </div>
 );
