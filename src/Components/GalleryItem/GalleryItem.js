@@ -6,7 +6,7 @@ const GalleryItem = (props) => (
     <img />
     <div className="content">
       <h3 className="title"></h3>
-      <a href="#" target="_blank"><img /></a>
+      <a href="#" target="_blank" className="github-a"><img className="github-img" /></a>
       <p className="description"></p>
     </div>
   </div>
