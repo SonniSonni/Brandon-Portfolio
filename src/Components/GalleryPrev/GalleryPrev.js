@@ -9,7 +9,7 @@ const GalleryPrev = () => (
     <h1>Gallery Preview</h1>
     <hr />
       <div className="gallery">
-        <GalleryItem />
+        <GalleryItem {...ProjectList[0]}/>
         <GalleryItem />
         <GalleryItem />
       </div>
