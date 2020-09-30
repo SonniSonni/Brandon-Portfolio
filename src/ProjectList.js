@@ -1,7 +1,8 @@
+import julesTrembly from './Resources/julesTrembly.png';
 
 const ProjectList = [
   {
-    image: '',
+    image: julesTrembly,
     title: '',
     description: '',
     github: '',
