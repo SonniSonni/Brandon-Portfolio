@@ -1,4 +1,4 @@
-import julesTrembly from './Resources/julesTrembly.png';
+import julesTrembly from './Resources/julesTrembly.PNG';
 
 const ProjectList = [
   {
@@ -12,3 +12,5 @@ const ProjectList = [
 
   }
 ]
+
+export default ProjectList;

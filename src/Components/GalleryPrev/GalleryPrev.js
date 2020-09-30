@@ -2,6 +2,7 @@ import React from 'react';
 import './GalleryPrev.css';
 import { Link } from 'react-router-dom';
 import GalleryItem from '../GalleryItem/GalleryItem';
+import ProjectList from '../../ProjectList';
 
 const GalleryPrev = () => (
   <div className="gallery-prev">
