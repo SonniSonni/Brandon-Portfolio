@@ -3,7 +3,10 @@ import './GalleryItem.css';
 
 const GalleryItem = (props) => (
   <div className="gallery-item">
-    <img className="project-img" src={props.image} alt="Image of project"/>
+    <div className="image">
+      <img className="project-img" src={props.image} alt="Image of project"/>
+    </div>
+    
     <div className="content">
       <h3 className="title">{props.title}</h3>
       <a href={props.github} target="_blank" className="github-a">
