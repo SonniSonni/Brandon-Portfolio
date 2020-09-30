@@ -10,8 +10,8 @@ const GalleryPrev = () => (
     <hr />
       <div className="gallery">
         <GalleryItem {...ProjectList[0]}/>
-        <GalleryItem />
-        <GalleryItem />
+        <GalleryItem {...ProjectList[0]}/>
+        <GalleryItem {...ProjectList[0]}/>
       </div>
     <hr />
 

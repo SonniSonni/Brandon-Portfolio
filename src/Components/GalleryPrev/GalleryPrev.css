@@ -9,6 +9,14 @@
 h1{
   text-align: center;
 }
+.gallery{
+  width:100%;
+  height:65%;
+  display:flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
 .btn-container{
   width:100%;
   text-align: end;
