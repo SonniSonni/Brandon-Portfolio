@@ -9,8 +9,11 @@ const GalleryPrev = () => (
     <hr />
       <div className="gallery">
         <GalleryItem />
+        <GalleryItem />
+        <GalleryItem />
       </div>
     <hr />
+
     <div className="btn-container">
       <Link to="/portfolio" className="see-more">See more</Link>
     </div>
