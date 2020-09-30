@@ -3,10 +3,10 @@ import julesTrembly from './Resources/julesTrembly.png';
 const ProjectList = [
   {
     image: julesTrembly,
-    title: '',
-    description: '',
+    title: 'Jules Trembly',
+    description: 'Interactive website for music producer with a blog and soundcloud players for their music.',
     github: '',
-    link: ''
+    link: 'greg-trembly.herokuapp.com'
   },
   {
 
