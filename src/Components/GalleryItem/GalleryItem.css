@@ -19,3 +19,7 @@
   align-items: center;
   justify-items: space-between;
 }
+
+.disable{
+  display:none;
+}
