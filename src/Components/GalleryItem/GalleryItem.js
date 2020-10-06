@@ -5,7 +5,9 @@ import github from '../../Resources/GitHub-Mark-64px.png';
 const GalleryItem = (props) => (
   <div className="gallery-item">
     <div className="image">
-      <img className="project-img" src={props.image} alt="Project"/>
+      <a href={props.link} target="__blank">
+        <img className="project-img" src={props.image} alt="Project"/>
+      </a>
     </div>
     
     <div className="content">
