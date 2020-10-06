@@ -12,3 +12,9 @@
   width:95%;
   height:85%;
 }
+
+.gallery-list{
+  padding:1em;
+  display:grid;
+  grid-template-columns: repeat(3, 1fr);
+}
