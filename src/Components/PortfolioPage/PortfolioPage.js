@@ -8,7 +8,7 @@ const PortfolioPage = () => (
     <div className="portfolio-container">
       <div className="gallery-list">
         <GalleryItem {...List[0]}/>
-        <GalleryItem {...List[0]}/>
+        <GalleryItem {...List[1]}/>
         <GalleryItem {...List[0]}/>
         <GalleryItem {...List[0]}/>
         <GalleryItem {...List[0]}/>
