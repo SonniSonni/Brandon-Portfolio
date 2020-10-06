@@ -2,3 +2,27 @@
   background-color:#333333;
   height:85.6vh;
 }
+
+.contact-container{
+  display: flex;
+}
+
+.email{
+  border-radius: 15px;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top:2%;
+  background-color: #474747;
+  width:45%;
+  height: 75vh;
+}
+
+.message{
+  border-radius: 15px;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top:2%;
+  background-color: #474747;
+  width:45%;
+  height: 75vh;
+}
