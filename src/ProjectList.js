@@ -1,4 +1,5 @@
 import julesTrembly from './Resources/julesTrembly.PNG';
+import pokemon from './Resources/pokeTeam.PNG';
 
 
 const ProjectList = [
@@ -10,7 +11,11 @@ const ProjectList = [
     link: 'https://greg-trembly.herokuapp.com'
   },
   {
-
+    image: pokemon,
+    title: 'PokeTeam',
+    description: 'Pokemon team builder that uses the PokeApi for its data',
+    github: 'https://github.com/KamajiiSC/PokeTeam',
+    link: 'https://pokemon-team-builder-brandon.herokuapp.com/'
   }
 ]
 
