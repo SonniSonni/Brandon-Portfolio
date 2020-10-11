@@ -8,6 +8,20 @@
   margin-left: auto;
 }
 
+.project-display{
+  position: relative;
+  float:left;
+  text-align: center;
+}
+
+.project-display .overlay{
+  position: absolute;
+  top:30%;
+  text-align: center;
+  width:100%;
+
+}
+
 .image{
   width:100%;
   height:90%;
