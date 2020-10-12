@@ -17,14 +17,24 @@
 h1{
   margin: 0;
 }
+
+.content{
+  margin:3em;
+}
 .portrait-container{
   position: relative;
-  width: 68em;
+  width: 30em;
   height: 30em;
   overflow:hidden;
   border-radius: 50%;
+  
 }
 .portrait{
   width: 100%;
   height: 32em;
+}
+
+.desc{
+  width:70%;
+  margin-right:5em;
 }
