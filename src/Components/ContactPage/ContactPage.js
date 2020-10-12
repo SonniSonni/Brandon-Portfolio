@@ -8,6 +8,8 @@ const ContactPage = () => (
       <div className="email-containers">
         <div className="email">
           <h2>Email Me!</h2>
+          <h3>BrandonLSchaen@gmail.com</h3>
+          <p>Always looking for new opportunities!</p>
         </div>
         <div className="message">
           <h2>Message Me Here!</h2>

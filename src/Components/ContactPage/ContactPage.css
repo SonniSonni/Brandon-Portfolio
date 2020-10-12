@@ -28,6 +28,8 @@ h1{
   height:80%;
 }
 .email{
+  display: flex;
+  flex-direction: column;
   text-align: center;
   border:3px solid #333333;
   width:45%;
