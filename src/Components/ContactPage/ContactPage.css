@@ -42,14 +42,6 @@ h1{
 .email h3{
   font-size: 1.7em;
 }
-
-.message{
-  text-align: center;
-  border:3px solid #333333;
-  width:45%;
-  border-radius: 5%;
-}
-
 .contact-socials{
   display: flex;
   justify-content: space-around;
@@ -57,7 +49,28 @@ h1{
   margin-left:auto;
   margin-right:auto;
 }
-
 .contact-socials a img{
   width:5em;
+}
+
+.message{
+  text-align: center;
+  border:3px solid #333333;
+  width:45%;
+  border-radius: 5%;
+}
+.contact-form{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width:60%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.contact-form input{
+  margin-top:2em;
+}
+.contact-form textarea{
+  margin-top:3em;
 }

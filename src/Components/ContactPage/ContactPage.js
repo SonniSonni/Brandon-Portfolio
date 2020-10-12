@@ -8,6 +8,7 @@ const ContactPage = () => (
     <div className="contact-container">
       <h1>Contact Me</h1>
       <div className="email-containers">
+
         <div className="email">
           <h2>Email Me!</h2>
           <div className="contact-info">
@@ -20,9 +21,16 @@ const ContactPage = () => (
             <a href="https://www.linkedin.com/in/brandon-schaen/" target="_blank" rel="noopener noreferrer"> <img src={link} alt="Linked-In Logo"/> </a>
           </div>
         </div>
+
         <div className="message">
           <h2>Message Me Here!</h2>
+          <form className="contact-form">
+            <input type="email" name="" id=""/>
+            <input type="text" name="" id=""/>
+            <textarea name="" id="" cols="30" rows="10"></textarea>
+          </form>
         </div>
+
       </div>
     </div>
   </div>
