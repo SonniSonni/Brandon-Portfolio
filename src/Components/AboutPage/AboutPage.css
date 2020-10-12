@@ -18,7 +18,10 @@ h1{
   margin: 0;
 }
 
-.content{
+.about-content{
+  display:flex;
+  align-items: center;
+  justify-items: space-between;
   margin:3em;
   margin-bottom:0;
 }
