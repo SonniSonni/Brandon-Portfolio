@@ -1,6 +1,7 @@
 import React from 'react';
 import './AboutPage.css';
 import Portrait from '../../Resources/profile.jpg';
+import Resume from '../../Resources/BrandonSchaen.docx';
 
 const AboutPage = () => (
   <div className="about-page">
@@ -13,7 +14,8 @@ const AboutPage = () => (
         </div>
       </div>
       <div className="resume">
-        
+        <p>See my resume here:</p>
+        <a href={Resume}>Resume</a>
       </div>
     </div>
   </div>
