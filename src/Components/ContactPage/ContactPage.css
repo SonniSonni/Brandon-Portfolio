@@ -78,7 +78,12 @@ h1{
 
 .messg-cont{
   margin-top:3em;
+  margin-left:-.5em;
 }
 .messg-cont *{
   vertical-align: top;
+}
+
+label{
+  margin-right:1em;
 }
