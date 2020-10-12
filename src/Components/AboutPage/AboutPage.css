@@ -43,7 +43,7 @@ h1{
 
 .resume{
   margin-left:3em;
-  width:30%;
+  width:20%;
   display:flex;
   align-items: center;
   justify-content: space-between;
@@ -51,4 +51,19 @@ h1{
 
 .resume p{
   font-size: 1.7em;
+}
+
+.resume a{
+  max-height: 100%;
+  color:black;
+  font-weight: bold;
+  font-size: 1.1em;
+  text-decoration: none;
+  background-color: #afafaf;
+  padding:.5em;
+  padding-left: 1em;
+  padding-right: 1em;
+  border:3px #333333 solid;
+  border-radius:15px;
+  margin-top:.25em;
 }
