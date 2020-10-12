@@ -1,7 +1,8 @@
 .gallery-prev{
   background-color: #474747;
   width: 95%;
-  height:60%;
+  height:70%;
+  margin-top:1%;
   margin-left:auto;
   margin-right:auto;
   border-radius: 15px;
@@ -21,7 +22,7 @@ h1{
 }
 
 .btn-container{
-  margin-top:1em;
+  margin-top:1.5em;
   text-align: end;
 }
 .see-more{
