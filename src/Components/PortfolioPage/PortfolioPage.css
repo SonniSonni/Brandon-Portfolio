@@ -10,11 +10,11 @@
   margin-left: auto;
   background-color: #474747;
   width:95%;
-  height:85%;
+  height:95%;
 }
 
 .gallery-list{
-  padding:1em;
+  margin-top:1em;
   display:grid;
   grid-template-columns: repeat(3, 1fr);
   color:white;
