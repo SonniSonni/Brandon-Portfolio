@@ -25,9 +25,18 @@ const ContactPage = () => (
         <div className="message">
           <h2>Message Me Here!</h2>
           <form className="contact-form">
-            <input type="email" name="" id=""/>
-            <input type="text" name="" id=""/>
-            <textarea name="" id="" cols="30" rows="10"></textarea>
+            <div className="name-cont">
+              <label htmlFor="name">Name: </label>
+              <input type="text" name="name" id="name"/>
+            </div>
+            <div className="email-cont">
+              <label htmlFor="email-add">Email: </label>
+              <input type="email" name="email-add" id="email-add"/>
+            </div>
+            <div className="messg-cont">
+              <label htmlFor="message">Message: </label>
+              <textarea name="message" id="message" cols="30" rows="10"></textarea>
+            </div>
           </form>
         </div>
 
