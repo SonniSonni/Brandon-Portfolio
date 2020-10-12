@@ -19,13 +19,25 @@
   top:30%;
   text-align: center;
   width:100%;
-  color: black;
+  color: #56e7ff;
   text-decoration: none;
   opacity:0;
 }
 
+.overlay-title{
+  margin-left: auto;
+  margin-right: auto;
+  background:#474747;
+  width: 30%;
+  border-radius: 10px;
+}
+
 .project-display:hover .overlay{
   opacity: 1;
+}
+
+.project-display:hover .project-img{
+  -webkit-filter:blur(2px);
 }
 
 .image{
