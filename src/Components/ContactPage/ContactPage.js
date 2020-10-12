@@ -4,11 +4,14 @@ import './ContactPage.css';
 const ContactPage = () => (
   <div className="contact-page">
     <div className="contact-container">
-      <div className="email">
-        <h3>gg</h3>
-      </div>
-      <div className="message">
-        <h3>gh</h3>
+      <h1>Contact Me</h1>
+      <div className="email-containers">
+        <div className="email">
+          <h2>Email Me</h2>
+        </div>
+        <div className="message">
+          <h2>Message Me Here!</h2>
+        </div>
       </div>
     </div>
   </div>

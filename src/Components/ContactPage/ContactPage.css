@@ -5,24 +5,22 @@
 
 .contact-container{
   display: flex;
-}
-
-.email{
   border-radius: 15px;
   margin-right: auto;
   margin-left: auto;
-  margin-top:2%;
   background-color: #474747;
-  width:45%;
-  height: 75.3vh;
+  width:95%;
+  height:96%;
+  flex-direction: column;
+}
+
+.email-containers{
+  display: flex;
+}
+.email{
+  margin:0;
 }
 
 .message{
-  border-radius: 15px;
-  margin-right: auto;
-  margin-left: auto;
-  margin-top:2%;
-  background-color: #474747;
-  width:45%;
-  height: 75.3vh;
+  margin:0;
 }
