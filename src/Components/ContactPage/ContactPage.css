@@ -1,7 +1,8 @@
 .contact-page{
   background-color:#333333;
-  height:82.6vh;
+  height:78.5vh;
   color: white;
+  padding-top:2%;
 }
 
 .contact-container{
@@ -15,13 +16,17 @@
   flex-direction: column;
 }
 
+h1{
+  margin:0;
+  padding:0;
+}
+
 .email-containers{
   display: flex;
 }
 .email{
   margin:0;
 }
-
 .message{
   margin:0;
 }
