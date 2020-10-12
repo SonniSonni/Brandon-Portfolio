@@ -10,8 +10,10 @@ const ContactPage = () => (
       <div className="email-containers">
         <div className="email">
           <h2>Email Me!</h2>
-          <h3>BrandonLSchaen@gmail.com</h3>
-          <p>Always looking for new opportunities!</p>
+          <div className="contact-info">
+            <h3>BrandonLSchaen@gmail.com</h3>
+            <p>Always looking for new opportunities!</p>
+          </div>
           <div className="contact-socials">
             <a href="https://github.com/KamajiiSC" target="_blank" rel="noopener noreferrer"> <img src={github} alt="Github Logo"/> </a>
             <a> </a>

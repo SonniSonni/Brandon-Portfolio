@@ -15,6 +15,9 @@
   height:96%;
   flex-direction: column;
 }
+.contact-container h2{
+  font-size:2em;
+}
 
 h1{
   margin:0;
@@ -34,7 +37,12 @@ h1{
   border:3px solid #333333;
   width:45%;
   border-radius: 5%;
+  justify-content: space-between;
 }
+.email h3{
+  font-size: 1.7em;
+}
+
 .message{
   text-align: center;
   border:3px solid #333333;
