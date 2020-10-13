@@ -30,3 +30,5 @@ router.post('/contact?name=&email-add=&message=', (req, res, next) => {
       })
     });
 });
+
+module.exports = router;
