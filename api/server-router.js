@@ -21,7 +21,12 @@ router.post('/contact?name=&email-add=&message=', (req, res, next) => {
           message: result.message,
           _id: result._id
         }
-      })
+      });
     }) 
-    .catch()
-})
+    .catch(err =>{
+      console.log(err);
+      res.status(500).json({
+        error: err
+      })
+    });
+});
