@@ -9,6 +9,12 @@ app.use(morgan('dev'));
 app.use(bodyParser.urlencoded({extended: false}));
 app.use(bodyParser.json());
 
+mongoose.connect('mongodb+srv://Brandon:' + process.env.MONGO_ATLAS_PW + '@cluster0.x7r5x.mongodb.net/<dbname>?retryWrites=true&w=majority',
+ {
+   useNewUrlParser: true,
+   useUnifiedTopology: true
+ });
+
 app.use((req, res, next) => {
   res.header('Acces-Control-Allow-Origin', '*');
   res.header('Access-Control-Allow-Headers', 'Origin, X-Requested-With, Content-Type, Accept, Authorization')
