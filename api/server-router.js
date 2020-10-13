@@ -1,9 +1,11 @@
 const express = require('express');
 const router = express.Router();
 const mongoose = require('mongoose');
+const email = require('./email-model');
+
 const Email = require('./email-model');
 
-router.post('/contact', (req, res, next) => {
+router.post('*', (req, res, next) => {
   const email = new Email({
     _id: new mongoose.Types.ObjectId(),
     name: req.body.name,
@@ -13,7 +15,7 @@ router.post('/contact', (req, res, next) => {
   email.save()
     .then(result => {
       console.log(result);
-      res.statuis(201).json({
+      res.status(201).json({
         message: 'Email Sent',
         sentEmail: {
           name: result.name,

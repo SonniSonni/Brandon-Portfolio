@@ -6,3 +6,5 @@ const emailSchema = mongoose.Schema({
   email: {type: String, required: true},
   message: {type: String, required: true}
 })
+
+module.exports = mongoose.model('Email', emailSchema);

@@ -25,7 +25,7 @@ app.use((req, res, next) => {
   next();
 }); 
 
-app.use('/contact', emailRouter);
+app.use('/contact*', emailRouter);
 
 app.use((req, res, next) => {
   const error = new Error('NOT FOUND');
