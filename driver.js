@@ -3,6 +3,7 @@ const app = express();
 const morgan = require('morgan');
 const bodyParser = require('body-parser');
 const mongoose = require('mongoose');
+const emailRouter = require('./api/server-router');
 
 app.use(morgan('dev'));
 app.use(bodyParser.urlencoded({extended: false}));
@@ -17,3 +18,5 @@ app.use((req, res, next) => {
   }
   next();
 }); 
+
+app.use('/contact?name=&email-add=&message=', emailRouter);
