@@ -25,4 +25,5 @@ app.use((req, res, next) => {
   next();
 }); 
 
-app.use('/contact?name=&email-add=&message=', emailRouter);
+app.use('/contact', emailRouter);
+
