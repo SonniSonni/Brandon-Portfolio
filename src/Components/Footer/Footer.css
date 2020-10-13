@@ -3,7 +3,18 @@
   background-color:#171717;
 }
 
-h4{
+ul{
+  display: flex;
+  list-style: none;
+  justify-content: space-around;
+  margin:0;
+}
+ul li{
+  margin:0;
+  margin-top:.3em;
+}
+
+ul li h4{
   color:white;
   margin: 0;
 }
