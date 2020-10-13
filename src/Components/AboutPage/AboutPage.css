@@ -14,8 +14,10 @@
   height:96%;
 }
 
-h1{
+.about-container h1{
   margin: 0;
+  text-align: center;
+  padding-top: .5em;
 }
 
 .about-content{

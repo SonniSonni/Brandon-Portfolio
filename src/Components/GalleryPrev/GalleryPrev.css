@@ -7,8 +7,9 @@
   margin-right:auto;
   border-radius: 15px;
 }
-h1{
-  padding-top:.5em;
+.gallery-prev h1{
+  padding-top:.4em;
+  padding-bottom:.4em;
   text-align: center;
 }
 .gallery{

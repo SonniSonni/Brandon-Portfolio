@@ -15,6 +15,10 @@
   height:96%;
   flex-direction: column;
 }
+.contact-container h1{
+  text-align: center;
+  padding-top: .5em;
+}
 .contact-container h2{
   font-size:2em;
 }
