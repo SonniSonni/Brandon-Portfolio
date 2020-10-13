@@ -37,7 +37,7 @@ const ContactPage = () => (
               <label htmlFor="message">Message: </label>
               <textarea name="message" id="message" cols="30" rows="10"></textarea>
             </div>
-            <input type="submit" value="Send"/>
+            <input id="submit-btn" type="submit" value="Send"/>
           </form>
         </div>
 
