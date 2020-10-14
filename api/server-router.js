@@ -1,15 +1,29 @@
 const express = require('express');
 const router = express.Router();
 const mongoose = require('mongoose');
+const { body } = require('express-validator');
 const email = require('./email-model');
 
 const Email = require('./email-model');
 
-router.post('*', (req, res, next) => {
+router.post('*', [
+  body('name')
+    .not().isEmpty()
+    .trim()
+    .escape(),
+  body('emailAdd')
+    .isEmail()
+    .normalizeEmail(),
+  body('message')
+    .not().isEmpty()
+    .trim()
+    .escape()
+],
+(req, res, next) => {
   const email = new Email({
     _id: new mongoose.Types.ObjectId(),
     name: req.body.name,
-    email: req.body.email,
+    email: req.body.emailAdd,
     message: req.body.message
   });
   email.save()

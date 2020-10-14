@@ -24,14 +24,14 @@ const ContactPage = () => (
 
         <div className="message">
           <h2>Message Me Here!</h2>
-          <form className="contact-form">
+          <form action="http://localhost:3000/contact" method="POST" className="contact-form">
             <div className="name-cont">
               <label htmlFor="name">Name: </label>
               <input type="text" name="name" id="name"/>
             </div>
             <div className="email-cont">
-              <label htmlFor="email-add">Email: </label>
-              <input type="email" name="email-add" id="email-add"/>
+              <label htmlFor="emailAdd">Email: </label>
+              <input type="email" name="emailAdd" id="email-add"/>
             </div>
             <div className="messg-cont">
               <label htmlFor="message">Message: </label>
