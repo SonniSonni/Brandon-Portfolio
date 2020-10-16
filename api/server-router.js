@@ -57,7 +57,20 @@ router.post('*', [
         subject: 'Server auto email from ' + result.email,
         text: result.message
       };
+      let senderConfirm = {
+        from: 'brandonlschaen@gmail.com',
+        to: result.email,
+        subject: 'Thank you for your message',
+        text: 'I appreciate your message, and will reply as soon as I can!'
+      };
       mailPorter.sendMail(adminForward, function(error, info){
+        if(error){
+          console.log(error);
+        } else{
+          console.log("Email sent:" + info.response);
+        }
+      })
+      mailPorter.sendMail(senderConfirm, function(error, info){
         if(error){
           console.log(error);
         } else{
