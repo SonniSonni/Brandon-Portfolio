@@ -3,6 +3,18 @@ const router = express.Router();
 const mongoose = require('mongoose');
 const { body } = require('express-validator');
 const email = require('./email-model');
+const nodemailer = require('nodemailer');
+
+const mailPorter = nodemailer.createTransport({
+  host: 'smtp.gmail.com',
+  port: 587,
+  secure: false,
+  requireTLS: true,
+  auth: {
+    user: 'brandonlschaen@gmail.com',
+    pass: process.env.REACT_APP_APP_PWD
+  }
+});
 
 const Email = require('./email-model');
 
@@ -38,6 +50,20 @@ router.post('*', [
           _id: result._id
         }
       });
+
+      let adminForward = {
+        from: result.email,
+        to: 'brandonlschaen@gmail.com',
+        subject: 'Server auto email from ' + result.email,
+        text: result.message
+      };
+      mailPorter.sendMail(adminForward, function(error, info){
+        if(error){
+          console.log(error);
+        } else{
+          console.log("Email sent:" + info.response);
+        }
+      })
     }) 
     .catch(err =>{
       console.log(err);

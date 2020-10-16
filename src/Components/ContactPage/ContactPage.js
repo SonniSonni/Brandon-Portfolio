@@ -8,7 +8,7 @@ const formSubmit = (e) =>{
   let email = document.getElementById("email-add");
   let message = document.getElementById("message");
   console.log(email.value);
-  fetch("http://localhost:3000/contact", {
+  fetch("/contact", {
     method: "POST",
     body: JSON.stringify({
       name: name.value,
