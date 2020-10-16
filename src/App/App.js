@@ -11,7 +11,7 @@ import ContactPage from '../Components/ContactPage/ContactPage';
 function App() {
   return (
     <div className="App">
-      <BrowserRouter>
+      <BrowserRouter basename="/">
         <Header />
         <Switch>
           <Route exact path="/">

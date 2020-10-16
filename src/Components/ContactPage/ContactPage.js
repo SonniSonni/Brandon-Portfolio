@@ -3,6 +3,28 @@ import './ContactPage.css';
 import github from '../../Resources/GitHub-Mark-64px.png';
 import link from '../../Resources/LI-In-Bug.png';
 
+const formSubmit = (e) =>{
+  let name = document.getElementById("name");
+  let email = document.getElementById("email-add");
+  let message = document.getElementById("message");
+  console.log(email.value);
+  fetch("http://localhost:3000/contact", {
+    method: "POST",
+    body: JSON.stringify({
+      name: name.value,
+      email: email.value,
+      message: message.value
+    }),
+    headers: {
+      "Content-type": "application/json; charset=UTF-8"
+    }
+  })
+  .then(response => response.json())
+  .then(json => console.log(json));
+
+  e.preventDefault();
+}
+
 const ContactPage = () => (
   <div className="contact-page">
     <div className="contact-container">
@@ -24,7 +46,7 @@ const ContactPage = () => (
 
         <div className="message">
           <h2>Message Me Here!</h2>
-          <form action="http://localhost:3000/contact" method="POST" className="contact-form">
+          <form className="contact-form">
             <div className="name-cont">
               <label htmlFor="name">Name: </label>
               <input type="text" name="name" id="name"/>
@@ -37,7 +59,7 @@ const ContactPage = () => (
               <label htmlFor="message">Message: </label>
               <textarea name="message" id="message" cols="30" rows="10"></textarea>
             </div>
-            <input id="submit-btn" type="submit" value="Send"/>
+            <button id="submit-btn" type="button" onClick={formSubmit}>Send</button>
           </form>
         </div>
 
@@ -45,5 +67,7 @@ const ContactPage = () => (
     </div>
   </div>
 );
+
+
 
 export default ContactPage;

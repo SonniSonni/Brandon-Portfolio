@@ -10,7 +10,7 @@ app.use(morgan('dev'));
 app.use(bodyParser.urlencoded({extended: false}));
 app.use(bodyParser.json());
 
-mongoose.connect('mongodb+srv://Brandon:' + process.env.REACT_APP_ATLAS + '@cluster0.x7r5x.mongodb.net/<dbname>?retryWrites=true&w=majority',
+mongoose.connect('mongodb+srv://Brandon:' + process.env.REACT_APP_ATLAS + '@cluster0.x7r5x.mongodb.net/BrandonPortfolio?retryWrites=true&w=majority',
  {
    useNewUrlParser: true,
    useUnifiedTopology: true
@@ -26,9 +26,10 @@ app.use((req, res, next) => {
   next();
 }); 
 
-app.use(express.static("build"));
+app.use(express.static(path.join(__dirname, 'build')));
 
 app.use('/contact*', emailRouter);
+app.use('*', (req, res) => res.sendFile(path.join(__dirname, 'build', 'index.html')));
 
 app.use((req, res, next) => {
   const error = new Error('NOT FOUND');
