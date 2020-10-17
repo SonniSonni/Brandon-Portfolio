@@ -26,10 +26,15 @@ app.use((req, res, next) => {
   next();
 }); 
 
-app.use(express.static(path.join(__dirname, 'build')));
+app.use('/contact', emailRouter);
 
-app.use('/contact*', emailRouter);
-app.use('*', (req, res) => res.sendFile(path.join(__dirname, 'build', 'index.html')));
+if(process.env.NODE_ENV === 'production'){
+  app.use(express.static('client/build'));
+
+  app.get('*', (req, res) => {
+    res.sendFile(path.join(__dirname, 'client', 'build', 'index.html'));
+  });
+}
 
 app.use((req, res, next) => {
   const error = new Error('NOT FOUND');
