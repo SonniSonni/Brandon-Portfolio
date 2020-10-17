@@ -1,5 +1,5 @@
 {
-  "name": "brandon-portfolio",
+  "name": "client",
   "version": "0.1.0",
   "homepage": "https://brandon-schaen-portfolio.herokuapp.com/",
   "private": true,
@@ -40,5 +40,9 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  }
+  },
+  "description": "client build",
+  "main": "index.js",
+  "author": "",
+  "license": "ISC"
 }
