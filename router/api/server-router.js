@@ -2,7 +2,7 @@ const express = require('express');
 const router = express.Router();
 const mongoose = require('mongoose');
 const { body } = require('express-validator');
-const email = require('./email-model');
+const email = require('../../models/email-model');
 const nodemailer = require('nodemailer');
 
 const mailPorter = nodemailer.createTransport({
