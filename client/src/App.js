@@ -1,12 +1,12 @@
 import React from 'react';
 import './App.css';
 import { BrowserRouter, Route, Switch } from 'react-router-dom';
-import Header from '../Components/Header/Header';
-import Footer from '../Components/Footer/Footer';
-import HomePage from '../Components/HomePage/HomePage';
-import PortfolioPage from '../Components/PortfolioPage/PortfolioPage';
-import AboutPage from '../Components/AboutPage/AboutPage';
-import ContactPage from '../Components/ContactPage/ContactPage';
+import Header from './Components/Header/Header';
+import Footer from './Components/Footer/Footer';
+import HomePage from './Components/HomePage/HomePage';
+import PortfolioPage from './Components/PortfolioPage/PortfolioPage';
+import AboutPage from './Components/AboutPage/AboutPage';
+import ContactPage from './Components/ContactPage/ContactPage';
 
 function App() {
   return (
