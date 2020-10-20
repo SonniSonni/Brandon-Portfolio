@@ -16,7 +16,7 @@ const mailPorter = nodemailer.createTransport({
   }
 });
 
-const Email = require('./email-model');
+const Email = require('../../models/email-model');
 
 router.post('*', [
   body('name')
