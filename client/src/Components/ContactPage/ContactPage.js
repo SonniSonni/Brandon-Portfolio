@@ -39,6 +39,7 @@ const formSubmit = (e) =>{
       ReactDom.render(errorMessage, document.getElementById('error-message'))
     });
     e.preventDefault();
+    e.target.reset();
   } else if(name.value.trim() === ''){
     ReactDom.render(errorMessageName, document.getElementById('error-message-name'))
   }else if(email.value.trim() === ''){
