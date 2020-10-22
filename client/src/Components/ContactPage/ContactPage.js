@@ -32,7 +32,7 @@ const formSubmit = (e) =>{
   .then(json => console.log(json))
   .catch((error) => {
     console.log(error);
-    ReactDom.render(errorMessage, document.getElementById('contact-form'))
+    ReactDom.render(errorMessage, document.getElementById('error-message'))
   });
   
 
@@ -60,7 +60,8 @@ const ContactPage = () => (
 
         <div className="message">
           <h2>Message Me Here!</h2>
-          <form id="contact-form" className="contact-form">
+          <form className="contact-form">
+            <div className="error-message"></div>
             <div className="name-cont">
               <label htmlFor="name">Name: </label>
               <input type="text" name="name" id="name"/>
