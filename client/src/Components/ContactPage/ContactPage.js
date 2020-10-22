@@ -2,7 +2,7 @@ import React from 'react';
 import './ContactPage.css';
 import github from '../../Resources/GitHub-Mark-64px.png';
 import link from '../../Resources/LI-In-Bug.png';
-import ReactDom from 'react-Dom';
+import ReactDom from 'react-dom';
 
 const errorMessage = "There was a problem submitting your message"
 
