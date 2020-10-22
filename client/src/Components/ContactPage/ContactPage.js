@@ -23,7 +23,7 @@ const formSubmit = (e) =>{
     if(response.ok){
       response.json();
     } else {
-      throw new Error('Something went wrong');
+      throw new Error(response.error);
     }
   })
   .then(json => console.log(json))
