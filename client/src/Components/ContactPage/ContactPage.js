@@ -4,37 +4,48 @@ import github from '../../Resources/GitHub-Mark-64px.png';
 import link from '../../Resources/LI-In-Bug.png';
 import ReactDom from 'react-dom';
 
-const errorMessage = "There was a problem submitting your message"
+const errorMessage = "There was a problem submitting your message";
+const errorMessageName = "Please include your name!";
+const errorMessageEmail = "Please include your email address!";
+const errorMessageMsg = "Please include a message!";
 
 const formSubmit = (e) =>{
   let name = document.getElementById("name");
   let email = document.getElementById("email-add");
   let message = document.getElementById("message");
   console.log(email.value);
-  fetch("https://brandon-schaen-portfolio.herokuapp.com/contact", {
-    method: "POST",
-    body: JSON.stringify({
-      name: name.value,
-      email: email.value,
-      message: message.value
-    }),
-    headers: {
-      "Content-type": "application/json; charset=UTF-8"
-    }
-  })
-  .then((response) => {
-    if(response.ok){
-      response.json();
-    } else {
-      throw new Error(response.json());
-    }
-  })
-  .then(json => console.log(json))
-  .catch((error) => {
-    console.log(error);
-    ReactDom.render(errorMessage, document.getElementById('error-message'))
-  });
-  
+  if(name.value.trim() !== '' && email.value.trim() !== '' && message.value.trim() !== ''){
+    fetch("https://brandon-schaen-portfolio.herokuapp.com/contact", {
+      method: "POST",
+      body: JSON.stringify({
+        name: name.value,
+        email: email.value,
+        message: message.value
+      }),
+      headers: {
+        "Content-type": "application/json; charset=UTF-8"
+      }
+    })
+    .then((response) => {
+      if(response.ok){
+        response.json();
+      } else {
+        throw new Error(response.json());
+      }
+    })
+    .then(json => console.log(json))
+    .catch((error) => {
+      console.log(error);
+      ReactDom.render(errorMessage, document.getElementById('error-message'))
+    });
+  } else if(name.value.trim() === ''){
+    ReactDom.render(errorMessageName, document.getElementById('error-message-name'))
+  }else if(email.value.trim() === ''){
+    ReactDom.render(errorMessageEmail, document.getElementById('error-message-email'))
+  }
+  else if(message.value.trim() === ''){
+    ReactDom.render(errorMessageMsg, document.getElementById('error-message-msg'))
+  }
 
   e.preventDefault();
 }
@@ -63,16 +74,19 @@ const ContactPage = () => (
           <form className="contact-form">
             <div id="error-message"></div>
             <div className="name-cont">
+              <div id="error-message-name"></div>
               <label htmlFor="name">Name: </label>
-              <input type="text" name="name" id="name"/>
+              <input type="text" name="name" id="name" required/>
             </div>
             <div className="email-cont">
+              <div id="error-message-email"></div>
               <label htmlFor="emailAdd">Email: </label>
-              <input type="email" name="emailAdd" id="email-add"/>
+              <input type="email" name="emailAdd" id="email-add" required/>
             </div>
             <div className="messg-cont">
+              <div id="error-message-msg"></div>
               <label htmlFor="message">Message: </label>
-              <textarea name="message" id="message" cols="30" rows="10"></textarea>
+              <textarea name="message" id="message" cols="30" rows="10" required></textarea>
             </div>
             <button id="submit-btn" type="button" onClick={formSubmit}>Send</button>
           </form>
