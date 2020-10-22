@@ -61,7 +61,7 @@ const ContactPage = () => (
         <div className="message">
           <h2>Message Me Here!</h2>
           <form className="contact-form">
-            <div className="error-message"></div>
+            <div id="error-message"></div>
             <div className="name-cont">
               <label htmlFor="name">Name: </label>
               <input type="text" name="name" id="name"/>
