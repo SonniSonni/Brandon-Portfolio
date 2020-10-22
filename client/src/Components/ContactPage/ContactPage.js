@@ -38,6 +38,7 @@ const formSubmit = (e) =>{
       console.log(error);
       ReactDom.render(errorMessage, document.getElementById('error-message'))
     });
+    e.preventDefault();
   } else if(name.value.trim() === ''){
     ReactDom.render(errorMessageName, document.getElementById('error-message-name'))
   }else if(email.value.trim() === ''){
@@ -46,8 +47,6 @@ const formSubmit = (e) =>{
   else if(message.value.trim() === ''){
     ReactDom.render(errorMessageMsg, document.getElementById('error-message-msg'))
   }
-
-  e.preventDefault();
 }
 
 const ContactPage = () => (
