@@ -2,6 +2,9 @@ import React from 'react';
 import './ContactPage.css';
 import github from '../../Resources/GitHub-Mark-64px.png';
 import link from '../../Resources/LI-In-Bug.png';
+import ReactDom from 'react-Dom';
+
+const errorMessage = "There was a problem submitting your message"
 
 const formSubmit = (e) =>{
   let name = document.getElementById("name");
@@ -23,12 +26,13 @@ const formSubmit = (e) =>{
     if(response.ok){
       response.json();
     } else {
-      throw new Error(response.error);
+      throw new Error(response.json());
     }
   })
   .then(json => console.log(json))
   .catch((error) => {
     console.log(error);
+    ReactDom.render(errorMessage, document.getElementById('contact-form'))
   });
   
 
@@ -56,7 +60,7 @@ const ContactPage = () => (
 
         <div className="message">
           <h2>Message Me Here!</h2>
-          <form className="contact-form">
+          <form id="contact-form" className="contact-form">
             <div className="name-cont">
               <label htmlFor="name">Name: </label>
               <input type="text" name="name" id="name"/>

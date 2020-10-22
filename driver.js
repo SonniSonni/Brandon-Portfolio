@@ -6,6 +6,8 @@ const mongoose = require('mongoose');
 const emailRouter = require('./router/api/server-router');
 const path = require('path')
 
+require('dotenv').config();
+
 app.use(morgan('dev'));
 app.use(bodyParser.urlencoded({extended: false}));
 app.use(bodyParser.json());
