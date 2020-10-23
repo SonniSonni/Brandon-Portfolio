@@ -9,6 +9,12 @@ const errorMessageName = "Please include your name!";
 const errorMessageEmail = "Please include your email address!";
 const errorMessageMsg = "Please include a message!";
 
+const completedForm = React.createElement(
+  <div className="completedForm">
+    <h3>Thank you for your message!</h3>
+  </div>
+);
+
 const formSubmit = (e) =>{
   let name = document.getElementById("name");
   let email = document.getElementById("email-add");
@@ -41,6 +47,7 @@ const formSubmit = (e) =>{
     e.preventDefault();
     Array.from(document.querySelectorAll("input")).forEach(input => (input.value= ''));
     Array.from(document.querySelectorAll("textarea")).forEach(textarea => (textarea.value= ''));
+    ReactDom.render(completedForm, document.getElementById('contact-form'))
   } else if(name.value.trim() === ''){
     ReactDom.render(errorMessageName, document.getElementById('error-message-name'))
   }else if(email.value.trim() === ''){
