@@ -79,7 +79,7 @@ const ContactPage = () => (
 
         <div className="message">
           <h2>Message Me Here!</h2>
-          <form className="contact-form">
+          <form id="contact-form" className="contact-form">
             <div id="error-message"></div>
             <div className="name-cont">
               <div id="error-message-name"></div>
