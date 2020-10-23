@@ -40,6 +40,7 @@ const formSubmit = (e) =>{
     });
     e.preventDefault();
     Array.from(document.querySelectorAll("input")).forEach(input => (input.value= ''));
+    Array.from(document.querySelectorAll("textarea")).forEach(textarea => (textarea.value= ''));
   } else if(name.value.trim() === ''){
     ReactDom.render(errorMessageName, document.getElementById('error-message-name'))
   }else if(email.value.trim() === ''){
