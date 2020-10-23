@@ -4,11 +4,13 @@ import github from '../../Resources/GitHub-Mark-64px.png';
 import link from '../../Resources/LI-In-Bug.png';
 import ReactDom from 'react-dom';
 
+// Error messages
 const errorMessage = "There was a problem submitting your message";
 const errorMessageName = "Please include your name!";
 const errorMessageEmail = "Please include your email address!";
 const errorMessageMsg = "Please include a message!";
 
+// Message to display after submit
 const completedForm = "Thank you for your message!";
 
 const formSubmit = (e) =>{
@@ -16,6 +18,7 @@ const formSubmit = (e) =>{
   let email = document.getElementById("email-add");
   let message = document.getElementById("message");
   console.log(email.value);
+  // Check if the inputs have actual value
   if(name.value.trim() !== '' && email.value.trim() !== '' && message.value.trim() !== ''){
     fetch("https://brandon-schaen-portfolio.herokuapp.com/contact", {
       method: "POST",
@@ -29,26 +32,39 @@ const formSubmit = (e) =>{
       }
     })
     .then((response) => {
+      // Throws error if network error or such
       if(response.ok){
         response.json();
       } else {
-        throw new Error(response.json());
+        throw new Error("Oh no something went wrong!");
       }
     })
     .then(json => console.log(json))
     .catch((error) => {
+      // Renders error
       console.log(error);
       ReactDom.render(errorMessage, document.getElementById('error-message'))
     });
     e.preventDefault();
+
+    // Clear out form values
     Array.from(document.querySelectorAll("input")).forEach(input => (input.value= ''));
     Array.from(document.querySelectorAll("textarea")).forEach(textarea => (textarea.value= ''));
+
+    // Rerender form with just text
     ReactDom.render(completedForm, document.getElementById('contact-form'))
+
+    // If name is missing set error message
   } else if(name.value.trim() === ''){
     ReactDom.render(errorMessageName, document.getElementById('error-message-name'))
-  }else if(email.value.trim() === ''){
+  }
+
+    // If email is missing set error message
+  else if(email.value.trim() === ''){
     ReactDom.render(errorMessageEmail, document.getElementById('error-message-email'))
   }
+
+  // If message is missing set error message
   else if(message.value.trim() === ''){
     ReactDom.render(errorMessageMsg, document.getElementById('error-message-msg'))
   }
