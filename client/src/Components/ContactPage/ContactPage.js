@@ -9,11 +9,7 @@ const errorMessageName = "Please include your name!";
 const errorMessageEmail = "Please include your email address!";
 const errorMessageMsg = "Please include a message!";
 
-const completedForm = React.createElement(
-  <div className="completedForm">
-    <h3>Thank you for your message!</h3>
-  </div>
-);
+const completedForm = "Thank you for your message!";
 
 const formSubmit = (e) =>{
   let name = document.getElementById("name");
