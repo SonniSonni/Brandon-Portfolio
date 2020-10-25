@@ -11,9 +11,6 @@ const PortfolioPage = () => (
         <GalleryItem {...List[0]}/>
         <GalleryItem {...List[1]}/>
         <GalleryItem {...List[0]}/>
-        <GalleryItem {...List[0]}/>
-        <GalleryItem {...List[0]}/>
-        <GalleryItem {...List[0]}/>
       </div>
     </div>
   </div>
