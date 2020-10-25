@@ -23,7 +23,7 @@ const ProjectList = [
     title: 'Coffee Express',
     description: 'A simple example of a static site for a coffee shop',
     github: 'https://github.com/KamajiiSC/CoffeeExpress',
-    link: 'https://github.com/KamajiiSC/CoffeeExpress';
+    link: 'https://github.com/KamajiiSC/CoffeeExpress'
   }
 ]
 
