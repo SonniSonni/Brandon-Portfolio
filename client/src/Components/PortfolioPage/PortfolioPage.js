@@ -10,7 +10,7 @@ const PortfolioPage = () => (
       <div className="gallery-list">
         <GalleryItem {...List[0]}/>
         <GalleryItem {...List[1]}/>
-        <GalleryItem {...List[0]}/>
+        <GalleryItem {...List[2]}/>
       </div>
     </div>
   </div>

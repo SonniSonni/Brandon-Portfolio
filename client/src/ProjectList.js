@@ -1,5 +1,6 @@
 import julesTrembly from './Resources/julesTrembly.PNG';
 import pokemon from './Resources/pokeTeam.PNG';
+import coffee from './Resources/CoffeePreview.PNG';
 
 
 const ProjectList = [
@@ -16,6 +17,13 @@ const ProjectList = [
     description: 'Pokemon team builder that uses the PokeApi for its data',
     github: 'https://github.com/KamajiiSC/PokeTeam',
     link: 'https://pokemon-team-builder-brandon.herokuapp.com/'
+  },
+  {
+    image: coffee,
+    title: 'Coffee Express',
+    description: 'A simple example of a static site for a coffee shop',
+    github: 'https://github.com/KamajiiSC/CoffeeExpress',
+    link: 'https://github.com/KamajiiSC/CoffeeExpress';
   }
 ]
 
