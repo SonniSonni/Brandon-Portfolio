@@ -7,7 +7,7 @@ import HomePage from './Components/HomePage/HomePage';
 import PortfolioPage from './Components/PortfolioPage/PortfolioPage';
 import AboutPage from './Components/AboutPage/AboutPage';
 import ContactPage from './Components/ContactPage/ContactPage';
-import TermsPage from './Components/TermsPage';
+import TermsPage from './Components/TermsPage/TermsPage';
 
 function App() {
   return (
