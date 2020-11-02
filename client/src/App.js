@@ -7,6 +7,7 @@ import HomePage from './Components/HomePage/HomePage';
 import PortfolioPage from './Components/PortfolioPage/PortfolioPage';
 import AboutPage from './Components/AboutPage/AboutPage';
 import ContactPage from './Components/ContactPage/ContactPage';
+import TermsPage from './Components/TermsPage';
 
 function App() {
   return (
@@ -25,6 +26,9 @@ function App() {
           </Route>
           <Route exact path="/contact">
             <ContactPage />
+          </Route>
+          <Route exact path="/terms">
+            <TermsPage />
           </Route>
         </Switch>
         <Footer />
