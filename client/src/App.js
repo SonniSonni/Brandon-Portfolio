@@ -10,6 +10,7 @@ import ContactPage from './Components/ContactPage/ContactPage';
 import TermsPage from './Components/TermsPage/TermsPage';
 import PrivacyPage from './Components/PrivacyPage/PrivacyPage';
 
+
 function App() {
   return (
     <div className="App">
