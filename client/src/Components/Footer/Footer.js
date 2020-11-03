@@ -8,7 +8,7 @@ const Footer = () => (
       <li><NavLink exact to="/terms" className="footer-link" activeClassName="active"><h4>Terms of Use</h4></NavLink></li>
       <li><NavLink exact to="/privacy" className="footer-link" activeClassName="active"><h4>Privacy Policy</h4></NavLink></li>
       <li><NavLink exact to="/contact" className="footer-link" activeClassName="active"><h4>Contact</h4></NavLink></li>
-      <li><NavLink exact to="/sitemap" className="footer-link"><h4></h4></NavLink></li>
+      <li><NavLink exact to="/sitemap.xml" className="footer-link"><h4>Sitemap</h4></NavLink></li>
       <li><h4>2020 ©</h4></li>
     </ul>
   </div>
