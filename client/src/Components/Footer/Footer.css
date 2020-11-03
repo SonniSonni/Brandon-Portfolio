@@ -2,7 +2,9 @@
   height:3vh;
   background-color:#171717;
 }
-
+.footer-link{
+  text-decoration:none;
+}
 ul{
   display: flex;
   list-style: none;

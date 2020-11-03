@@ -8,6 +8,7 @@ import PortfolioPage from './Components/PortfolioPage/PortfolioPage';
 import AboutPage from './Components/AboutPage/AboutPage';
 import ContactPage from './Components/ContactPage/ContactPage';
 import TermsPage from './Components/TermsPage/TermsPage';
+import PrivacyPage from './Components/PrivacyPage/PrivacyPage';
 
 function App() {
   return (
@@ -29,6 +30,9 @@ function App() {
           </Route>
           <Route exact path="/terms">
             <TermsPage />
+          </Route>
+          <Route exact path="/privacy">
+            <PrivacyPage />
           </Route>
         </Switch>
         <Footer />
