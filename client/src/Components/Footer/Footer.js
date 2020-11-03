@@ -1,6 +1,6 @@
 import React from 'react';
 import './Footer.css';
-import NavLink from 'react-router-dom';
+import { NavLink } from 'react-router-dom';
 
 const Footer = () => (
   <div className="footer-wrap">
