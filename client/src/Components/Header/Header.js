@@ -15,7 +15,9 @@ const Header = () => (
         <li> <NavLink to="/contact" className="nav-link contact" activeClassName="active">Contact</NavLink> </li>
       </ul>
     </nav>
-    <img src={ham} alt="hamburger menu" className="ham" />
+    <button id="ham-btn"> 
+      <img src={ham} alt="menu" className="ham" />
+    </button> 
   </div>
 );
 
