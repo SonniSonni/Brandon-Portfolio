@@ -3,3 +3,7 @@
 *{
   font-family: 'Alegreya', serif;
 }
+
+.App{
+  max-width: 100vw;
+}
