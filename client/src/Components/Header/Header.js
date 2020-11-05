@@ -27,63 +27,32 @@ export default class Header extends Component{
     return(
   <div className="header">
     <img src={headerImg} alt="Brandon Schaen" className="header-img"/>
-    <nav  className={this.state.isHam ? "" : "hidden" }>
+    <nav>
       <ul className="nav-list">
-        <li> <NavLink onClick={() => {
-          if(this.state.isHam === "hidden"){
-            this.setState({isHam:""})  
-          }
-          else{
-            this.setState({isHam:"hidden"})  
-          }
-        }}
+        <li> <NavLink onClick={this.handleCloseModal}
         exact to="/" className="nav-link" 
         activeClassName="active">Home</NavLink> </li>
 
-        <li> <NavLink onClick={() => {
-          if(this.state.isHam === "hidden"){
-            this.setState({isHam:""})  
-          }
-          else{
-            this.setState({isHam:"hidden"})  
-          }
-        }}
+        <li> <NavLink onClick={this.handleCloseModal}
         to="/portfolio" 
         className="nav-link" activeClassName="active">Portfolio</NavLink> </li>
 
-        <li> <NavLink onClick={() => {
-          if(this.state.isHam === "hidden"){
-            this.setState({isHam:""})  
-          }
-          else{
-            this.setState({isHam:"hidden"})  
-          }
-          }}
-          to="/about" 
-          className="nav-link" activeClassName="active">About</NavLink> </li>
-        <li> <NavLink onClick={() => {
-          if(this.state.isHam === "hidden"){
-            this.setState({isHam:""})  
-          }
-          else{
-            this.setState({isHam:"hidden"})  
-          }
-        }}
+        <li> <NavLink onClick={this.handleCloseModal}
+        to="/about" 
+        className="nav-link" activeClassName="active">About</NavLink> </li>
+
+        <li> <NavLink onClick={this.handleCloseModal}
         to="/contact" 
         className="nav-link contact" activeClassName="active">Contact</NavLink> </li>
       </ul>
     </nav>
-    <button onClick={() => {
-      if(this.state.isHam === "hidden"){
-        this.setState({isHam:""})  
-      }
-      else{
-        this.setState({isHam:"hidden"})  
-      }
-    }} 
+    <button onClick={this.handleOpenModal} 
       className={'ham-btn'} aria-expanded="false" aria-controls="menu"> 
       <img src={ham} alt="menu" className="ham" />
     </button> 
+    <Modal>
+      
+    </Modal>
   </div>
   )
   }

@@ -51,22 +51,5 @@ nav{
   .ham-btn{
     margin-left: 1em;
   }
-  nav{
-    position: absolute;
-    padding-top:2.5em;
-    padding-bottom:2.5em;
-    height:18em;
-    top:0%;
-    right:0%;
-    background-color:white;
-    z-index:1;
-    border: 2px #777 solid;
-  }
-  nav ul{
-    display:flex;
-    flex-direction: column;
-  }
-  nav ul li{
-    margin-bottom: 1em;
-  }
+
 }
