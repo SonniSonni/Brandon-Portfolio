@@ -10,3 +10,9 @@
   object-fit: cover;
   object-position: 100% 85%;
 }
+
+@media only screen and ( max-width: 1023px ) {
+  .home-page{
+     height:100%;
+  }
+}
