@@ -80,4 +80,16 @@
   .about-content{
     flex-direction: column;
   }
+  .desc{
+    text-align: center;
+    margin:0;
+    width: 120%;
+  }
+  .portrait-container{
+    max-width:130%;
+  }
+  .resume{
+    margin:0;
+    width: 100%;
+  }
 }
