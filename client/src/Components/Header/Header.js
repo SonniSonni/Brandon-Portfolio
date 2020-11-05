@@ -1,6 +1,7 @@
 import React from 'react';
 import './Header.css';
 import headerImg from '../../Resources/headerImg.png';
+import ham from '../../Resources/ham.png';
 import { NavLink } from 'react-router-dom';
 
 const Header = () => (
@@ -14,6 +15,7 @@ const Header = () => (
         <li> <NavLink to="/contact" className="nav-link contact" activeClassName="active">Contact</NavLink> </li>
       </ul>
     </nav>
+    <img src={ham} alt="hamburger menu" className="ham" />
   </div>
 );
 

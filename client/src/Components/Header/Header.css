@@ -9,7 +9,7 @@
   width:40%;
 }
 
-.nav{
+nav{
   max-width:100%;
 }
 
@@ -26,6 +26,9 @@
   text-decoration: none;
   font-weight: bold;
 }
+.ham{
+  display: none;
+}
 .contact{
   margin:0;
 }
@@ -34,6 +37,15 @@
   color:#333333;
 }
 
-@media only screen and( max-width: 1048px ) {
-
+@media only screen and ( max-width: 1124px ) {
+  nav{
+    display: none;
+  }
+  .header-img{
+    width: 25em;
+  }
+  .ham{
+    display: inline-block;
+    height: 4em;
+  }
 }
