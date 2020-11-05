@@ -25,3 +25,12 @@
   padding-top: .5em;
   color:white;
 }
+
+@media only screen and ( max-width: 1023px ) {
+  .gallery-list{
+    grid-template-columns: 1fr;
+  }
+  .portfolio-page{
+    height:100%;
+  }
+}
