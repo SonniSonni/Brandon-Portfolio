@@ -43,7 +43,6 @@ nav{
   .header-img{
     max-width: 25em;
     min-width: 5em;
-
   }
   .ham{
     display: inline-block;
@@ -51,5 +50,18 @@ nav{
   }
   .ham-btn{
     margin-left: 1em;
+  }
+  nav{
+    position: absolute;
+    padding-top:5em;
+    height:18em;
+    top:0%;
+    left:55%;
+    background-color:white;
+    z-index:1;
+  }
+  nav ul{
+    display:flex;
+    flex-direction: column;
   }
 }
