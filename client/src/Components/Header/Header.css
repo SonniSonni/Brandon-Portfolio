@@ -6,7 +6,7 @@
 }
 
 .header-img{
-  width:40%;
+  max-width:38%;
 }
 
 nav{
@@ -16,7 +16,6 @@ nav{
 .nav-list{
   list-style: none;
   display: flex;
-  flex-wrap: wrap;
 }
 
 .nav-link{
@@ -37,7 +36,7 @@ nav{
   color:#333333;
 }
 
-@media only screen and ( max-width: 1124px ) {
+@media only screen and ( max-width: 1023px ) {
   nav{
     display: none;
   }

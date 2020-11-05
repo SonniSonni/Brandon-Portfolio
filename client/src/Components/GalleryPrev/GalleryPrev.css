@@ -40,3 +40,9 @@
   border:3px #333333 solid;
   border-radius:15px;
 }
+
+@media only screen and ( max-width: 1124px ) {
+  .gallery{
+    grid-template-columns: 1fr;
+  }
+}
