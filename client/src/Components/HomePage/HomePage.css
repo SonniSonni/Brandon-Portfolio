@@ -15,4 +15,7 @@
   .home-page{
      height:100%;
   }
+  .hero{
+    object-position: 0% 85%;
+  }
 }
