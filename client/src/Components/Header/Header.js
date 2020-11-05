@@ -50,8 +50,10 @@ export default class Header extends Component{
       className={'ham-btn'} aria-expanded="false" aria-controls="menu"> 
       <img src={ham} alt="menu" className="ham" />
     </button> 
-    <Modal>
-      
+    <Modal
+      isOpen={this.state.showModal}
+    >
+      <h2>Hello</h2>
     </Modal>
   </div>
   )
