@@ -124,5 +124,16 @@ label{
   .email-containers{
     flex-direction: column;
   }
-
+  .email{
+    width:100%;
+  }
+  .message{
+    width:100%;
+  }
+  .messg-cont{
+    display:inline-block;
+    margin-left:auto;
+    margin-right:auto;
+    width:100%;
+  }
 }
