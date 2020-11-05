@@ -116,3 +116,13 @@ label{
   width:50%;
   cursor: pointer;
 }
+
+@media only screen and ( max-width: 1023px ) {
+  .contact-page{
+    height:100%;
+  }
+  .email-containers{
+    flex-direction: column;
+  }
+
+}
