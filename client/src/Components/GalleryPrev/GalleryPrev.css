@@ -45,4 +45,7 @@
   .gallery{
     grid-template-columns: 1fr;
   }
+  .btn-container{
+    padding-bottom: 3%;
+  }
 }
