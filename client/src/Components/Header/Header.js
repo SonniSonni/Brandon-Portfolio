@@ -5,7 +5,7 @@ import ham from '../../Resources/ham.png';
 import { NavLink } from 'react-router-dom';
 import Modal from 'react-modal';
 
-Modal.setAppElement(Header);
+Modal.setAppElement('#root');
 
 export default class Header extends Component{
   constructor(props) {
@@ -56,6 +56,7 @@ export default class Header extends Component{
     <Modal
       isOpen={this.state.showModal}
       onRequestClose={this.handleCloseModal}
+      className="modal-menu"
     >
       <h2>Hello</h2>
     </Modal>
@@ -63,3 +64,4 @@ export default class Header extends Component{
   )
   }
 };
+
