@@ -25,7 +25,7 @@ nav{
   text-decoration: none;
   font-weight: bold;
 }
-.ham{
+.ham-btn{
   display: none;
 }
 .contact{
@@ -45,11 +45,29 @@ nav{
     min-width: 5em;
   }
   .ham{
-    display: inline-block;
     height: 3em;
   }
   .ham-btn{
+    display: inline-block;
     margin-left: 1em;
   }
-
+  .modal-menu{
+    margin-left: auto;
+    margin-right: 0;
+    width: 50%;
+    background-color:white;
+  }
+  .modal-overlay{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: transparent;
+  }
+  .modal-list{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+  }
 }

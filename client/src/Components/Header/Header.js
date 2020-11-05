@@ -57,8 +57,25 @@ export default class Header extends Component{
       isOpen={this.state.showModal}
       onRequestClose={this.handleCloseModal}
       className="modal-menu"
+      overlayClassName="modal-overlay"
     >
-      <h2>Hello</h2>
+    <ul className="modal-list">
+        <li> <NavLink onClick={this.handleCloseModal}
+        exact to="/" className="nav-link" 
+        activeClassName="active">Home</NavLink> </li>
+
+        <li> <NavLink onClick={this.handleCloseModal}
+        to="/portfolio" 
+        className="nav-link" activeClassName="active">Portfolio</NavLink> </li>
+
+        <li> <NavLink onClick={this.handleCloseModal}
+        to="/about" 
+        className="nav-link" activeClassName="active">About</NavLink> </li>
+
+        <li> <NavLink onClick={this.handleCloseModal}
+        to="/contact" 
+        className="nav-link contact" activeClassName="active">Contact</NavLink> </li>
+      </ul>
     </Modal>
   </div>
   )
