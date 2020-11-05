@@ -42,7 +42,8 @@ nav{
     display: none;
   }
   .header-img{
-    width: 25em;
+    max-width: 25em;
+    min-width: 5em;
   }
   .ham{
     display: inline-block;
