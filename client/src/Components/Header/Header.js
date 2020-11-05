@@ -15,7 +15,7 @@ const Header = () => (
         <li> <NavLink to="/contact" className="nav-link contact" activeClassName="active">Contact</NavLink> </li>
       </ul>
     </nav>
-    <button id="ham-btn" aria-expanded="false" aria-controls="menu"> 
+    <button className="ham-btn" aria-expanded="false" aria-controls="menu"> 
       <img src={ham} alt="menu" className="ham" />
     </button> 
   </div>

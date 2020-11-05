@@ -43,9 +43,13 @@ nav{
   .header-img{
     max-width: 25em;
     min-width: 5em;
+
   }
   .ham{
     display: inline-block;
-    height: 4em;
+    height: 3em;
+  }
+  .ham-btn{
+    margin-left: 1em;
   }
 }
