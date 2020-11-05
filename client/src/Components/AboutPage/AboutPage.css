@@ -72,3 +72,12 @@
   border-radius:15px;
   margin-top:.25em;
 }
+
+@media only screen and ( max-width: 1023px ) {
+  .about-page{
+    height:100%;
+  }
+  .about-content{
+    flex-direction: column;
+  }
+}
