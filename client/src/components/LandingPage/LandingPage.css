@@ -1,9 +1,39 @@
+.desc-btn{
+  margin: 0 auto;
+  margin-top: 10em;
+  width:40%;
+}
+.desc-btn h2{
+  width:95%;
+  margin: 0 auto;
+  font-size: 32px;
+  font-weight: 500;
+  text-align: right;
+}
 .landing{
   background-color: #212121;
   color: white;
   height: 100vh;
   text-align: center;
 }
+.landing-stripe{
+  position: absolute;
+  height: 55%;
+  left: 21%;
+  bottom: 0;
+}
+.logo-title{
+  display: flex;
+  justify-content: space-around;
+  margin: 2em auto;
+  width: 82%;
+}
+.logo-title h1{
+  margin-top:.1em;
+  font-size: 70px;
+  font-weight: bold;
+}
+
 .matters{
   color: #F1C27A;
 }
