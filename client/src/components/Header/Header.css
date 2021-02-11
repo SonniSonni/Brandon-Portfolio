@@ -1,5 +1,5 @@
 header ul{
-  color: white; 
+  color: #747474; 
   display: flex;
   font-weight: bold;
   font-size: 18px;
@@ -8,4 +8,9 @@ header ul{
   justify-content: space-around;
   list-style: none;
   padding: 2em 0;
+}
+
+header ul li:hover{
+  color: white;
+  cursor: pointer;
 }
