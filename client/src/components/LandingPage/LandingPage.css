@@ -1,6 +1,6 @@
 .desc-btn{
   margin: 0 auto;
-  margin-top: 10em;
+  margin-top: 9em;
   width:40%;
 }
 .desc-btn h2{
@@ -18,14 +18,14 @@
 }
 .landing-stripe{
   position: absolute;
-  height: 62%;
+  height: 60%;
   left: 20%;
   bottom: 0;
 }
 .logo-title{
   display: flex;
   justify-content: space-around;
-  margin: 2em auto;
+  margin: 3em auto;
   width: 82%;
 }
 .logo-title h1{
