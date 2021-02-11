@@ -2,9 +2,9 @@ import React from 'react';
 import './ProjectsPage.css';
 
 const ProjectsPage = () => (
-  <div className="projects-page">
+  <section className="projects-page">
     Projects
-  </div>
+  </section>
 );
 
 export default ProjectsPage;

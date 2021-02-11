@@ -2,9 +2,9 @@ import React from 'react';
 import './ContactPage.css';
 
 const ContactPage = () => (
-  <div className="contact-page">
+  <section className="contact-page">
     Contact
-  </div>
+  </section>
 );
 
 export default ContactPage;
