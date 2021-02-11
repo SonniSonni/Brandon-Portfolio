@@ -1,4 +1,8 @@
 .landing{
   background-color: #212121;
+  color: white;
   height: 100vh;
+}
+.matters{
+  color: #F1C27A;
 }
