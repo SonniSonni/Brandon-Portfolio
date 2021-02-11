@@ -1,5 +1,7 @@
 header ul{
   color: white; 
+  font-weight: bold;
+  font-size: 18px;
   max-width:40em;
   margin: 0 auto;
   padding: 2em 0;
