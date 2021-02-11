@@ -1,11 +1,11 @@
 header ul{
   color: white; 
+  display: flex;
   font-weight: bold;
   font-size: 18px;
   max-width:40em;
   margin: 0 auto;
-  padding: 2em 0;
-  display: flex;
-  list-style: none;
   justify-content: space-around;
+  list-style: none;
+  padding: 2em 0;
 }
