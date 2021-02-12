@@ -18,7 +18,7 @@ const AboutPage = () => (
     </section>
     
     <section className="skills">
-      skills
+      <h3 className="skills-title">Skills</h3>
     </section>
   </section>
 );
