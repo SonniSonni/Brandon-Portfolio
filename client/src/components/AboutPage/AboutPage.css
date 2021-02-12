@@ -9,9 +9,15 @@
   padding-top: 1em;
 }
 .desc{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
   margin: 0 auto;
   text-align: center;
-  width: 80%;
+  width: 60%;
+}
+.personal{
+  font-size: 48px;  
 }
 .desc-img{
   display: flex;

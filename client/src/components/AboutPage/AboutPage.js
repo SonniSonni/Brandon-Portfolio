@@ -11,7 +11,7 @@ const AboutPage = () => (
         <br />
         Baltimore, Maryland.
         </p>
-        <p> I wrote my first lines of code when I was only 12, but have spent the better part of the last 4 years learning everything I can about the world of the web.</p>
+        <p className="personal"> I wrote my first lines of code when I was only 12, but have spent the better part of the last 4 years learning everything I can about the world of the web.</p>
       </section>
       
       <img src={face} alt="Self Portrait"/>
