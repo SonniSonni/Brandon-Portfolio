@@ -2,7 +2,7 @@ import React from 'react';
 import './AboutPage.css';
 
 const AboutPage = () => (
-  <section className="about-page">
+  <section id="about" className="about-page">
     About
   </section>
 );

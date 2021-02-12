@@ -1,14 +1,23 @@
 import React from 'react';
 import './Header.css';
+import { Link } from 'react-scroll';
 
 const Header = () => (
   <header>
     <nav>
       <ul>
-        <li>Home</li>
-        <li>Work</li>
-        <li>About</li>
-        <li>Contact</li>
+        <li>
+          <Link>Home</Link>
+        </li>
+        <li>
+          <Link to="projects" smooth={true}>Work</Link>
+        </li>
+        <li>
+          <Link to="about" smooth={true}>About</Link>
+        </li>
+        <li>
+          <Link to="contact" smooth={true}>Contact</Link>
+        </li>
       </ul>
     </nav>
   </header>
