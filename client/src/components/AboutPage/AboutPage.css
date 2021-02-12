@@ -8,6 +8,11 @@
   font-size: 52px;
   padding-top: 1em;
 }
+.desc{
+  margin: 0 auto;
+  text-align: center;
+  width: 80%;
+}
 .desc-img{
   display: flex;
   justify-content: space-around;
