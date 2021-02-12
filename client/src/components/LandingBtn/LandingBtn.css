@@ -1,0 +1,48 @@
+.btn-container{
+  height: 6.2em;
+  margin: 5em auto;
+  position: relative;
+  width: 20em;
+}
+.landing-btn{
+  background-color: #F1C27A;
+  border: 1.5px solid #707070;
+  color: #212121;
+  cursor: pointer;
+  font-weight: 700;
+  font-size: 26px;
+  font-family: 'Playfair Display', serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  padding: .8em .5em;
+  position: absolute;
+  top: 0;
+  left:0;
+  z-index: 1;
+  transition: all .4s;
+  -webkit-transition: all .4s;
+}
+
+.btn-container:hover > .under-btn{
+  transform: translate(-22px, -9.5px);
+  transition: all .4s;
+  -webkit-transition: all .4s;
+}
+.btn-container:hover > .landing-btn{
+  transform: translate(22px, 9.5px);
+  transition: all .4s;
+  -webkit-transition: all .4s;
+}
+
+.under-btn{
+  background-color: #F1C27A;
+  border: 1.5px solid #707070;
+  bottom:0;
+  height: 4.8em;
+  position:absolute;
+  right:0;
+  width: 17.05em;
+  z-index: 0;
+  transition: all .4s;
+  -webkit-transition: all .4s;
+}
