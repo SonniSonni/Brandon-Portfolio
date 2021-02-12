@@ -3,7 +3,7 @@ import './ProjectsPage.css';
 
 const ProjectsPage = () => (
   <section id="projects" className="projects-page">
-    Projects
+    <h2 className="projects-title">Projects</h2>
   </section>
 );
 

@@ -3,7 +3,7 @@ import './ContactPage.css';
 
 const ContactPage = () => (
   <section id="contact" className="contact-page">
-    Contact
+    <h2 className="contact-title">Contact</h2>
   </section>
 );
 

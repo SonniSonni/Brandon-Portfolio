@@ -3,7 +3,7 @@ import './AboutPage.css';
 
 const AboutPage = () => (
   <section id="about" className="about-page">
-    About
+    <h2 className="about-title">About</h2>
   </section>
 );
 

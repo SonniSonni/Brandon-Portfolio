@@ -2,3 +2,9 @@
   height:100vh;
   background-color: #352743;
 }
+.projects-title{
+  color: white;
+  font-size: 52px;
+  text-align: center;
+  padding-top: 1em;
+}
