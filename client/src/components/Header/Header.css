@@ -14,3 +14,7 @@ header ul li:hover{
   color: white;
   cursor: pointer;
 }
+
+.active{
+  color: white;
+}

@@ -6,7 +6,7 @@ import Logo from '../../resources/brandon-logo.svg';
 import LandingStripe from '../../resources/landing-stripe.svg';
 
 const LandingPage = () => (
-  <div className="landing">
+  <div id="home" className="landing">
     <Header />
     <div className="logo-title">
       <img src={Logo} alt="Brandon Schaen logo" className="landing-logo"/>
