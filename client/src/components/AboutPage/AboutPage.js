@@ -27,7 +27,7 @@ const AboutPage = () => (
     
     <section className="skills">
       <h3 className="skills-title">Skills</h3>
-      <ul>
+      <ul className="skill-list">
         <li className="skill-icon"><img src={htmlLogo} alt=""/></li>
         <li className="skill-icon"><img src={cssLogo} alt=""/></li>
         <li className="skill-icon"><img src={jsLogo} alt=""/></li>

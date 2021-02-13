@@ -29,8 +29,16 @@
   height: 60vh;
   width: 30%;
 }
-
 .skills-title{
   text-align: center;
   font-size: 50px;
+}
+
+.skill-list{
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+}
+.skill-icon img{
+  max-width: 8em;
 }
