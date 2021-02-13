@@ -15,6 +15,7 @@
   margin: 0 auto;
   text-align: center;
   width: 60%;
+  height: 100%;
 }
 .personal{
   font-size: 48px;  
@@ -24,6 +25,7 @@
   justify-content: space-around;
   margin: 3em auto;
   width:80%;
+  height: 49%;
 }
 .desc-img img{
   height: 60vh;
@@ -35,6 +37,7 @@
 }
 
 .skill-list{
+  margin-top: 2em;
   list-style: none;
   display: flex;
   justify-content: space-around;
