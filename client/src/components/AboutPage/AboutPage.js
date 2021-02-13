@@ -1,6 +1,14 @@
 import React from 'react';
 import './AboutPage.css';
 import face from "../../resources/my-face.jpg";
+import htmlLogo from "../../resources/html-logo.png";
+import cssLogo from "../../resources/css-logo.png";
+import jsLogo from "../../resources/javascript-logo.png";
+import reactLogo from "../../resources/react-logo.svg";
+import gitLogo from "../../resources/git-icon.png";
+import bashLogo from "../../resources/bash-logo.png";
+import xdLogo from "../../resources/xd-logo.png";
+import photoshopLogo from "../../resources/photoshop-logo.png";
 
 const AboutPage = () => (
   <section id="about" className="about-page">
@@ -20,14 +28,14 @@ const AboutPage = () => (
     <section className="skills">
       <h3 className="skills-title">Skills</h3>
       <ul>
-        <li className="skill-icon"><img src="" alt=""/></li>
-        <li className="skill-icon"><img src="" alt=""/></li>
-        <li className="skill-icon"><img src="" alt=""/></li>
-        <li className="skill-icon"><img src="" alt=""/></li>
-        <li className="skill-icon"><img src="" alt=""/></li>
-        <li className="skill-icon"><img src="" alt=""/></li>
-        <li className="skill-icon"><img src="" alt=""/></li>
-        <li className="skill-icon"><img src="" alt=""/></li>
+        <li className="skill-icon"><img src={htmlLogo} alt=""/></li>
+        <li className="skill-icon"><img src={cssLogo} alt=""/></li>
+        <li className="skill-icon"><img src={jsLogo} alt=""/></li>
+        <li className="skill-icon"><img src={reactLogo} alt=""/></li>
+        <li className="skill-icon"><img src={gitLogo} alt=""/></li>
+        <li className="skill-icon"><img src={bashLogo} alt=""/></li>
+        <li className="skill-icon"><img src={xdLogo} alt=""/></li>
+        <li className="skill-icon"><img src={photoshopLogo} alt=""/></li>
       </ul>
     </section>
   </section>
