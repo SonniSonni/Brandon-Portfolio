@@ -5,7 +5,7 @@ import htmlLogo from "../../resources/html-logo.png";
 import cssLogo from "../../resources/css-logo.png";
 import jsLogo from "../../resources/javascript-logo.png";
 import reactLogo from "../../resources/react-logo.svg";
-import gitLogo from "../../resources/git-icon.png";
+import gitLogo from "../../resources/git-ico.png";
 import bashLogo from "../../resources/bash-logo.png";
 import xdLogo from "../../resources/xd-logo.png";
 import photoshopLogo from "../../resources/photoshop-logo.png";

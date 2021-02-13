@@ -43,5 +43,12 @@
   justify-content: space-around;
 }
 .skill-icon img{
-  max-width: 8em;
+  max-width: 6em;
+  border-radius: 50%;
+  transition: all .3s;
+}
+.skill-icon img:hover{
+  max-width: 9em;
+  transform: translate(-1em, -1em);
+  transition: all .3s;
 }
