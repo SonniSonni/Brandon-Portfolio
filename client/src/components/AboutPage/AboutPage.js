@@ -19,6 +19,16 @@ const AboutPage = () => (
     
     <section className="skills">
       <h3 className="skills-title">Skills</h3>
+      <ul>
+        <li className="skill-icon"><img src="" alt=""/></li>
+        <li className="skill-icon"><img src="" alt=""/></li>
+        <li className="skill-icon"><img src="" alt=""/></li>
+        <li className="skill-icon"><img src="" alt=""/></li>
+        <li className="skill-icon"><img src="" alt=""/></li>
+        <li className="skill-icon"><img src="" alt=""/></li>
+        <li className="skill-icon"><img src="" alt=""/></li>
+        <li className="skill-icon"><img src="" alt=""/></li>
+      </ul>
     </section>
   </section>
 );
