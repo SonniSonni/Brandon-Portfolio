@@ -5,20 +5,28 @@
 }
 
 .brandon{
-  width: 50%;
   position: absolute;
-  left: 0;
+  width: 0%;
   top: 0;
   margin:0;
   padding:0;
+  animation-name: sliderightname;
+  animation-duration: 1s;
+  animation-fill-mode: forwards;
+  animation-timing-function: ease-in-out;
+  animation-delay: .2s;
 }
 .schaen{
-  width:40%;
+  width:0%;
   margin:0;
   padding:0;
   position: absolute;
   right: 15em;
-  bottom: 0;
+  animation-name: slideupname;
+  animation-duration: 1s;
+  animation-fill-mode: forwards;
+  animation-timing-function: ease-in-out;
+  animation-delay: .2s
 }
 
 .line-1{
@@ -58,6 +66,16 @@
     bottom: 0%;;
   }
 }
+@keyframes slideupname {
+  from {
+    width:40%;
+    bottom: -100%;
+  }
+  to{
+    width:40%;
+    bottom: 0%;
+  }
+}
 @keyframes slidedown {
   from {
     top: -100%;
@@ -72,5 +90,15 @@
   }
   to{
     left:0%;
+  }
+}
+@keyframes sliderightname {
+  from {
+    left:-100%;
+    width: 50%;
+  }
+  to{
+    left:0%;
+    width: 50%;
   }
 }
