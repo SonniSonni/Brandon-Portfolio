@@ -25,45 +25,52 @@
   height: 3.6%;
   position: absolute;
   top: 45%;
-  right: 32%;
-  animation: slideright .8s linear;
+  left: -100%;
+  animation-name: slideright;
+  animation-duration: 1s;
+  animation-fill-mode: forwards;
+  animation-timing-function: ease-in-out;
+  animation-delay: .2s;
 }
 .line-2{
   width: .9%;
   position: absolute;
-  top: -2%;
-  right: 50%;
-  animation: slidedown .8s linear;
+  animation-name: slidedown;
+  animation-duration: 1s;
+  animation-fill-mode: forwards;
+  animation-timing-function: ease-in-out;
 }
 .line-3{
   width: .9%;
   position: absolute;
-  bottom: -5%;
   left: 30%;
-  animation: slideup .8s linear;
+  animation-name: slideup;
+  animation-duration: 1s;
+  animation-fill-mode: forwards;
+  animation-timing-function: ease-in-out;
 }
 
 @keyframes slideup {
   from {
-    transform:translateY(100%);
+    bottom: -100%;
   }
   to{
-    transform: translateY(0);
+    bottom: 0%;;
   }
 }
 @keyframes slidedown {
   from {
-    transform:translateY(-100%);
+    top: -100%;
   }
   to{
-    transform: translateY(0);
+    top: -2%;
   }
 }
 @keyframes slideright {
   from {
-    transform:translateX(-100%);
+    left:-100%;
   }
   to{
-    transform: translateX(0);
+    left:0%;
   }
 }
