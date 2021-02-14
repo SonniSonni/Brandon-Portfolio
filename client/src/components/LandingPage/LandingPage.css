@@ -26,14 +26,30 @@
   display: flex;
   justify-content: space-around;
   margin: 3em auto;
-  width: 82%;
+  width: 85%;
+  height: 13em;
+}
+.landing-logo{
+  width: 50%;
+  height: 100%;
+}
+.landing-title{
+  width: 90%;
 }
 .logo-title h1{
   margin-top:.1em;
   font-size: 70px;
   font-weight: bold;
 }
-
 .matters{
   color: #F1C27A;
 }
+
+/* svg animation */
+
+
+@keyframes slidedown{
+  0%{transform: translateY(2em);}
+  100%{transform: translateY(-2em);}
+}
+/* svg animation */

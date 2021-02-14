@@ -1,0 +1,69 @@
+.logo-container{
+  position: relative;
+  width:100%;
+  overflow: hidden;
+}
+
+.brandon{
+  width: 50%;
+  position: absolute;
+  left: 0;
+  top: 0;
+  margin:0;
+  padding:0;
+}
+.schaen{
+  width:40%;
+  margin:0;
+  padding:0;
+  position: absolute;
+  right: 15em;
+  bottom: 0;
+}
+
+.line-1{
+  height: 3.6%;
+  position: absolute;
+  top: 45%;
+  right: 32%;
+  animation: slideright .8s linear;
+}
+.line-2{
+  width: .9%;
+  position: absolute;
+  top: -2%;
+  right: 50%;
+  animation: slidedown .8s linear;
+}
+.line-3{
+  width: .9%;
+  position: absolute;
+  bottom: -5%;
+  left: 30%;
+  animation: slideup .8s linear;
+}
+
+@keyframes slideup {
+  from {
+    transform:translateY(100%);
+  }
+  to{
+    transform: translateY(0);
+  }
+}
+@keyframes slidedown {
+  from {
+    transform:translateY(-100%);
+  }
+  to{
+    transform: translateY(0);
+  }
+}
+@keyframes slideright {
+  from {
+    transform:translateX(-100%);
+  }
+  to{
+    transform: translateX(0);
+  }
+}
