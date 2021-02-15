@@ -19,8 +19,8 @@ const ContactPage = () => (
 
         <section className="social-submit">
           <section className="socials">
-            <img src={git} alt=""/>
-            <img src={linkedin} alt=""/>
+            <a rel="noopener noreferrer" href="https://github.com/KamajiiSC" target="_blank"><img src={git} alt=""/></a>  
+            <a href="https://www.linkedin.com/in/brandon-schaen/" target="_blank" rel="noopener noreferrer"><img src={linkedin} alt=""/></a>
           </section>
           
           <button id="submit-btn" type="button">SAY HI</button>
