@@ -10,8 +10,16 @@
 }
 
 .form-container{
+  color: white;
   height: 70%;
   width:80%;
   margin: 2em auto;
   border: 2px solid #707070;
+}
+
+.contact-form{
+  display: flex;
+  flex-direction: column;
+  margin: 2em auto;
+  width: 70%;
 }
