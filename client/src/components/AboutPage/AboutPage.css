@@ -12,8 +12,9 @@
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  margin: 0 auto;
   text-align: center;
+  margin-top:2%;
+  margin-right:10%;
   width: 60%;
   height: 100%;
 }
@@ -24,12 +25,15 @@
   display: flex;
   justify-content: space-around;
   margin: 3em auto;
-  width:80%;
+  width:90%;
   height: 49%;
 }
 .desc-img img{
-  height: 60vh;
-  width: 30%;
+  height: 58.5vh;
+  padding: .5em;
+  margin-right:3%;
+  background-color: #131A24;
+  border-radius: .5%;
 }
 .skills-title{
   text-align: center;
