@@ -14,3 +14,11 @@
   background-color: white;
   height: 63%;
 }
+
+.icons{
+  display: flex;
+  justify-content: space-around;
+}
+.icons img{
+  max-width: 10%;
+}

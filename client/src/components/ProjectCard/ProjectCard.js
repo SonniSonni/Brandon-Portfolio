@@ -21,8 +21,8 @@ const ProjectCard = (props) => (
         <li>MONGODB</li>
       </ul>
       <div className="icons">
-        <img src={link} alt=""/>
         <img src={git} alt=""/>
+        <img src={link} alt=""/>     
       </div>
     </div>
   </div>
