@@ -32,4 +32,22 @@
 
 .socials img{
   max-width: 7%;
+  margin-right: 3em;
+}
+
+.input-container{
+  display: flex;
+  justify-content:space-between;
+  font-size: 50px;
+  width: 100%;
+}
+
+#name-input{
+  width: 80%;
+}
+#email-input{
+  width: 80%;
+}
+#message-input{
+  width: 80%;
 }
