@@ -6,7 +6,7 @@ import git from '../../resources/git-ico.png';
 
 const ProjectCard = (props) => (
   <div className="card-container">
-    <img src={greg} alt=""/>
+    <img src={greg} alt="producer"/>
     <div className="card-desc">
       <h3 className="card-title">JULES TREMBLY</h3>
       <div className="desc-contianer">

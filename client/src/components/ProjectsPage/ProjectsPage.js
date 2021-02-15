@@ -8,6 +8,7 @@ const ProjectsPage = () => (
     <section className="projects-container">
       <ProjectCard /> 
       <ProjectCard /> 
+      <ProjectCard /> 
     </section>
   </section>
 );

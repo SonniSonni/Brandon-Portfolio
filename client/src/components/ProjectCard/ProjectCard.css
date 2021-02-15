@@ -6,6 +6,10 @@
   box-shadow: 20px 20px 70px -20px rgb(17, 17, 17);
 }
 
+.card-container:hover{
+  transform: scale(1.1, 1.1);
+}
+
 .card-container img{
   height: 37%;
   width: 100%;
