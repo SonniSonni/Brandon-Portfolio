@@ -15,6 +15,16 @@
   height: 63%;
 }
 
+.card-desc h3{
+  width: 80%;
+  margin: 0 auto;
+  padding: .3em;
+  color:#F1C27A;
+  text-align: center;
+  font-size: 36px;
+  border-bottom: 1px solid black;
+}
+
 .tech-list{
   list-style: none;
   display: flex;

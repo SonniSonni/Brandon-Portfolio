@@ -8,7 +8,7 @@ const ProjectCard = (props) => (
   <div className="card-container">
     <img src={greg} alt=""/>
     <div className="card-desc">
-      <h3 className="card-title">GREG TREMBLY</h3>
+      <h3 className="card-title">JULES TREMBLY</h3>
       <p className="card-description">Music producer client personal site</p>
       <ul className="tech-list">
         <li>HTML</li>
