@@ -9,17 +9,19 @@ const ProjectCard = (props) => (
     <img src={greg} alt=""/>
     <div className="card-desc">
       <h3 className="card-title">JULES TREMBLY</h3>
-      <p className="card-description">Music producer client personal site</p>
-      <ul className="tech-list">
-        <li>HTML</li>
-        <li>CSS</li>
-        <li>JS</li>
-        <li>REACT</li>
-        <li>NODEJS</li>
-        <li>EXPRESS</li>
-        <li>MULTER</li>
-        <li>MONGODB</li>
-      </ul>
+      <div className="desc-contianer">
+        <p className="card-description">Music producer client personal site</p>
+        <ul className="tech-list">
+          <li>HTML</li>
+          <li>CSS</li>
+          <li>JS</li>
+          <li>REACT</li>
+          <li>NODEJS</li>
+          <li>EXPRESS</li>
+          <li>MULTER</li>
+          <li>MONGODB</li>
+        </ul>
+      </div>
       <div className="icons">
         <img src={git} alt=""/>
         <img src={link} alt=""/>     
