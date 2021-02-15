@@ -1,8 +1,16 @@
 .card-container{
-  width: 10em;
-
+  width: 30em;
+  height: 40em;
+  border: 1px solid black;
+  margin-top: 5em;
 }
 
 .card-container img{
+  height: 37%;
   width: 100%;
+}
+
+.card-desc{
+  background-color: white;
+  height: 63%;
 }
