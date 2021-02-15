@@ -28,6 +28,7 @@
 
 .social-submit{
   display: flex;
+  align-content: center;
 }
 
 .socials img{
@@ -44,10 +45,27 @@
 
 #name-input{
   width: 80%;
+  font-size: 32px;
 }
 #email-input{
   width: 80%;
+  font-size: 32px;
 }
 #message-input{
   width: 80%;
+  font-size: 32px;
+}
+
+#submit-btn{
+  color: #373737;
+  height: 80%;
+  width: 40%;
+  background-color: #F1C27A;
+  border: 1.5px solid #707070;
+  cursor: pointer;
+  font-weight: 700;
+  font-size: 26px;
+  font-family: 'Playfair Display', serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }

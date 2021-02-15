@@ -11,15 +11,15 @@ const ContactPage = () => (
       <form className="contact-form" action="">
         <div className="input-container">
           <label htmlFor="name-input">Name</label>
-          <input type="text" name="name-input" id="name-input"/>
+          <input required type="text" name="name-input" id="name-input"/>
         </div>
         <div className="input-container">
           <label htmlFor="email-input">Email</label>
-          <input type="email" name="email-input" id="email-input"/>
+          <input required type="email" name="email-input" id="email-input"/>
         </div>
         <div className="input-container">
           <label htmlFor="message-input">Message</label>
-          <textarea name="message-input" id="message-input" cols="30" rows="10"></textarea>
+          <textarea required name="message-input" id="message-input" cols="10" rows="5"></textarea>
         </div>
         <section className="social-submit">
           <section className="socials">
@@ -28,7 +28,7 @@ const ContactPage = () => (
             <a href="https://twitter.com/KamajiiJeesh" target="_blank" rel="noopener noreferrer"><img src={twitter} alt=""/></a>
           </section>
           
-          <button id="submit-btn" type="button">SAY HI</button>
+          <input type="submit" id="submit-btn" value="SEND"></input>
         </section>
       </form>
     </section>
