@@ -28,14 +28,38 @@ const AboutPage = () => (
     <section className="skills">
       <h3 className="skills-title">Skills</h3>
       <ul className="skill-list">
-        <li className="skill-icon"><img src={htmlLogo} alt=""/></li>
-        <li className="skill-icon"><img src={cssLogo} alt=""/></li>
-        <li className="skill-icon"><img src={jsLogo} alt=""/></li>
-        <li className="skill-icon"><img src={reactLogo} alt=""/></li>
-        <li className="skill-icon"><img src={gitLogo} alt=""/></li>
-        <li className="skill-icon"><img src={bashLogo} alt=""/></li>
-        <li className="skill-icon"><img src={xdLogo} alt=""/></li>
-        <li className="skill-icon"><img src={photoshopLogo} alt=""/></li>
+        <li className="skill-icon">
+          <img className="skill-img" src={htmlLogo} alt=""/>
+          <p className="skill-name">HTML5</p>
+        </li>
+        <li className="skill-icon">
+          <img className="skill-img" src={cssLogo} alt=""/>
+          <p className="skill-name">CSS3</p>
+        </li>
+        <li className="skill-icon">
+          <img className="skill-img" src={jsLogo} alt=""/>
+          <p className="skill-name">JAVASCRIPT</p>
+        </li>
+        <li className="skill-icon">
+          <img className="skill-img" src={reactLogo} alt=""/>
+          <p className="skill-name">REACT</p>
+        </li>
+        <li className="skill-icon">
+          <img className="skill-img" src={gitLogo} alt=""/>
+          <p className="skill-name">GIT</p>
+        </li>
+        <li className="skill-icon">
+          <img className="skill-img" src={bashLogo} alt=""/>
+          <p className="skill-name">BASH</p>
+        </li>
+        <li className="skill-icon">
+          <img className="skill-img" src={xdLogo} alt=""/>
+          <p className="skill-name">ADOBE XD</p>
+        </li>
+        <li className="skill-icon">
+          <img className="skill-img" src={photoshopLogo} alt=""/>
+          <p className="skill-name">PHOTOSHOP</p>
+          </li>
       </ul>
     </section>
   </section>
