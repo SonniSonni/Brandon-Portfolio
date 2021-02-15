@@ -3,6 +3,7 @@
   height: 40em;
   border: 1px solid black;
   margin-top: 5em;
+  box-shadow: 20px 20px 70px -20px #000;
 }
 
 .card-container img{
