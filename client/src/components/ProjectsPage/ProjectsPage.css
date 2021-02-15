@@ -8,3 +8,8 @@
   text-align: center;
   padding-top: 1em;
 }
+
+.projects-container{
+  display: flex;
+  justify-content: space-around;
+}

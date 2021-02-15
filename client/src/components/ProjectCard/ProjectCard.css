@@ -1,3 +1,8 @@
 .card-container{
-  
+  width: 10em;
+
+}
+
+.card-container img{
+  width: 100%;
 }
