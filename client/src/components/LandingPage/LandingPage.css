@@ -20,7 +20,8 @@
   position: absolute;
   height: 60%;
   left: 20%;
-  bottom: 0; 
+  animation: slidestripeup 1s ease-in-out forwards .1s;
+  bottom: -150%;
 }
 .logo-title{
   display: flex;
@@ -48,8 +49,12 @@
 /* svg animation */
 
 
-@keyframes slidedown{
-  0%{transform: translateY(2em);}
-  100%{transform: translateY(-2em);}
+@keyframes slidestripeup{
+  from{
+    bottom: -100%;
+  }
+  to{
+    bottom: -1%;
+  }
 }
 /* svg animation */
