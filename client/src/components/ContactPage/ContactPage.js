@@ -1,7 +1,7 @@
 import React from 'react';
 import './ContactPage.css';
 import git from '../../resources/git-ico.png';
-import linkedin from '../../resources/linked-in-logo.png';
+import linkedin from '../../resources/linked-logo.png';
 
 const ContactPage = () => (
   <section id="contact" className="contact-page">
