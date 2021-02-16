@@ -8,6 +8,7 @@ import StyledLogo from '../StyleLogo/StyledLogo';
 const LandingPage = () => {
   return(
   <div id="home" className="landing">
+
     <Header />
     <div className="logo-title">
       <StyledLogo className="landing-logo"/>

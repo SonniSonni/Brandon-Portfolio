@@ -1,5 +1,4 @@
 header ul{
-  color: #747474; 
   display: flex;
   font-weight: bold;
   font-size: 18px;
@@ -10,7 +9,12 @@ header ul{
   padding: 2em 0;
 }
 
-header ul li:hover{
+header ul li a{
+  color: #747474;
+  text-decoration: none;
+}
+
+header ul li a:hover{
   color: white;
   cursor: pointer;
 }
