@@ -9,6 +9,7 @@ import gitLogo from "../../resources/git-ico.png";
 import bashLogo from "../../resources/bash-logo.png";
 import xdLogo from "../../resources/xd-logo.png";
 import photoshopLogo from "../../resources/photoshop-logo.png";
+import corner from '../../resources/cornercircle.svg';
 
 const AboutPage = () => (
   <section id="about" className="about-page">
@@ -62,6 +63,7 @@ const AboutPage = () => (
           </li>
       </ul>
     </section>
+    <img src={corner} alt="circle decoartion" className="corner-circ"/>
   </section>
 );
 

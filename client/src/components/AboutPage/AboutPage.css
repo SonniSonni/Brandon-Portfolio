@@ -2,8 +2,10 @@
   scroll-snap-align: start;
 }
 .about-page{
+  position: relative;
   height: 100vh;
   background-color: #F1C27A;
+  overflow: hidden;
 }
 .about-title{
   color: white;
@@ -67,4 +69,10 @@
   transform: translate( -.6em, -1em);
   transition: all ease-in-out .4s;
   font-size: 24px;
+}
+
+.corner-circ{
+  position: absolute;
+  bottom: -8%;;
+  right: -4%;
 }

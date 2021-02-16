@@ -3,6 +3,7 @@
 }
 
 .projects-page{
+  position: relative;
   height:100vh;
   background-color: #352743;
 }
@@ -56,6 +57,12 @@
 }
 .dot:hover{
   background-color: rgb(255, 255, 255);
+}
+
+.corner-tri{
+  position: absolute;
+  bottom: -5%;
+  left: 0;
 }
 
 /* display: grid;

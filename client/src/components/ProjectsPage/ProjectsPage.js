@@ -3,6 +3,7 @@ import './ProjectsPage.css';
 import ProjectCard from '../ProjectCard/ProjectCard';
 import greg from '../../resources/grg.PNG';
 import fashion from '../../resources/fashion.PNG';
+import corner from '../../resources/cornertri.svg';
 
 const dotSelect = (e) => {
   console.log(e.target.id);
@@ -43,6 +44,7 @@ const ProjectsPage = () => (
         </li>
       </ul>
     </section>
+    <img src={corner} alt="triangle decoration" className='corner-tri' />
   </section>
 );
 
