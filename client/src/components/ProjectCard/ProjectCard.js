@@ -1,16 +1,15 @@
 import React from 'react';
 import './ProjectCard.css';
-import greg from '../../resources/grg.PNG';
 import link from '../../resources/link-ico.png';
 import git from '../../resources/git-ico.png';
 
 const ProjectCard = (props) => (
   <div className="card-container">
-    <img src={greg} alt="producer"/>
+    <img src={props.img} alt="producer"/>
     <div className="card-desc">
       <h3 className="card-title">{props.title}</h3>
       <div className="desc-contianer">
-        <p className="card-description">Music producer client personal site</p>
+        <p className="card-description">{props.description}</p>
         <ul className="tech-list">
           <li>HTML</li>
           <li>CSS</li>

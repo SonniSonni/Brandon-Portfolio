@@ -1,6 +1,7 @@
 import React from 'react';
 import './ProjectsPage.css';
 import ProjectCard from '../ProjectCard/ProjectCard';
+import greg from '../../resources/grg.PNG';
 
 const dotSelect = (e) => {
   console.log(e.target.id);
@@ -23,7 +24,7 @@ const ProjectsPage = () => (
     <h2 className="projects-title full">Projects</h2>
     <section className="projects-container">
       <div id="car1" className="car show">
-        <ProjectCard title="JULES TREMBLY" /> 
+        <ProjectCard title="JULES TREMBLY" img={greg} description="Music producer client personal site" /> 
         <ProjectCard title="JULES TREMBLY"/> 
         <ProjectCard title="JULES TREMBLY"/>
       </div>
