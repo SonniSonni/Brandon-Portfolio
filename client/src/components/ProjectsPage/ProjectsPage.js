@@ -27,12 +27,12 @@ const ProjectsPage = () => (
       <div id="car1" className="car show">
         <ProjectCard title="JULES TREMBLY" img={greg} description="Music producer client personal site" /> 
         <ProjectCard img={fashion} title="ARMON GUTIERRA" description="Fashion designer concept website."/> 
-        <ProjectCard title="JULES TREMBLY"/>
+        <ProjectCard title="JULES TREMBLY" img={greg} description="Music producer client personal site" />
       </div>
       <div id="car2" className="car hide">
-        <ProjectCard title="NOT JULES"/> 
-        <ProjectCard title="NOT JULES"/> 
-        <ProjectCard title="NOT JULES"/> 
+        <ProjectCard img={fashion} title="ARMON GUTIERRA" description="Fashion designer concept website."/> 
+        <ProjectCard title="JULES TREMBLY" img={greg} description="Music producer client personal site" /> 
+        <ProjectCard img={fashion} title="ARMON GUTIERRA" description="Fashion designer concept website."/> 
       </div>
       <ul className="car-menu">
         <li>

@@ -1,3 +1,6 @@
+#contact{
+  scroll-snap-align: start;
+}
 .contact-page{
   height: 100vh;
   background-color: #212121;

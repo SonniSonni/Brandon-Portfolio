@@ -3,6 +3,8 @@ import LandingPage from './components/LandingPage/LandingPage';
 import ProjectsPage from './components/ProjectsPage/ProjectsPage';
 import AboutPage from './components/AboutPage/AboutPage';
 import ContactPage from './components/ContactPage/ContactPage';
+import ScrollSnap from 'scroll-snap';
+
 
 function App() {
   return (

@@ -16,6 +16,9 @@
   height: 100vh;
   text-align: center;
 }
+#home{
+  scroll-snap-align: start;
+}
 .landing-stripe{
   position: absolute;
   height: 60%;

@@ -1,3 +1,6 @@
+#about{
+  scroll-snap-align: start;
+}
 .about-page{
   height: 100vh;
   background-color: #F1C27A;
