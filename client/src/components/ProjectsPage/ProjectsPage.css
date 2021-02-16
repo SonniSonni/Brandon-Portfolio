@@ -64,6 +64,12 @@
   bottom: -5%;
   left: 0;
 }
+#about-tri{
+  cursor: default;
+}
+.tri-path{
+  cursor: pointer;
+}
 
 /* display: grid;
   grid-gap: 30px;

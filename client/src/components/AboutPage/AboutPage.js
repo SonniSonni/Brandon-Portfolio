@@ -9,7 +9,6 @@ import gitLogo from "../../resources/git-ico.png";
 import bashLogo from "../../resources/bash-logo.png";
 import xdLogo from "../../resources/xd-logo.png";
 import photoshopLogo from "../../resources/photoshop-logo.png";
-import corner from '../../resources/cornercircle.svg';
 
 const AboutPage = () => (
   <section id="about" className="about-page">
@@ -63,7 +62,11 @@ const AboutPage = () => (
           </li>
       </ul>
     </section>
-    <img src={corner} alt="circle decoartion" className="corner-circ"/>
+    <a href="#contact">
+      <svg className="corner-circ" xmlns="http://www.w3.org/2000/svg" width="155" height="145" viewBox="0 0 155 145">
+        <ellipse className="circ-path" id="Ellipse_3" data-name="Ellipse 3" cx="77.5" cy="72.5" rx="77.5" ry="72.5" fill="#212121"/>
+      </svg>
+    </a>
   </section>
 );
 
