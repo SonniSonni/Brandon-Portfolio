@@ -22,6 +22,7 @@
   left: 20%;
   animation: slidestripeup 1s ease-in-out forwards .1s;
   bottom: -150%;
+  z-index: 1;
 }
 .logo-title{
   display: flex;
