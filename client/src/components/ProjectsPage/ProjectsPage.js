@@ -2,9 +2,20 @@ import React from 'react';
 import './ProjectsPage.css';
 import ProjectCard from '../ProjectCard/ProjectCard';
 
-const slide = () => {
-  const container = document.querySelector(".projects-container");
-  container.style.left = container.style.left + 10;
+const dotSelect = (e) => {
+  console.log(e.target.id);
+  if(e.target.id === "dot1"){
+    document.querySelector('#car1').className = "car show";
+    document.querySelector("#dot1").className = "dot active-dot";
+    document.querySelector('#car2').className = "car hide";
+    document.querySelector("#dot2").className = "dot";
+  }
+  if(e.target.id === "dot2"){
+    document.querySelector('#car2').className = "car show";
+    document.querySelector("#dot2").className = "dot active-dot";
+    document.querySelector('#car1').className = "car hide";
+    document.querySelector("#dot1").className = "dot";
+  }
 };
 
 const ProjectsPage = () => (
@@ -22,8 +33,12 @@ const ProjectsPage = () => (
         <ProjectCard /> 
       </div>
       <ul className="car-menu">
-        <li><span className="dot active-dot"></span></li>
-        <li><span className="dot"></span></li>
+        <li>
+          <span onClick={dotSelect} id="dot1" className="dot active-dot"></span>
+        </li>
+        <li>
+          <span onClick={dotSelect} id="dot2" className="dot"></span>
+        </li>
       </ul>
     </section>
   </section>
