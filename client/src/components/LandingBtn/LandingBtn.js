@@ -1,13 +1,12 @@
 import React from 'react';
 import './LandingBtn.css';
-import { Link } from "react-scroll";
 
 const LandingBtn = () => {
   return (
     <div className="btn-container">
-      <Link className="landing-btn" to="projects" smooth={true}>
+      <a className='landing-btn' href="#projects">
           SEE FOR YOURSELF
-      </Link>
+      </a>
       <span className="under-btn">H</span>
     </div>
   )

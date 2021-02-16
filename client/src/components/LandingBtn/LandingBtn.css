@@ -20,6 +20,7 @@
   left:0;
   z-index: 1;
   transition: all .4s;
+  text-decoration: none;
   -webkit-transition: all .4s;
 }
 
