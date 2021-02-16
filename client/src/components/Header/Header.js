@@ -7,7 +7,7 @@ const Header = () => (
     <nav>
       <ul>
         <li>
-          <Link to="home" activeClass="active" spy={true} smooth={true}>Home</Link>
+          <Link to="last" activeClass="active" spy={true} smooth={true}>Home</Link>
         </li>
         <li>
           <Link to="projects" smooth={true}>Work</Link>
