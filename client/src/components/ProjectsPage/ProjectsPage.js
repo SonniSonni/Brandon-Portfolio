@@ -23,14 +23,14 @@ const ProjectsPage = () => (
     <h2 className="projects-title full">Projects</h2>
     <section className="projects-container">
       <div id="car1" className="car show">
-        <ProjectCard /> 
-        <ProjectCard /> 
-        <ProjectCard />
+        <ProjectCard title="JULES TREMBLY" /> 
+        <ProjectCard title="JULES TREMBLY"/> 
+        <ProjectCard title="JULES TREMBLY"/>
       </div>
       <div id="car2" className="car hide">
-        <ProjectCard /> 
-        <ProjectCard /> 
-        <ProjectCard /> 
+        <ProjectCard title="NOT JULES"/> 
+        <ProjectCard title="NOT JULES"/> 
+        <ProjectCard title="NOT JULES"/> 
       </div>
       <ul className="car-menu">
         <li>
