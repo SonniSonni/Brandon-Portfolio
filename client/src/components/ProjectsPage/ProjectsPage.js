@@ -4,6 +4,8 @@ import ProjectCard from '../ProjectCard/ProjectCard';
 import greg from '../../resources/grg.PNG';
 import fashion from '../../resources/fashion.PNG';
 
+import projects from './Projects';
+
 const dotSelect = (e) => {
   console.log(e.target.id);
   if(e.target.id === "dot1"){
@@ -25,14 +27,14 @@ const ProjectsPage = () => (
     <h2 className="projects-title full">Projects</h2>
     <section className="projects-container">
       <div id="car1" className="car show">
-        <ProjectCard title="JULES TREMBLY" img={greg} description="Music producer client personal site" /> 
-        <ProjectCard img={fashion} title="ARMON GUTIERRA" description="Fashion designer concept website."/> 
-        <ProjectCard title="JULES TREMBLY" img={greg} description="Music producer client personal site" />
+        <ProjectCard {...projects[0]} /> 
+        <ProjectCard {...projects[1]} /> 
+        <ProjectCard {...projects[0]} />
       </div>
       <div id="car2" className="car hide">
-        <ProjectCard img={fashion} title="ARMON GUTIERRA" description="Fashion designer concept website."/> 
-        <ProjectCard title="JULES TREMBLY" img={greg} description="Music producer client personal site" /> 
-        <ProjectCard img={fashion} title="ARMON GUTIERRA" description="Fashion designer concept website."/> 
+        <ProjectCard {...projects[1]} /> 
+        <ProjectCard {...projects[0]} /> 
+        <ProjectCard {...projects[1]} /> 
       </div>
       <ul className="car-menu">
         <li>
