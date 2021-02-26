@@ -18,7 +18,7 @@ const Projects = [
     title: 'ARMON GUTIERRA',
     img: fashion,
     description: "Fashion designer concept website.",
-    link: "",
+    link: "https://goofy-goldwasser-fd5395.netlify.app/",
     github: "https://github.com/KamajiiSC/fashion-concept",
     techs: ["HTML", "CSS", "SASS"]
   },
