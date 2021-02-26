@@ -68,10 +68,12 @@
 }
 .icons a{
   height: 40%;
-  width: 100%;
+  width: 20%;
+  cursor: default;
   margin-top: 3em;
 }
 .icon-img{
+  cursor: pointer;
   height: 100%;
   max-width: 100%;
 }
