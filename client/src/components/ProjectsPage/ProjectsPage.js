@@ -26,7 +26,7 @@ const ProjectsPage = () => (
       <div id="car1" className="car show">
         <ProjectCard {...projects[0]} /> 
         <ProjectCard {...projects[1]} /> 
-        <ProjectCard {...projects[0]} />
+        <ProjectCard {...projects[2]} />
       </div>
       <div id="car2" className="car hide">
         <ProjectCard {...projects[1]} /> 

@@ -4,13 +4,15 @@ import coffee from '../../resources/coffee-express.PNG';
 
 const Projects = [
   {
+    id: 0,
     title: 'JULES TREMBLY',
     img: jules,
-    description: "Music producer client personal site",
-    link: "",
+    description: "Music producer client personal site *WIP*",
+    link: "https://greg-trembly.herokuapp.com/",
     github: ""
   },
   {
+    id: 1,
     title: 'ARMON GUTIERRA',
     img: fashion,
     description: "Fashion designer concept website.",
@@ -18,6 +20,7 @@ const Projects = [
     github: ""
   },
   {
+    id: 2,
     title: 'Coffee Express',
     img: coffee,
     description: "Coffee shop concept website.",
