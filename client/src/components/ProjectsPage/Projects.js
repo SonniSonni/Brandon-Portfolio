@@ -18,7 +18,7 @@ const Projects = [
     img: fashion,
     description: "Fashion designer concept website.",
     link: "",
-    github: ""
+    github: "https://github.com/KamajiiSC/fashion-concept"
   },
   {
     id: 2,

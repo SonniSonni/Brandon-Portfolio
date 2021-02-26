@@ -22,8 +22,8 @@ const ProjectCard = (props) => (
         </ul>
       </div>
       <div className="icons">
-        <img src={git} alt=""/>
-        <img src={link} alt=""/>     
+        {props.github ? <a><img className="icon-img" src={git} alt="github icon"/></a> : ""}
+        {props.link ? <a><img className="icon-img" src={link} alt="link icon"/></a> : ""}  
       </div>
     </div>
   </div>
