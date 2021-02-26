@@ -1,9 +1,6 @@
 import React from 'react';
 import './ProjectsPage.css';
 import ProjectCard from '../ProjectCard/ProjectCard';
-import greg from '../../resources/grg.PNG';
-import fashion from '../../resources/fashion.PNG';
-
 import projects from './Projects';
 
 const dotSelect = (e) => {
