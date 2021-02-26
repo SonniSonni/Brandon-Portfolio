@@ -17,6 +17,9 @@
 .card-container img{
   height:40%;
   width: 100%;
+  border: 1px solid black;
+  border-left: none;
+  border-right: none;
 }
 
 .card-desc{
