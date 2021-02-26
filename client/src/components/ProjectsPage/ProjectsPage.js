@@ -29,9 +29,7 @@ const ProjectsPage = () => (
         <ProjectCard {...projects[2]} />
       </div>
       <div id="car2" className="car hide">
-        <ProjectCard {...projects[1]} /> 
-        <ProjectCard {...projects[0]} /> 
-        <ProjectCard {...projects[1]} /> 
+        <ProjectCard {...projects[3]} /> 
       </div>
       <ul className="car-menu">
         <li>

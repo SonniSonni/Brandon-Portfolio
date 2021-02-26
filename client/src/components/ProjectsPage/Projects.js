@@ -1,6 +1,7 @@
 import jules from '../../resources/grg.PNG';
 import fashion from '../../resources/fashion.PNG';
 import coffee from '../../resources/coffee-express.PNG';
+import poketeam from '../../resources/poketeam.PNG';
 
 const Projects = [
   {
@@ -26,6 +27,14 @@ const Projects = [
     description: "Coffee shop concept website.",
     link: "https://coffee-express-brandon.herokuapp.com/",
     github: "https://github.com/KamajiiSC/CoffeeExpress"
+  },
+  {
+    id: 3,
+    title: 'PokeTeam',
+    img: poketeam,
+    description: "Simple pokemon team builder using PokeApi",
+    link: 'https://pokemon-team-builder-brandon.herokuapp.com/',
+    github: 'https://github.com/KamajiiSC/PokeTeam',
   }
 ]
 
