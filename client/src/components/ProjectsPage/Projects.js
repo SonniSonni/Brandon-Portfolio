@@ -10,7 +10,8 @@ const Projects = [
     img: jules,
     description: "Music producer client personal site *WIP*",
     link: "https://greg-trembly.herokuapp.com/",
-    github: ""
+    github: "",
+    techs: ["HTML", "CSS", "JS", "REACT", "NODEJS", "EXPRESS", "MONGODB"]
   },
   {
     id: 1,
@@ -18,7 +19,8 @@ const Projects = [
     img: fashion,
     description: "Fashion designer concept website.",
     link: "",
-    github: "https://github.com/KamajiiSC/fashion-concept"
+    github: "https://github.com/KamajiiSC/fashion-concept",
+    techs: ["HTML", "CSS", "SASS"]
   },
   {
     id: 2,
@@ -26,7 +28,8 @@ const Projects = [
     img: coffee,
     description: "Coffee shop concept website.",
     link: "https://coffee-express-brandon.herokuapp.com/",
-    github: "https://github.com/KamajiiSC/CoffeeExpress"
+    github: "https://github.com/KamajiiSC/CoffeeExpress",
+    techs: ["HTML", "CSS", "JS", "REACT", "NODEJS"]
   },
   {
     id: 3,
@@ -35,6 +38,7 @@ const Projects = [
     description: "Simple pokemon team builder using PokeApi",
     link: 'https://pokemon-team-builder-brandon.herokuapp.com/',
     github: 'https://github.com/KamajiiSC/PokeTeam',
+    techs: ["HTML", "CSS", "JS", "FETCH API"]
   }
 ]
 

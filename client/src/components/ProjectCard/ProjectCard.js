@@ -11,14 +11,19 @@ const ProjectCard = (props) => (
       <div className="desc-contianer">
         <p className="card-description">{props.description}</p>
         <ul className="tech-list">
-          <li>HTML</li>
+          {props.techs.map(tech =>
+            <li key={tech}>
+              {tech}
+            </li>
+          )}
+          {/* <li>HTML</li>
           <li>CSS</li>
           <li>JS</li>
           <li>REACT</li>
           <li>NODEJS</li>
           <li>EXPRESS</li>
           <li>MULTER</li>
-          <li>MONGODB</li>
+          <li>MONGODB</li> */}
         </ul>
       </div>
       <div className="icons">
