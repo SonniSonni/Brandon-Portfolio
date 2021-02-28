@@ -18,13 +18,17 @@ const formSubmit = (e) =>{
   let name = document.getElementById("name-input");
   let email = document.getElementById("email-input");
   let message = document.getElementById("message-input");
-  let emailVal = /.{1,}@[^.]{1,}/;
-  let emailCheck = emailVal.exec(message.input);
+  const emailVal = new RegExp(/^[a-zA-Z0-9.!#$%&’*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$/);
+  let emailCheck = emailVal.test(email.value);
+  console.log(emailCheck)
+  let lastDate;
   console.log(email.value);
 
   // Check if the inputs have actual value
   if(name.value.trim() !== '' && emailCheck && message.value.trim() !== ''){
     console.log("pass");
+    lastDate = Date.getMonth();
+    console.log(lastDate);
     fetch("https://brandon-schaen-portfolio.herokuapp.com/contact", {
       method: "POST",
       body: JSON.stringify({
