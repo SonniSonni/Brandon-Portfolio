@@ -24,6 +24,7 @@ const formSubmit = (e) =>{
 
   // Check if the inputs have actual value
   if(name.value.trim() !== '' && emailCheck && message.value.trim() !== ''){
+    console.log("pass");
     fetch("https://brandon-schaen-portfolio.herokuapp.com/contact", {
       method: "POST",
       body: JSON.stringify({
