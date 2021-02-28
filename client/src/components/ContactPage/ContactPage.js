@@ -22,16 +22,12 @@ const formSubmit = (e) =>{
   let emailCheck = emailVal.test(email.value);
   let lastDate = localStorage.getItem("lastDate");
   let currentDate = new Date;
-  console.log(lastDate);
   currentDate = currentDate.getMonth();
 
   // Check if the inputs have actual value
   if(name.value.trim() !== '' && emailCheck && message.value.trim() !== '' && lastDate != currentDate){
-    console.log("pass");
-
     lastDate = currentDate;
     localStorage.setItem("lastDate", lastDate);
-    console.log(lastDate);
 
     fetch("https://brandon-schaen-portfolio.herokuapp.com/contact", {
       method: "POST",
