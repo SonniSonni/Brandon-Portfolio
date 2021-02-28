@@ -20,15 +20,19 @@ const formSubmit = (e) =>{
   let message = document.getElementById("message-input");
   const emailVal = new RegExp(/^[a-zA-Z0-9.!#$%&’*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$/);
   let emailCheck = emailVal.test(email.value);
-  console.log(emailCheck)
-  let lastDate;
-  console.log(email.value);
+  let lastDate = localStorage.getItem("lastDate");
+  let currentDate = new Date;
+  console.log(lastDate);
+  currentDate = currentDate.getMonth();
 
   // Check if the inputs have actual value
-  if(name.value.trim() !== '' && emailCheck && message.value.trim() !== ''){
+  if(name.value.trim() !== '' && emailCheck && message.value.trim() !== '' && lastDate != currentDate){
     console.log("pass");
-    lastDate = Date.getMonth();
+
+    lastDate = currentDate;
+    localStorage.setItem("lastDate", lastDate);
     console.log(lastDate);
+
     fetch("https://brandon-schaen-portfolio.herokuapp.com/contact", {
       method: "POST",
       body: JSON.stringify({
@@ -65,6 +69,7 @@ const formSubmit = (e) =>{
 
     // If name is missing set error message
   } 
+  else{
   if(name.value.trim() !== ''){
     ReactDom.render('', document.getElementById('error-message-name'))
   }
@@ -86,6 +91,11 @@ const formSubmit = (e) =>{
   else{
     ReactDom.render(errorMessageMsg, document.getElementById('error-message-msg'))
   }
+
+  if(lastDate == currentDate){
+    ReactDom.render('Be patient please', document.getElementById('error-message-name'))
+  }
+}
 }
 
 const ContactPage = () => (
