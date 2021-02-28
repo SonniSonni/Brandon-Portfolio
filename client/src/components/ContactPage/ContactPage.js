@@ -8,7 +8,8 @@ const ContactPage = () => (
   <section id="contact" className="contact-page">
     <h2 className="contact-title">Contact</h2>
     <section className="form-container">
-      <form className="contact-form" action="">
+
+      <form id="con-form" className="contact-form" action="">
         <div className="input-container">
           <label htmlFor="name-input">Name</label>
           <input required type="text" name="name-input" id="name-input"/>
@@ -31,6 +32,7 @@ const ContactPage = () => (
           <input type="submit" id="submit-btn" value="SEND"></input>
         </section>
       </form>
+
     </section>
   </section>
 );
