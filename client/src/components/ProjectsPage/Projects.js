@@ -1,7 +1,7 @@
-import jules from '../../resources/grg.PNG';
-import fashion from '../../resources/fashion.PNG';
-import coffee from '../../resources/coffee-express.PNG';
-import poketeam from '../../resources/poketeam.PNG';
+import jules from '../../Resources/grg.PNG';
+import fashion from '../../Resources/fashion.PNG';
+import coffee from '../../Resources/coffee-express.PNG';
+import poketeam from '../../Resources/poketeam.PNG';
 
 const Projects = [
   {

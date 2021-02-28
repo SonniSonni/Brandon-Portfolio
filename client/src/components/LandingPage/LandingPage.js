@@ -2,7 +2,7 @@ import React from 'react';
 import './LandingPage.css';
 import Header from '../Header/Header';
 import LandingBtn from '../LandingBtn/LandingBtn';
-import LandingStripe from '../../resources/landing-stripe.svg';
+import LandingStripe from '../../Resources/landing-stripe.svg';
 import StyledLogo from '../StyleLogo/StyledLogo';
 
 const LandingPage = () => {

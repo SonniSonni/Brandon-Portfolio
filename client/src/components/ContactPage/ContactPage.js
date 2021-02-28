@@ -1,8 +1,8 @@
 import React from 'react';
 import './ContactPage.css';
-import git from '../../resources/git-ico.png';
-import linkedin from '../../resources/linked-logo.png';
-import twitter from '../../resources/twitter-icon.png';
+import git from '../../Resources/git-ico.png';
+import linkedin from '../../Resources/linked-logo.png';
+import twitter from '../../Resources/twitter-icon.png';
 import ReactDom from 'react-dom';
 
 // Error messages

@@ -1,14 +1,14 @@
 import React from 'react';
 import './AboutPage.css';
-import face from "../../resources/my-face.jpg";
-import htmlLogo from "../../resources/html-logo.png";
-import cssLogo from "../../resources/css-logo.png";
-import jsLogo from "../../resources/javascript-logo.png";
-import reactLogo from "../../resources/react-logo.svg";
-import gitLogo from "../../resources/git-ico.png";
-import bashLogo from "../../resources/bash-logo.png";
-import xdLogo from "../../resources/xd-logo.png";
-import photoshopLogo from "../../resources/photoshop-logo.png";
+import face from "../../Resources/my-face.jpg";
+import htmlLogo from "../../Resources/html-logo.png";
+import cssLogo from "../../Resources/css-logo.png";
+import jsLogo from "../../Resources/javascript-logo.png";
+import reactLogo from "../../Resources/react-logo.svg";
+import gitLogo from "../../Resources/git-ico.png";
+import bashLogo from "../../Resources/bash-logo.png";
+import xdLogo from "../../Resources/xd-logo.png";
+import photoshopLogo from "../../Resources/photoshop-logo.png";
 
 const AboutPage = () => (
   <section id="about" className="about-page">

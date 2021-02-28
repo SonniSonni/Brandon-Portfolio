@@ -1,7 +1,7 @@
 import React from 'react';
 import './ProjectCard.css';
-import link from '../../resources/link-ico.png';
-import git from '../../resources/git-ico.png';
+import link from '../../Resources/link-ico.png';
+import git from '../../Resources/git-ico.png';
 
 const ProjectCard = (props) => (
   <div className="card-container">

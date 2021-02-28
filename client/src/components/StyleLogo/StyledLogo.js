@@ -1,9 +1,9 @@
 import React from 'react';
-import Brandon from '../../resources/BRANDON.svg';
-import Schaen from '../../resources/SCHAEN.svg';
-import Line1 from '../../resources/Line2.svg';
-import Line2 from '../../resources/Line3.svg';
-import Line3 from '../../resources/Line4.svg';
+import Brandon from '../../Resources/BRANDON.svg';
+import Schaen from '../../Resources/SCHAEN.svg';
+import Line1 from '../../Resources/Line2.svg';
+import Line2 from '../../Resources/Line3.svg';
+import Line3 from '../../Resources/Line4.svg';
 import "./StyledLogo.css";
 
 const StyledLogo = () => (
