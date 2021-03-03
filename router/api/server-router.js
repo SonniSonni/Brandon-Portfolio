@@ -32,6 +32,7 @@ router.post('*', [
     .escape()
 ],
 (req, res, next) => {
+  res.header('Acces-Control-Allow-Origin', '*');
   const email = new Email({
     _id: new mongoose.Types.ObjectId(),
     name: req.body.name,
