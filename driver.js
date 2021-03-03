@@ -5,6 +5,7 @@ const bodyParser = require('body-parser');
 const mongoose = require('mongoose');
 const emailRouter = require('./router/api/server-router');
 const path = require('path')
+const cors = require('cors');
 
 require('dotenv').config();
 
@@ -18,12 +19,9 @@ mongoose.connect('mongodb+srv://Brandon:' + process.env.REACT_APP_ATLAS + '@clus
    useUnifiedTopology: true
  });
 
-app.all('/', (req, res, next) => {
-  res.header('Acces-Control-Allow-Origin', '*');
-  next();
-}); 
+app.use(corse());
 
-app.use('/contact', emailRouter);
+app.post('/contact', emailRouter);
 
 if(process.env.NODE_ENV === 'production'){
   app.use(express.static('client/build'));
