@@ -19,7 +19,7 @@ const AboutPage = () => (
         <br />
         Baltimore, Maryland.
         </p>
-        <p className="personal">Programming for the past 8 years, the last 5 have been dedicated to continuosly learning and developing a passion for various web technologies.</p>
+        <p className="personal">Programming for the past 8 years, the last 5 have been dedicated to continuously learning and developing a passion for various web technologies.</p>
       </section>
       
       <img src={face} alt="Self Portrait"/>
