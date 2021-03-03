@@ -15,11 +15,11 @@ const AboutPage = () => (
     <h2 className="about-title">Me</h2>
     <section className="desc-img">
       <section className="desc">
-        <p className="personal">Just a front-end web developer from 
+        <p className="personal">Front-end web designer and developer from 
         <br />
         Baltimore, Maryland.
         </p>
-        <p className="personal"> I wrote my first lines of code when I was only 12, but have spent the better part of the last 4 years learning everything I can about <br /> the world of the web.</p>
+        <p className="personal">Programming for the past 8 years, the last 5 have been dedicated to continuosly learning and developing a passion for various web technologies.</p>
       </section>
       
       <img src={face} alt="Self Portrait"/>
