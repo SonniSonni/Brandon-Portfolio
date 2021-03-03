@@ -20,8 +20,6 @@ mongoose.connect('mongodb+srv://Brandon:' + process.env.REACT_APP_ATLAS + '@clus
 
 app.all('/', (req, res, next) => {
   res.header('Acces-Control-Allow-Origin', '*');
-  res.header('Access-Control-Allow-Headers', 'Origin, X-Requested-With');
-  res.header('Access-Control-Allow-Methods', 'POST');
   next();
 }); 
 
