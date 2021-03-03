@@ -19,7 +19,7 @@ mongoose.connect('mongodb+srv://Brandon:' + process.env.REACT_APP_ATLAS + '@clus
    useUnifiedTopology: true
  });
 
-app.use(corse());
+app.use(cors());
 
 app.post('/contact', emailRouter);
 
