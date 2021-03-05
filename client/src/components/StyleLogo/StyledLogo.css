@@ -1,7 +1,8 @@
 .logo-container{
   position: relative;
-  width:100%;
+  min-width:54rem;
   overflow: hidden;
+  
 }
 
 .brandon{

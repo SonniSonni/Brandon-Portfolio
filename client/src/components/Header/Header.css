@@ -1,7 +1,7 @@
 header ul{
   display: flex;
   font-weight: bold;
-  font-size: 18px;
+  font-size: 1.12rem;
   max-width:40em;
   margin: 0 auto;
   justify-content: space-around;
