@@ -30,6 +30,7 @@ const ProjectsPage = () => (
       </div>
       <div id="car2" className="car hide">
         <ProjectCard {...projects[3]} /> 
+        <ProjectCard {...projects[4]} /> 
       </div>
       <ul className="car-menu">
         <li>

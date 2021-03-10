@@ -2,6 +2,7 @@ import jules from '../../Resources/grg.PNG';
 import fashion from '../../Resources/fashion.PNG';
 import coffee from '../../Resources/coffee-express.PNG';
 import poketeam from '../../Resources/poketeam.PNG';
+import onetouch from '../../Resources/OneTouch.PNG';
 
 const Projects = [
   {
@@ -15,12 +16,11 @@ const Projects = [
   },
   {
     id: 1,
-    title: 'ARMON GUTIERRA',
-    img: fashion,
-    description: "Fashion designer concept website.",
-    link: "https://goofy-goldwasser-fd5395.netlify.app/",
-    github: "https://github.com/KamajiiSC/fashion-concept",
-    techs: ["HTML", "CSS", "SASS"]
+    title: 'OneTouch Training',
+    img: onetouch,
+    description: 'Personal training concept website',
+    github: "https://github.com/KamajiiSC/OneTouch",
+    techs: ["HTML", "CSS", "JS", "REACT", "NODEJS"]
   },
   {
     id: 2,
@@ -33,6 +33,15 @@ const Projects = [
   },
   {
     id: 3,
+    title: 'ARMON GUTIERRA',
+    img: fashion,
+    description: "Fashion designer concept website.",
+    link: "https://goofy-goldwasser-fd5395.netlify.app/",
+    github: "https://github.com/KamajiiSC/fashion-concept",
+    techs: ["HTML", "CSS", "SASS"]
+  },
+  {
+    id: 4,
     title: 'PokeTeam',
     img: poketeam,
     description: "Simple pokemon team builder using PokeApi",
