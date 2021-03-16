@@ -17,11 +17,12 @@
 }
 
 .brandon{
-  /* animation-name: sliderightname;
+  position: relative;
+  animation-name: slideright;
   animation-duration: 1s;
   animation-fill-mode: forwards;
   animation-timing-function: ease-in-out;
-  animation-delay: .2s; */
+  animation-delay: .2s;
 }
 .schaen{
   position: relative;
@@ -36,11 +37,11 @@
 .line-1{
   position: relative;
   margin-top: -1.5%;
-  /* animation-name: slideright;
+  animation-name: slideright;
   animation-duration: 1s;
   animation-fill-mode: forwards;
   animation-timing-function: ease-in-out;
-  animation-delay: .2s; */
+  animation-delay: .2s; 
 }
 .line-2{
   position: relative;
@@ -87,15 +88,17 @@
     top: 0;
   }
 }
-/*
+
 @keyframes slideright {
   from {
-
+    left: -50rem;
   }
   to{
-
+    left: 0rem;
   }
 }
+
+/*
 @keyframes sliderightname {
   from {
 
