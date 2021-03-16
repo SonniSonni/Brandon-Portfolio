@@ -1,24 +1,33 @@
-header ul{
-  display: flex;
-  font-weight: bold;
-  font-size: 1.12rem;
-  max-width:40em;
-  margin: 0 auto;
-  justify-content: space-around;
-  list-style: none;
-  padding: 2em 0;
+header{
+  display: none;
+  background-color: #212121;
 }
-
-header ul li a{
-  color: #747474;
-  text-decoration: none;
-}
-
-header ul li a:hover{
-  color: white;
-  cursor: pointer;
-}
-
-.active{
-  color: white;
+@media only screen and (min-width: 600px) {
+  header{
+    display: block;
+  }
+  header ul{
+    display: flex;
+    font-weight: bold;
+    font-size: 1.12rem;
+    max-width:40em;
+    margin: 0 auto;
+    justify-content: space-around;
+    list-style: none;
+    padding: 2em 0;
+  }
+  
+  header ul li a{
+    color: #747474;
+    text-decoration: none;
+  }
+  
+  header ul li a:hover{
+    color: white;
+    cursor: pointer;
+  }
+  
+  .active{
+    color: white;
+  }
 }
