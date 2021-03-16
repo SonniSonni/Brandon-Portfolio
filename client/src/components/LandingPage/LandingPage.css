@@ -22,10 +22,9 @@
 }
 .landing-stripe{
   position: relative;
-  height: 60%;
+  height: 65%;
   left: 20%;
   animation: slidestripeup 1s ease-in-out forwards .1s;
-  bottom: -150%;
   z-index: 1;
 }
 .bottom-landing{
@@ -61,10 +60,10 @@
 
 @keyframes slidestripeup{
   from{
-    bottom: -100%;
+    margin-top: 50rem;
   }
   to{
-    bottom: -1%;
+    margin-top: 1rem;
   }
 }
 /* svg animation */
