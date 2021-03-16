@@ -21,12 +21,15 @@
   scroll-snap-align: start;
 }
 .landing-stripe{
-  position: absolute;
+  position: relative;
   height: 60%;
   left: 20%;
   animation: slidestripeup 1s ease-in-out forwards .1s;
   bottom: -150%;
   z-index: 1;
+}
+.bottom-landing{
+  display: flex;
 }
 .logo-title{
   display: flex;
