@@ -24,6 +24,7 @@
  display: none;
 }
 .bottom-landing{
+  margin-top: 10%;
   display: flex;
 }
 .logo-title{
