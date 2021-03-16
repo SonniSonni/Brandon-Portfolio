@@ -1,15 +1,15 @@
 .desc-btn{
   margin: 0 auto;
-  margin-top: 9em;
+  margin-top: 3rem;
   max-width:40%;
   max-height:20rem;
 }
 .desc-btn h2{
   width:95%;
   margin: 0 auto;
-  font-size: 2rem;
+  font-size: 1.2rem;
   font-weight: 500;
-  text-align: right;
+  text-align: center;
 }
 .landing{
   background-color: #212121;
@@ -21,34 +21,32 @@
   scroll-snap-align: start;
 }
 .landing-stripe{
-  position: relative;
-  height: 65%;
-  left: 20%;
-  animation: slidestripeup 1s ease-in-out forwards .1s;
-  z-index: 1;
+ display: none;
 }
 .bottom-landing{
   display: flex;
 }
 .logo-title{
   display: flex;
-  justify-content: space-between;
-  margin: 3em auto;
-  width: 90%;
+  flex-direction: column;
+  align-items: center;
+  margin: 2em auto;
+  width: 80%;
   height: 13em;
 }
 .landing-logo{
+  padding: 0;
   margin-top: -1rem;
   display: block;
-  width: 40%;
+  width: 90%;
   height: 120%;
 }
 .landing-title{
-  max-width: 60%;
+  max-width: 80%;
 }
 .logo-title h1{
-  margin-top:.1em;
-  font-size: 4.4rem;
+  margin-top:.5em;
+  font-size: 2.4rem;
   font-weight: bold;
 }
 .matters{
@@ -67,3 +65,51 @@
   }
 }
 /* svg animation */
+
+@media only screen and (min-width: 600px) {
+  .landing-stripe{
+    display: block;
+    position: relative;
+    margin-top: 50rem;
+    height: 65%;
+    left: 20%;
+    animation: slidestripeup 1s ease-in-out forwards .1s;
+    z-index: 1;
+  }
+  .landing-title{
+    max-width: 60%;
+  }
+  .logo-title h1{
+    margin-top:.1em;
+    font-size: 4.4rem;
+    font-weight: bold;
+  }
+  .logo-title{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 3em auto;
+    width: 90%;
+    height: 13em;
+  }
+
+  .landing-logo{
+    margin-top: -1rem;
+    display: block;
+    width: 40%;
+    height: 120%;
+  }
+  .desc-btn h2{
+    width:95%;
+    margin: 0 auto;
+    font-size: 2rem;
+    font-weight: 500;
+    text-align: right;
+  }
+  .desc-btn{
+    margin: 0 auto;
+    margin-top: 9em;
+    max-width:40%;
+    max-height:20rem;
+  }
+}
