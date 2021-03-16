@@ -1,8 +1,8 @@
 .logo-container{
   display: flex;
   flex-direction: column;
-  width:40%;
-  min-height: 15rem;
+  width:50rem;
+  height: 15rem;
   overflow: hidden;
   
 }
@@ -17,6 +17,7 @@
 }
 
 .brandon{
+  max-width: 100%;
   position: relative;
   animation-name: slideright;
   animation-duration: 1s;
@@ -32,6 +33,9 @@
   animation-fill-mode: forwards;
   animation-timing-function: ease-in-out;
   animation-delay: .2s
+}
+.placeholder-space{
+  min-width: 50%;
 }
 
 .line-1{

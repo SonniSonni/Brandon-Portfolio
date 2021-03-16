@@ -36,9 +36,10 @@
   height: 13em;
 }
 .landing-logo{
+  margin-top: -1rem;
   display: block;
-  max-width: 40%;
-  height: 100%;
+  width: 40%;
+  height: 120%;
 }
 .landing-title{
   max-width: 60%;

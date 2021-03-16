@@ -9,15 +9,23 @@ import "./StyledLogo.css";
 const StyledLogo = () => (
   <div className="logo-container">
     <div className="top-logo">
-      <img className="brandon" src={Brandon} alt="Brandon"/>
-      <img className="line-2" src={Line2} alt="line"/>
+      <div className="svg-container">
+        <img className="brandon" src={Brandon} alt="Brandon"/>
+      </div>
+      
+      <div className="svg-container">
+        <img className="line-2" src={Line2} alt="line"/>
+      </div>
     </div>
     
     <img className="line-1" src={Line1} alt="line"/>
 
     <div className="bottom-logo">
+      <div className="placeholder-space"></div>
       <img className="line-3" src={Line3} alt="line"/>
-      <img className="schaen" src={Schaen} alt="schaen"/>
+      <div className="svg-container">
+        <img className="schaen" src={Schaen} alt="schaen"/>
+      </div>
     </div>
   </div>
 )
