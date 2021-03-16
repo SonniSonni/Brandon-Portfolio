@@ -1,7 +1,7 @@
 .desc-btn{
   margin: 0 auto;
   margin-top: 3rem;
-  max-width:40%;
+  max-width:80%;
   max-height:20rem;
 }
 .desc-btn h2{
@@ -24,7 +24,7 @@
  display: none;
 }
 .bottom-landing{
-  margin-top: 10%;
+  margin-top: 30%;
   display: flex;
 }
 .logo-title{
