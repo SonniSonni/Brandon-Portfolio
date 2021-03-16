@@ -3,6 +3,7 @@ import './LandingPage.css';
 import Header from '../Header/Header';
 import LandingBtn from '../LandingBtn/LandingBtn';
 import LandingStripe from '../../Resources/landing-stripe.svg';
+import logo from '../../Resources/brandon-logo.svg';
 import StyledLogo from '../StyleLogo/StyledLogo';
 
 const LandingPage = () => {
@@ -11,6 +12,7 @@ const LandingPage = () => {
 
     <Header />
     <div className="logo-title">
+      {/* <img src={logo} alt="" className="landing-logo"/> */}
       <StyledLogo className="landing-logo"/>
       <h1 className="landing-title">Your internet presence <br /><span className="matters">Matters</span></h1>
     </div>

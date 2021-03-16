@@ -8,11 +8,17 @@ import "./StyledLogo.css";
 
 const StyledLogo = () => (
   <div className="logo-container">
-    <img className="brandon" src={Brandon} alt="Brandon"/>
-    <img className="schaen" src={Schaen} alt="schaen"/>
+    <div className="top-logo">
+      <img className="brandon" src={Brandon} alt="Brandon"/>
+      <img className="line-2" src={Line2} alt="line"/>
+    </div>
+    
     <img className="line-1" src={Line1} alt="line"/>
-    <img className="line-2" src={Line2} alt="line"/>
-    <img className="line-3" src={Line3} alt="line"/>
+
+    <div className="bottom-logo">
+      <img className="line-3" src={Line3} alt="line"/>
+      <img className="schaen" src={Schaen} alt="schaen"/>
+    </div>
   </div>
 )
 
