@@ -79,3 +79,28 @@
 /* .projects-container::-webkit-scrollbar{
   display:none;
 } */
+
+@media only screen and (max-width: 600px){
+  .car {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: space-around;
+  }
+  .projects-page{
+    position: relative;
+    height: auto;
+    background-color: #352743;
+  }
+  .dot{
+    display: none;
+  }
+  .projects-container{
+    overflow-x: hide;
+    height: 90%;
+    margin: 0 auto;
+  }
+  .card-container{
+    margin-left: 10%;
+  }
+}
